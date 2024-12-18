@@ -15,12 +15,11 @@ export default defineGkdApp({
         {
           action: 'clickCenter',
           activityIds: '.AlipayLogin',
-          matches: 'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[id="android:id/button1"][text="DISAGREE"][clickable="true"]',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[id="android:id/button1"][text="DISAGREE"][clickable=true]',
           snapshotUrls: '',
         },
-
       ],
     },
-
   ],
 });
