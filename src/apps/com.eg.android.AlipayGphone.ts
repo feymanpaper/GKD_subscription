@@ -2,7 +2,7 @@ import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
   id: 'com.eg.android.AlipayGphone',
-  name: '支付宝',
+  name: '支付宝e',
   groups: [
     {
       key: 0,
