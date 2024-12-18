@@ -17,7 +17,7 @@ export default defineGkdApp({
           activityIds: '.AlipayLogin',
           matches:
             'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[id="android:id/button1"][text="DISAGREE"][clickable=true]',
-          snapshotUrls: '',
+          snapshotUrls: 'https://i.gkd.li/i/14667860',
         },
       ],
     },
