@@ -340,7 +340,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.runtimepermission.PermissionActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.HorizontalScrollView > android.widget.LinearLayout > androidx.appcompat.app.ActionBar$Tab[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="me.ele:id/lriver_title_bar_view"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

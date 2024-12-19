@@ -18,6 +18,8 @@ def find_nearest_component(cross_bounds, components):
     nearest = None
     min_distance = float('inf')
     for component_info in components:
+        if "$" in component_info["path"]:
+            continue
         distance = calculate_distance(cross_bounds, component_info["bounds"])
         if distance < min_distance:
             min_distance = distance
