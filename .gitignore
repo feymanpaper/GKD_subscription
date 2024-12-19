@@ -21,3 +21,8 @@ lerna-debug.log*
 node_modules
 package-lock.json
 yarn.lock
+
+/collectData
+/tmp
+/non_exist
+/__pycache__/
