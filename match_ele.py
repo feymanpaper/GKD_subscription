@@ -84,7 +84,6 @@ def process_files(directory):
             if nearest_component is None:
                 continue
 
-            matches = "[text*='跳过'][text.length<10][visibleToUser=true]"
             matches = build_matches(nearest_component)
 
             mat_item = {}
