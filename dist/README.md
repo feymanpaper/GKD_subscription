@@ -1,13 +1,13 @@
 # 订阅
 
-v4
+v5
 
 |||
 | - |:-:|
 |类别|0|
 |全局规则|0|
-|应用|23|
-|应用规则|426|
+|应用|22|
+|应用规则|400|
 
 ## 规则类别
 
@@ -24,7 +24,6 @@ v4
 ||||
 | - |:-:|-|
 |GKD|0||
-|QQ|26|<li>开屏广告<li>局部广告-消息页面顶部横幅广告<li>分段广告-好友动态-卡片广告<li>全屏广告-弹窗广告<li>局部广告-顶部SVIP广告<li>分段广告-动态页[好友热播/为你推荐]<li>功能类-扫一扫登录确认<li>局部广告-浮窗广告<li>功能类-自动勾选原图<li>功能类-自动查看原图<li>分段广告-QQ小世界评论区广告<li>开屏广告-QQ小程序开屏广告<li>更新提示<li>更新提示-消息页面-顶部<li>分段广告-钱包页卡片广告<li>全屏广告-首页弹窗广告<li>分段广告-天气页卡片广告<li>全屏广告-新春回馈礼弹窗<li>局部广告-聊天页面广告<li>全屏广告-个人主页广告<li>全屏广告-腾讯文档页面-"使用App"弹窗<li>功能类-自动抢红包<li>全屏广告-账号信息页面-新人SVIP领取弹窗<li>功能类-申请入群后自动点击右上角关闭<li>局部广告-动态页-卡片广告<li>功能类-授权登录时关闭获取QQ好友关系|
 |WPS|15|<li>in-app|oaTRgaIdhpWaLAP7KaKAWGXLBvmymHnYbdLD3C9hKH4=.png<li>in-app|I7iiQIAX8z3ce0-e7nrYQHCMoA_ZKwoc3ZP1zHkpM7c=.png<li>in-app|dNzrDNhJpAJl5-HU1SPiXart_Av0QdBUkmXLDFeHRmw=.png<li>in-app|_OG5o2tZ2tK89FpLLSNbkkwbVwm2ceM0cnIdaV9xNc0=.png<li>in-app|KNnQedDC6UoojKHXC_3haRHCUVk_EbApZOfbJzFbPck=.png<li>in-app|djK0_RVNrFZEcBp9Jqx3sb4n549eVDdT9KAQl6Mtojw=.png<li>in-app|ryC7pxNQqgCU9Q51F77x2AVNPsKzUMt-M7erf2ptidE=.png<li>in-app|OT-nvU_nWfHueZkWGIquqVbfcBFUe4bj9QyzM76Jh-I=.png<li>in-app|RbCDrhaeznWX7bZIx187Qh1vqlytN2zwOmxMq1Wy8bg=.png<li>in-app|sru9NZGHNb9VrCJlYuBNsYbUlU0ZezJRQvj9V7qyZyc=.png<li>system|OTqKpr0xrWIp084M3Vp9I_6R3h3Ng9soGQir9KiuHPM=.png<li>in-app|0e0MkEhvlng_mSyzNo6MjN6Jd1abjULtQ-V0O_txW7o=.png<li>in-app|piyqY5BSDcvILJEyfDuIu2gg2IFnDkmhKDuh7fUjQxQ=.png<li>in-app|NAciHk3y60D7h2fYs4oBytkpgIqZCAkXIvxcC4iVQUI=.png<li>system|QJa6OzJHO47gtw8K2gtXqJv42G1ca3UPuz7c736svTY=.png|
 |阿里云盘|14|<li>in-app|7Jwt86Bp38-ydIarqN125b15_uejKfBjdLw8O59Gxz8=.png<li>in-app|XXkgENA9RUKRqiLg5C2mQQZNQXCPqZzXILIVV-Oz5mY=.png<li>in-app|-DRKeOKY9cVgh6uN1_7l9T3JE-Tt2Q3QvWOpyB03vhk=.png<li>in-app|ADE7y_tCDcOAzwX4CM-DyZzo2mCGmB30h_uLPnErwhk=.png<li>in-app|cQCfIdAZesJ4MccFxLs1RURNIYnNEBfb98Z1XQoAlp8=.png<li>in-app|JPtkbpGn3k6gvPUPE08l-kjXwhnQY4FElOlrwvBrkAk=.png<li>in-app|yLuVO-y5frGyTkGVk-7ybXs759Sn2czCFGMyjpe-OFk=.png<li>in-app|PGnK9LEYOwdIfRDrtB3NRKFbjiolbi-u9RGhMOidWPE=.png<li>in-app|VPz0mZM0Hdu3RVhhyfBcLwHhBEOZGgb6om8BsxJjeH4=.png<li>in-app|08mVP-4_gECkFoDG6dKDMM3ei8XCcqLH9itfRscukuU=.png<li>in-app|47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU=.png<li>in-app|Ajpe93Ff-g16lXxdDCyNLwx41-zvoRkFl1RoRn9lHBI=.png<li>in-app|mRDiEHYjXOevA86y6AweN4FhQ2kLPw38e4HKeqxuhy4=.png<li>in-app|BMxd-jyoamPm8xjHghO3fWj_D9-2hK_WD8jPElw142Y=.png|
 |爱奇艺|7|<li>in-app|TKwY_EzBY8I4PVu79cel-BPpmS3uOmT7B96IsfZ6fCY=.png<li>system|Dckp69c8qTe0bz6HmdyxQT6C4vmgMighoQsFbWiJGBs=.png<li>in-app|1MDHn-ITvblwGknNvPWo5Sgbvy5EUJx7Wg7OA8g11uk=.png<li>in-app|W7uEmgAJYuOcTKdn6vWcMB9_UGPbY8cW39mwjlq2GRY=.png<li>system|cPNIAu30CZbu0dgc0i84OH5MtEiUS-vJmr4Gee5-8d0=.png<li>in-app|Bn-iyiepPPXX5kfYTUuLSYwXax8jTVL6MdKHTuobXn4=.png<li>in-app|PqNZynmQZaCJrcDJXXXc6LpRFaTmCmVEtcV2la5w2v8=.png|
