@@ -52,8 +52,8 @@ def process_files(directory):
                 pkg_name = data.get("pkg_name")
                 app_name = data.get("app_name")
                 activity_name = data.get("activity_name")
-                img_name = data.get("img_name")
-                type_name = data.get("type")
+                img_name = data.get("img_name", "")
+                type_name = data.get("type", "")
 
                 for element in pow_ele:
                     if element.get("class") == "cross":
@@ -74,24 +74,31 @@ def process_files(directory):
                     continue
 
             # # 处理 XML 文件
-            components = filter_deepest_clickable_nodes(xml_path)
-            # print(f"Components from XML: {components}")
+            # components = filter_deepest_clickable_nodes(xml_path)
+            # # print(f"Components from XML: {components}")
+            #
+            # # 找到最近的组件
+            # nearest_component = find_nearest_component(cross_bounds, components)
+            # print(f"Nearest component to cross bounds: {nearest_component}")
+            # print("*" * 100)
 
-            # 找到最近的组件
-            nearest_component = find_nearest_component(cross_bounds, components)
-            print(f"Nearest component to cross bounds: {nearest_component}")
-            print("*" * 100)
+            nearest_component = get_mindis_node(xml_path, cross_bounds)
+
             if nearest_component is None:
                 continue
 
-            matches = build_matches(nearest_component)
+            matches = nearest_component["path"]
 
             mat_item = {}
-            mat_item["activityIds"] = activity_name
+            if not nearest_component.get("resource_id"):
+                mat_item["activityIds"] = activity_name
+            else:
+                mat_item["activityIds"] = ""
             mat_item["matches"] = matches
             mat_item["pkg_name"] = pkg_name
             mat_item["app_name"] = app_name
             mat_item["name"] = type_name + "|" + img_name
+
 
             mat.append(mat_item)
 

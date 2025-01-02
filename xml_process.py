@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from typing import List, Tuple
+import math
 
 
 @dataclass
@@ -18,6 +19,85 @@ class Node:
     agg_text: str
     agg_desc: str
 
+def calculate_distance(bounds1, bounds2):
+    # 矩形中心点
+    x1, y1 = (bounds1[0] + bounds1[2]) / 2, (bounds1[1] + bounds1[3]) / 2
+    x2, y2 = (bounds2[0] + bounds2[2]) / 2, (bounds2[1] + bounds2[3]) / 2
+    return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+
+def build_path(node):
+    res = node.attrib.get("class", "")
+    desc = node.attrib.get("content-desc", "")
+    if desc:
+        res += f'[desc="{desc}"]'
+    resource_id = node.attrib.get("resource-id", "")
+    if resource_id:
+        res += f'[id="{resource_id}"]'
+    text = node.attrib.get("text", "")
+    if text:
+        res += f'[text="{text}"]'
+    if node.attrib.get("clickable"):
+        res += f'[clickable=true]'
+    return res
+
+
+def get_mindis_node(xml_path, target_bounds):
+    tree = ET.parse(xml_path)
+    root = tree.getroot()
+
+    closest_node = None
+    min_distance = float('inf')  # 初始设为无穷大
+    closest_node_path = []
+    closest_node_level = 0
+
+    # 先序遍历过程
+    def pre_order_traversal(node, level=0, parent_path=[]):
+        nonlocal closest_node, min_distance, closest_node_path, closest_node_level
+
+        # 构建当前节点的路径
+        current_path = parent_path + [build_path(node)]
+        # 获取当前节点的bounds
+        current_bounds = node.attrib.get("bounds", "")
+        if current_bounds:
+            bds = parse_bounds(current_bounds)
+            # 计算当前节点和目标bounds的最短距离
+            distance = calculate_distance(target_bounds, bds)
+
+            # 如果当前节点距离更近，则更新最短距离和最接近的节点
+            if distance < min_distance:
+                min_distance = distance
+                closest_node = node
+                closest_node_path = current_path
+                closest_node_level = level
+
+        # 遍历子节点
+        for child in node:
+            pre_order_traversal(child, level + 1, current_path)
+
+    # 从根节点开始先序遍历
+    pre_order_traversal(root)
+
+    # 返回最近的节点信息
+    if closest_node is not None:
+        print(closest_node_path)
+        path_str = " > ".join([f"{cls}" for cls in closest_node_path if cls])
+        node_info = {
+            "level": closest_node_level,
+            "index": closest_node.attrib.get("index", ""),
+            "text": closest_node.attrib.get("text", ""),
+            "resource_id": closest_node.attrib.get("resource-id", ""),
+            "content_desc": closest_node.attrib.get("content-desc", ""),
+            "bounds": closest_node.attrib.get("bounds", ""),
+            "path": path_str,
+            "clzz": closest_node.attrib.get("class", ""),
+            "clickable": closest_node.attrib.get("clickable"),
+            "package": closest_node.attrib.get("package"),
+            "agg_text": "",
+            "agg_desc": "",
+        }
+        return node_info
+    else:
+        return None
 
 def filter_deepest_clickable_nodes(xml_path):
     tree = ET.parse(xml_path)
@@ -140,6 +220,10 @@ def pretty_print_clickable_structure(nodes):
 
 if __name__ == "__main__":
     # Example usage
-    result = filter_deepest_clickable_nodes("./powcontext/0Zq-T7bGlrworTuFiaCkKAZlsicY0gHC4TVJn9IIQho=.xml")
-    pretty_print_clickable_structure(result)  # Here we can print or further process the result as needed
+    # result = filter_deepest_clickable_nodes("./powcontext/0Zq-T7bGlrworTuFiaCkKAZlsicY0gHC4TVJn9IIQho=.xml")
+    # pretty_print_clickable_structure(result)  # Here we can print or further process the result as needed
 
+    xml_path = "./collectData/me.ele-20241219-015008/PopupImg/oXVk70P2hdxjDR9-Rb3f9IiMhrjydTLV6hZb1Pa9LWI=.png.xml"
+    test_bounds = [492, 1872, 587, 1957]
+    ans = get_mindis_node(xml_path, test_bounds)
+    print(ans)

@@ -14,9 +14,9 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '.ui.CorporateEntityTransferDialog',
+          activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[id="com.baidu.netdisk:id/dialog_button_confirm"][text="确认"][clickable=true]',
+            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.Button[id="com.baidu.netdisk:id/dialog_button_confirm"][text="确认"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -31,9 +31,9 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '.ui.CorporateEntityTransferDialog',
+          activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[id="com.baidu.netdisk:id/dialog_button_confirm"][text="确认"][clickable=true]',
+            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.Button[id="com.baidu.netdisk:id/dialog_button_confirm"][text="确认"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -48,9 +48,77 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '.ui.MainActivity',
+          activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.Button[id="com.baidu.netdisk:id/dialog_button_ok"][text="立即更新"][clickable=true]',
+            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[id="com.baidu.netdisk:id/dialog_root_view"][clickable=true] > android.widget.RelativeLayout[id="com.baidu.netdisk:id/dialog_footer"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.Button[id="com.baidu.netdisk:id/dialog_button_ok"][text="立即更新"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 3,
+      name: 'in-app|xb3SQ03zy-_-Hb1750Gx2rtE1rml5fTazBEBWoGo7zc=.png',
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '.update.UpdateDialogActivity',
+          matches: 'android.widget.FrameLayout[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 4,
+      name: 'in-app|ZoRPymyYWazYDvi5_tJyH7Xt1W_3VB--TH-0-hPJblo=.png',
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[id="com.baidu.netdisk:id/dialog_footer_one_button"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 5,
+      name: 'in-app|_ileVgQ_IS9MHcTN_uDoWtiVWBeC-9Puvm4mMKic7Ig=.png',
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.ImageView[id="com.baidu.netdisk:id/yike_guide_exit"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 6,
+      name: 'system|OTqKpr0xrWIp084M3Vp9I_6R3h3Ng9soGQir9KiuHPM=.png',
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds:
+            'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
+          matches:
+            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"][clickable=true] > android.widget.Button[text="仅在使用中允许"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
