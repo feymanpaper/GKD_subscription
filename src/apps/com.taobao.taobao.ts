@@ -1,8 +1,8 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: '',
-  name: '',
+  id: 'com.taobao.taobao',
+  name: '淘宝',
   groups: [
     {
       key: 0,
