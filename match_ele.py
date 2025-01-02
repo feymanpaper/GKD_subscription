@@ -49,9 +49,9 @@ def process_files(directory):
                 data = json.load(f)
                 pow_ele = data.get("pow_ele", [])
                 cross_bounds = None
-                pkg_name = data.get("pkg_name")
-                app_name = data.get("app_name")
-                activity_name = data.get("activity_name")
+                pkg_name = data.get("pkg_name", "")
+                app_name = data.get("app_name", "")
+                activity_name = data.get("activity_name", "")
                 img_name = data.get("img_name", "")
                 type_name = data.get("type", "")
 

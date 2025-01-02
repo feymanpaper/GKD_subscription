@@ -1,8 +1,8 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: None,
-  name: None,
+  id: '',
+  name: '',
   groups: [
     {
       key: 0,
@@ -31,7 +31,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[id="com.taobao.taobao:id/ll_container"][clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/rl_panel"][clickable=true] > android.widget.FrameLayout[id="com.taobao.taobao:id/detail_fl_weex"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -65,7 +65,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[id="com.taobao.taobao:id/ll_container"][clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/rl_panel"][clickable=true] > android.widget.FrameLayout[id="com.taobao.taobao:id/detail_fl_weex"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -82,7 +82,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.ImageView[desc="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -116,7 +116,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[desc="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -201,7 +201,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"][clickable=true] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"][clickable=true] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"][clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > com.uc.webview.export.WebView[clickable=true] > com.uc.aosp.android.webkit.m0[clickable=true] > android.webkit.WebView[text="tblive-room-next-index"][clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.widget.Image[text="O1CN01RSyakO1giermfifTj_!!6000000004176-2-tps-74-74.png_110x10000.jpg_"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -252,7 +252,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -337,7 +337,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches: 'android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
@@ -387,7 +387,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"][clickable=true] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"][clickable=true] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"][clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"][clickable=true] > android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -404,7 +404,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.ImageView[desc="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -421,7 +421,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/pagegroup"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.View[desc="直播中"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -438,7 +438,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches: 'android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
@@ -488,7 +488,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"][clickable=true] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"][clickable=true] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"][clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > com.uc.webview.export.WebView[clickable=true] > com.uc.aosp.android.webkit.m0[clickable=true] > android.webkit.WebView[text="tblive-room-next-index"][clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.widget.Image[text="O1CN01RSyakO1giermfifTj_!!6000000004176-2-tps-74-74.png_110x10000.jpg_"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -607,7 +607,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches: 'android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
@@ -674,7 +674,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/tms_fragment_container"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/tms_title_bar"][clickable=true] > android.widget.LinearLayout[id="com.taobao.taobao:id/left_panel"][clickable=true] > android.widget.FrameLayout[desc="返回"][clickable=true] > android.widget.ImageView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -759,7 +759,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"][clickable=true] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_avatar_card_detail_container_new"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/live_mini_avatar_container"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/live_avatar_card_first_container"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -844,7 +844,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[desc="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
@@ -912,7 +912,7 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: None,
+          activityIds: '',
           matches:
             'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[desc="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
