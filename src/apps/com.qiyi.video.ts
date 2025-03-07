@@ -7,7 +7,7 @@ export default defineGkdApp({
     {
       key: 0,
       name: 'in-app|TKwY_EzBY8I4PVu79cel-BPpmS3uOmT7B96IsfZ6fCY=.png',
-      matchDelay: 2500,
+      actionDelay: 1000,
       actionMaximum: 10,
       resetMatch: 'app',
       rules: [
@@ -23,7 +23,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: 'system|Dckp69c8qTe0bz6HmdyxQT6C4vmgMighoQsFbWiJGBs=.png',
-      matchDelay: 2500,
+      actionDelay: 1000,
       actionMaximum: 10,
       resetMatch: 'app',
       rules: [
@@ -40,7 +40,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: 'in-app|1MDHn-ITvblwGknNvPWo5Sgbvy5EUJx7Wg7OA8g11uk=.png',
-      matchDelay: 2500,
+      actionDelay: 1000,
       actionMaximum: 10,
       resetMatch: 'app',
       rules: [
@@ -56,7 +56,7 @@ export default defineGkdApp({
     {
       key: 3,
       name: 'in-app|W7uEmgAJYuOcTKdn6vWcMB9_UGPbY8cW39mwjlq2GRY=.png',
-      matchDelay: 2500,
+      actionDelay: 1000,
       actionMaximum: 10,
       resetMatch: 'app',
       rules: [
@@ -72,7 +72,7 @@ export default defineGkdApp({
     {
       key: 4,
       name: 'system|cPNIAu30CZbu0dgc0i84OH5MtEiUS-vJmr4Gee5-8d0=.png',
-      matchDelay: 2500,
+      actionDelay: 1000,
       actionMaximum: 10,
       resetMatch: 'app',
       rules: [
@@ -88,7 +88,7 @@ export default defineGkdApp({
     {
       key: 5,
       name: 'in-app|Bn-iyiepPPXX5kfYTUuLSYwXax8jTVL6MdKHTuobXn4=.png',
-      matchDelay: 2500,
+      actionDelay: 1000,
       actionMaximum: 10,
       resetMatch: 'app',
       rules: [
@@ -104,7 +104,7 @@ export default defineGkdApp({
     {
       key: 6,
       name: 'in-app|R5EuOz0a186-7ArmXKw_weaSJ1zrx0TXmJEWG4knV4Y=.png',
-      matchDelay: 2500,
+      actionDelay: 1000,
       actionMaximum: 10,
       resetMatch: 'app',
       rules: [
@@ -120,7 +120,7 @@ export default defineGkdApp({
     {
       key: 7,
       name: 'in-app|PqNZynmQZaCJrcDJXXXc6LpRFaTmCmVEtcV2la5w2v8=.png',
-      matchDelay: 2500,
+      actionDelay: 1000,
       actionMaximum: 10,
       resetMatch: 'app',
       rules: [
