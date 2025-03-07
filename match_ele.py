@@ -48,6 +48,7 @@ def process_files(directory):
             with open(json_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 pow_ele = data.get("pow_ele", [])
+                pow_bounds = data.get("pow_bounds", [])
                 cross_bounds = None
                 pkg_name = data.get("pkg_name", "")
                 app_name = data.get("app_name", "")
@@ -57,6 +58,8 @@ def process_files(directory):
                 type_name = data.get("type", "")
 
                 for element in pow_ele:
+                    if not is_inbox(pow_bounds, element.get("bounds")):
+                        continue
                     if element.get("class") == "cross":
                         cross_bounds = element.get("bounds")
                         print(f"Found cross bounds in {json_path}: {cross_bounds}")
@@ -112,6 +115,20 @@ def process_files(directory):
     ts_file_name = pkg_name + ".ts"
     ts_file_path = os.path.join(ts_file_dir, ts_file_name)
     write_ts_file(ts_file_path, ts_code)
+
+def is_inbox(pow_bounds, ele_bounds):
+    px1=pow_bounds[0]
+    py1=pow_bounds[1]
+    px2=pow_bounds[2]
+    py2=pow_bounds[3]
+
+    ex1=ele_bounds[0]
+    ey1=ele_bounds[1]
+    ex2=ele_bounds[2]
+    ey2=ele_bounds[3]
+    if ex1>px1 and ey1>py1 and ex2<px2 and ey2<py2:
+        return True
+    return False
 
 def process_dirs(base_dir):
     # 遍历 base_dir 目录下的所有子目录

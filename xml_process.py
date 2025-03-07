@@ -66,7 +66,7 @@ def get_mindis_node(xml_path, target_bounds):
             distance = calculate_distance(target_bounds, bds)
 
             # 如果当前节点距离更近，则更新最短距离和最接近的节点
-            if distance < min_distance:
+            if distance < min_distance and node.attrib.get("clickable") == "true":
                 min_distance = distance
                 closest_node = node
                 closest_node_path = current_path

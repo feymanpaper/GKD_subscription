@@ -58,7 +58,8 @@ export default defineGkdApp({
         {
           action: 'clickCenter',
           activityIds: '.update.UpdateDialogActivity',
-          matches: 'android.widget.FrameLayout',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.ImageView[desc="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -73,7 +74,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.baidu.netdisk:id/dialog_footer_one_button"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.baidu.netdisk:id/dialog_footer_one_button"] > android.widget.Button[id="com.baidu.netdisk:id/dialog_button_one"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

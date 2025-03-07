@@ -14,7 +14,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_background"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_cardview"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/custom_dialog_cardcontent"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_bottom_layout"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_button_positive_layout"]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_background"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_cardview"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/custom_dialog_cardcontent"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_bottom_layout"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_button_positive_layout"] > android.widget.Button[id="cn.wps.moffice_eng:id/dialog_button_positive"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -28,7 +28,8 @@ export default defineGkdApp({
         {
           action: 'clickCenter',
           activityIds: 'cn.wps.moffice.main.push.explore.PushTipsWebActivity',
-          matches: 'android.widget.FrameLayout',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="cn.wps.moffice_eng:id/phone_title_view_root"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/content_lay"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/push_tips_ptr_super_webview"] > android.view.ViewGroup > android.webkit.WebView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -58,7 +59,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'cn.wps.moffice.main.local.HomeRootActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > androidx.drawerlayout.widget.DrawerLayout[id="cn.wps.moffice_eng:id/phone_home_root"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/phone_home_root_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/push_tips_ptr_super_webview"] > android.view.ViewGroup > android.webkit.WebView > android.webkit.WebView > android.view.View > android.view.View > android.widget.TextView',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > androidx.drawerlayout.widget.DrawerLayout[id="cn.wps.moffice_eng:id/phone_home_root"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/phone_home_root_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/push_tips_ptr_super_webview"] > android.view.ViewGroup > android.webkit.WebView > android.webkit.WebView > android.view.View[id="app"] > android.view.View > android.view.View > android.view.View[id="headerContainer"] > android.view.View > android.view.View > android.view.View[desc="信纸 信纸"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -80,36 +81,6 @@ export default defineGkdApp({
     },
     {
       key: 5,
-      name: 'in-app|bZTJ8eev5ifuinpWM_TAMLxT3dPpV7VpX_s0MHpJ72g=.png',
-      actionMaximum: 10,
-      resetMatch: 'app',
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'cn.wps.moffice.main.push.explore.PushTipsWebActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="cn.wps.moffice_eng:id/phone_title_view_root"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/content_lay"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/push_tips_ptr_super_webview"] > android.view.ViewGroup > android.webkit.WebView > android.webkit.WebView[text="WPS会员支付"] > android.view.View > android.view.View > android.view.View > android.view.View',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 6,
-      name: 'in-app|djK0_RVNrFZEcBp9Jqx3sb4n549eVDdT9KAQl6Mtojw=.png',
-      actionMaximum: 10,
-      resetMatch: 'app',
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/fl_content"] > android.widget.RelativeLayout > android.widget.Button[id="cn.wps.moffice.plugin.cloudPage:id/btn_upgrade"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 7,
       name: 'in-app|ryC7pxNQqgCU9Q51F77x2AVNPsKzUMt-M7erf2ptidE=.png',
       actionMaximum: 10,
       resetMatch: 'app',
@@ -118,27 +89,13 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_background"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_cardview"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/custom_dialog_cardcontent"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/customPanel"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/custom"] > android.view.ViewGroup > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/layout_close"] > android.widget.ImageView[id="cn.wps.moffice_eng:id/iv_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
-      key: 8,
-      name: 'in-app|OT-nvU_nWfHueZkWGIquqVbfcBFUe4bj9QyzM76Jh-I=.png',
-      actionMaximum: 10,
-      resetMatch: 'app',
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'cn.wps.moffice.plugin.PluginHostBridgeActivity',
-          matches: 'android.widget.FrameLayout',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 9,
+      key: 6,
       name: 'in-app|R3aAeJo3Eu72GaP7iDJZLteG4u36GkBcTpVNg2AyEqc=.png',
       actionMaximum: 10,
       resetMatch: 'app',
@@ -147,13 +104,13 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_background"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_cardview"] > android.widget.ScrollView > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/custom_dialog_cardcontent"] > android.view.View[id="cn.wps.moffice_eng:id/dialog_bottom_jump"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_background"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_cardview"] > android.widget.ScrollView > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/custom_dialog_cardcontent"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_bottom_layout"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/inner_bottom_layout"] > android.widget.Button[id="cn.wps.moffice_eng:id/dialog_button_positive"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
-      key: 10,
+      key: 7,
       name: 'in-app|RbCDrhaeznWX7bZIx187Qh1vqlytN2zwOmxMq1Wy8bg=.png',
       actionMaximum: 10,
       resetMatch: 'app',
@@ -168,7 +125,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 11,
+      key: 8,
       name: 'in-app|sru9NZGHNb9VrCJlYuBNsYbUlU0ZezJRQvj9V7qyZyc=.png',
       actionMaximum: 10,
       resetMatch: 'app',
@@ -183,52 +140,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 12,
-      name: 'in-app|Okg_03Y3YDxSf4KDXpBZvELuqovU2jaASJ4Q-WRELiQ=.png',
-      actionMaximum: 10,
-      resetMatch: 'app',
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'cn.wps.moffice.main.push.explore.PushTipsWebActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="cn.wps.moffice_eng:id/phone_title_view_root"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/content_lay"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/push_tips_ptr_super_webview"] > android.view.ViewGroup > android.webkit.WebView > android.webkit.WebView[text="WPS会员支付"] > android.view.View > android.view.View > android.view.View > android.view.View',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 13,
-      name: 'system|OTqKpr0xrWIp084M3Vp9I_6R3h3Ng9soGQir9KiuHPM=.png',
-      actionMaximum: 10,
-      resetMatch: 'app',
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 14,
-      name: 'in-app|0e0MkEhvlng_mSyzNo6MjN6Jd1abjULtQ-V0O_txW7o=.png',
-      actionMaximum: 10,
-      resetMatch: 'app',
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/fl_content"] > android.widget.RelativeLayout > android.widget.Button[id="cn.wps.moffice.plugin.cloudPage:id/btn_upgrade"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 15,
+      key: 9,
       name: 'in-app|piyqY5BSDcvILJEyfDuIu2gg2IFnDkmhKDuh7fUjQxQ=.png',
       actionMaximum: 10,
       resetMatch: 'app',
@@ -237,38 +149,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="cn.wps.moffice.plugin.cloudPage:id/phone_title_view_root"] > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/plugin_content_lay"] > android.widget.LinearLayout > android.widget.ScrollView[id="cn.wps.moffice.plugin.cloudPage:id/sv_cloud_page"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice.plugin.cloudPage:id/ll_cloud_page"] > android.widget.GridView[id="cn.wps.moffice.plugin.cloudPage:id/gv_func_root"] > android.widget.LinearLayout[id="cn.wps.moffice.plugin.cloudPage:id/ll_func_layout"][clickable=true] > android.widget.LinearLayout[id="cn.wps.moffice.plugin.cloudPage:id/ll_func_root"] > android.widget.ImageView[id="cn.wps.moffice.plugin.cloudPage:id/iv_func_icon"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 16,
-      name: 'in-app|NAciHk3y60D7h2fYs4oBytkpgIqZCAkXIvxcC4iVQUI=.png',
-      actionMaximum: 10,
-      resetMatch: 'app',
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_background"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_cardview"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/custom_dialog_cardcontent"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_bottom_layout"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_button_positive_layout"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 17,
-      name: 'system|QJa6OzJHO47gtw8K2gtXqJv42G1ca3UPuz7c736svTY=.png',
-      actionMaximum: 10,
-      resetMatch: 'app',
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds:
-            'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.FrameLayout[id="com.android.systemui:id/drip_notification_icon_area"] > android.widget.LinearLayout[id="com.android.systemui:id/notification_icon_area_inner"] > android.widget.FrameLayout[id="com.android.systemui:id/notificationIcons"] > android.widget.ImageView[desc="Android 系统通知："]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="cn.wps.moffice.plugin.cloudPage:id/phone_title_view_root"] > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/plugin_content_lay"] > android.widget.LinearLayout > android.widget.ScrollView[id="cn.wps.moffice.plugin.cloudPage:id/sv_cloud_page"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice.plugin.cloudPage:id/ll_cloud_page"] > android.widget.GridView[id="cn.wps.moffice.plugin.cloudPage:id/gv_func_root"] > android.widget.LinearLayout[id="cn.wps.moffice.plugin.cloudPage:id/ll_func_layout"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
