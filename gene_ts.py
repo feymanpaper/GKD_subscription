@@ -42,7 +42,7 @@ def gene_ts_dict(matches):
             "resetMatch": "app",
             "priorityTime": 10000,
             "rules": rule_list,
-            "matchRoot": True,
+            "matchRoot": "true",
         }
         group_list.append(group_item)
         cnt += 1
