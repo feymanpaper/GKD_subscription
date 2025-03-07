@@ -7,8 +7,10 @@ export default defineGkdApp({
     {
       key: 0,
       name: 'in-app|a8UXLvIbPExa5EexvBmkPG3HtfVL8QmlzW9quwKW2GQ=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -18,12 +20,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 1,
       name: 'in-app|03k7j3lxvVripvyu6ZCDsPDQHnnymJHSGAlbrsmv630=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -33,12 +38,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 2,
       name: 'in-app|Ean-hboLGvEx-eKVQ-jaFHbRmZxEgjX5W55Glq8cSh4=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -48,12 +56,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 3,
       name: 'in-app|eb-WqYwza3pTYNYOa_vGoaHT7wEdz8p5ivrBKhcAxws=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -63,12 +74,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 4,
       name: 'in-app|WgFYmJvZHhbBO6OcI97d3Owce9xpRj0KrcCwmIfaJ1Y=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -78,12 +92,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 5,
       name: 'in-app|Qt7vd438Pv-vktNMIZJ0xp3GGrbxPSCs60HG6AOv88A=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -93,12 +110,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 6,
       name: 'in-app|TyIhg7sQp3te1QxxxLHWbZYURNLIobD5ob9W_UTd8G0=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -108,12 +128,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 7,
       name: 'in-app|7CE5pl5_g5QU6G5v_ZQjSlCobbx8DqPOm7Ws9a_dTXA=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -123,12 +146,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 8,
       name: 'in-app|hv2isjQcOZT7mBYFXcWz-tKWDPw6-AddyG6rCM7fElM=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -138,12 +164,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 9,
       name: 'in-app|S4k1Lw0JLa7WhS9Xj17fXI1BKUFDbXVvXIXq9DxGlHs=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -153,12 +182,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 10,
       name: 'in-app|E738jl-p030bQUN4VjdsqE-c1RQFQ3yuvC4MPxwA2Tk=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -168,12 +200,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 11,
       name: 'in-app|bmAnxSvVI8qQt7Jg5TQIP0j9-_NaUW0MfYXBo1mRx3o=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -183,12 +218,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 12,
       name: 'in-app|rYJDkexG2uekk5YbWOuIEboay5Bveb9oR9iM2nl6Ifo=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -198,12 +236,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 13,
       name: 'in-app|8cyGrJTYbxSqnxYzZ7wtwG7sGGSnv5HQoJNw11tcxVk=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -213,12 +254,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 14,
       name: 'in-app|z18hnlE58K4Nt2UnwdsJGYfpWAw6zmPfvTC4nGMOL2U=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -228,12 +272,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 15,
       name: 'in-app|QpAoWbcbQpe_AwXTtyuEsL_lyvdUS3sVWHDHavktcJs=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -243,12 +290,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 16,
       name: 'in-app|YsLxPUJsQx7XrriHBOT9bG2xgMKhIvE_Mg2SFxi0WU0=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -258,12 +308,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 17,
       name: 'in-app|V2v-9yNcJApdPz2nlYtQcZasTDBMbfSETnjawr2lvgQ=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -273,12 +326,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 18,
       name: 'system|OTqKpr0xrWIp084M3Vp9I_6R3h3Ng9soGQir9KiuHPM=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -289,12 +345,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 19,
       name: 'in-app|oXVk70P2hdxjDR9-Rb3f9IiMhrjydTLV6hZb1Pa9LWI=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -304,12 +363,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 20,
       name: 'in-app|tMMmkvUYVxX7bwDI7f29S2aV4XgVJjdy5ZpsnLgvdBY=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -319,12 +381,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 21,
       name: 'in-app|Jg2ND-v-r3UuBaV7nMMLc3kFHFipodeunO3z3sqnf1E=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -334,12 +399,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 22,
       name: 'in-app|59zr1fkZ8aFQjIDUjrFFzhIDVl4oXBNg-PR8VT0Oqio=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -349,6 +417,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
   ],
 });

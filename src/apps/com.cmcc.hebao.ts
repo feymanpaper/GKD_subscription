@@ -7,8 +7,10 @@ export default defineGkdApp({
     {
       key: 0,
       name: 'system|1KqJ9fkZ5_PlFMD0XdR0VhOOxE-zXj2B1nXFuLv9-F4=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -18,12 +20,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 1,
       name: 'in-app|Vas7deOeAPs5WNQ_AVSJVGWvep_mOJhtPRnnAIQm5Kk=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -33,12 +38,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 2,
       name: 'in-app|AEny9fOHPilXLyNYpt7aIMMJiAifCijHtUnTPDXKZKc=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -48,12 +56,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 3,
       name: 'in-app|OpAo3Nky41J3hcANVj-Th_23o2v3ZgTOxrzBywBdV_g=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -63,12 +74,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 4,
       name: 'in-app|y3uPnRiWn1-aZk4GE1MqgUAFDLEnAvEvo6zF8OhBVtg=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -78,12 +92,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
     {
       key: 5,
       name: 'in-app|s2NO4bE2f0b7D91cumdob8ji36thMyLk4EslyJvkuUw=.png',
+      actionDelay: 2000,
       actionMaximum: 10,
       resetMatch: 'app',
+      priorityTime: 10000,
       rules: [
         {
           action: 'clickCenter',
@@ -93,6 +110,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
+      matchRoot: True,
     },
   ],
 });

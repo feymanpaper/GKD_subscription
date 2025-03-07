@@ -13,7 +13,7 @@ def build_matches(node_dict):
     text = node_dict.get("text")
     if not resource_id and text:
         res += f'[text="{text}"]'
-    if node_dict.get("clickable")=="true":
+    if node_dict.get("clickable") == "true":
         res += f'[clickable=true]'
     return res
 
@@ -36,12 +36,13 @@ def gene_ts_dict(matches):
         group_item = {
             "key": cnt,
             "name": mat["name"],
-            # 'actionDelay': 1000,
+            'actionDelay': 2000,
             # "matchTime": 10000,
             "actionMaximum": 10,
             "resetMatch": "app",
-            # "priorityTime": 10000,
-            "rules": rule_list
+            "priorityTime": 10000,
+            "rules": rule_list,
+            "matchRoot": True,
         }
         group_list.append(group_item)
         cnt += 1
