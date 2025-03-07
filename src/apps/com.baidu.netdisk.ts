@@ -7,10 +7,7 @@ export default defineGkdApp({
     {
       key: 0,
       name: 'in-app|LTOR9_2Ro7YoxXNhZ-30nHSaHhuoGaIEqZv1-c-DNhI=.png',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
+      actionDelay: 2500,
       rules: [
         {
           action: 'clickCenter',
@@ -24,10 +21,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: 'in-app|7DRbTxZNkfqNxiSPnOV4A9xiU99R30TLkjsv8LblCX4=.png',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
+      actionDelay: 2500,
       rules: [
         {
           action: 'clickCenter',
@@ -41,10 +35,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: 'in-app|J9MDnTESjykTgUVrVu9vepyVF80F9fg1UUVi5NUVdAE=.png',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
+      actionDelay: 2500,
       rules: [
         {
           action: 'clickCenter',
@@ -58,10 +49,7 @@ export default defineGkdApp({
     {
       key: 3,
       name: 'in-app|xb3SQ03zy-_-Hb1750Gx2rtE1rml5fTazBEBWoGo7zc=.png',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
+      actionDelay: 2500,
       rules: [
         {
           action: 'clickCenter',
@@ -74,10 +62,7 @@ export default defineGkdApp({
     {
       key: 4,
       name: 'in-app|ZoRPymyYWazYDvi5_tJyH7Xt1W_3VB--TH-0-hPJblo=.png',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
+      actionDelay: 2500,
       rules: [
         {
           action: 'clickCenter',
@@ -91,10 +76,7 @@ export default defineGkdApp({
     {
       key: 5,
       name: 'in-app|_ileVgQ_IS9MHcTN_uDoWtiVWBeC-9Puvm4mMKic7Ig=.png',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
+      actionDelay: 2500,
       rules: [
         {
           action: 'clickCenter',
@@ -108,10 +90,7 @@ export default defineGkdApp({
     {
       key: 6,
       name: 'system|OTqKpr0xrWIp084M3Vp9I_6R3h3Ng9soGQir9KiuHPM=.png',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
+      actionDelay: 2500,
       rules: [
         {
           action: 'clickCenter',
