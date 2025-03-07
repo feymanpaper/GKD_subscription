@@ -52,7 +52,8 @@ def process_files(directory):
                 pkg_name = data.get("pkg_name", "")
                 app_name = data.get("app_name", "")
                 activity_name = data.get("activity_name", "")
-                img_name = data.get("img_name", "")
+                # img_name = data.get("img_name", "")
+                img_name = file
                 type_name = data.get("type", "")
 
                 for element in pow_ele:
