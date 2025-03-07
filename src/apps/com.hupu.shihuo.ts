@@ -16,7 +16,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -33,7 +33,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.ScrollView[clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][text="允许"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][text="允许"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -50,7 +50,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -68,7 +68,7 @@ export default defineGkdApp({
           activityIds:
             'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"][clickable=true] > android.widget.Button[text="仅在使用中允许"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"] > android.widget.Button[text="仅在使用中允许"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -85,7 +85,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -102,7 +102,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/base_container_view_tag"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/fl_good_price_disclosure"][clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/bind_root"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"][clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/icon_close"][text=""][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.hupu.shihuo:id/base_container_view_tag"] > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/fl_good_price_disclosure"] > android.view.ViewGroup > android.view.ViewGroup[id="com.hupu.shihuo:id/bind_root"] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"][clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/icon_close"][text=""][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -119,7 +119,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -136,7 +136,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/positiveButton"][text="去支持"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"] > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/positiveButton"][text="去支持"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -153,7 +153,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/root"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/bottomSheetView"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/bottom_sheet_container"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/cl_sales"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.ImageView[id="com.hupu.shihuo:id/iv_sales"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/root"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/bottomSheetView"] > android.view.ViewGroup[id="com.hupu.shihuo:id/coordinator"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/bottom_sheet_container"] > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/cl_sales"] > android.view.ViewGroup > android.widget.ImageView[id="com.hupu.shihuo:id/iv_sales"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -170,7 +170,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -187,7 +187,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -204,7 +204,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -221,7 +221,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/detail_container"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/shopping_detail_fl_root"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/base_container_view_tag"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/fl_good_price_disclosure"][clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/bind_root"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"][clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/icon_close"][text=""][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/detail_container"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/shopping_detail_fl_root"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.hupu.shihuo:id/base_container_view_tag"] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/fl_good_price_disclosure"] > android.view.ViewGroup > android.view.ViewGroup[id="com.hupu.shihuo:id/bind_root"] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"][clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/icon_close"][text=""][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -238,7 +238,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > androidx.appcompat.widget.LinearLayoutCompat[id="com.hupu.shihuo:id/parentPanel"][clickable=true] > android.widget.ScrollView[id="com.hupu.shihuo:id/buttonPanel"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.Button[id="android:id/button1"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.hupu.shihuo:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > androidx.appcompat.widget.LinearLayoutCompat[id="com.hupu.shihuo:id/parentPanel"] > android.widget.ScrollView[id="com.hupu.shihuo:id/buttonPanel"] > android.widget.LinearLayout > android.widget.Button[id="android:id/button1"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -255,7 +255,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -272,7 +272,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/detail_container"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/shopping_detail_fl_root"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/base_container_view_tag"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/fl_good_price_disclosure"][clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/bind_root"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"][clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/icon_close"][text=""][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/detail_container"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/shopping_detail_fl_root"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.hupu.shihuo:id/base_container_view_tag"] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/fl_good_price_disclosure"] > android.view.ViewGroup > android.view.ViewGroup[id="com.hupu.shihuo:id/bind_root"] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"][clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/icon_close"][text=""][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -289,7 +289,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/filter_root"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/container"][clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/ll_bottom_btn"][clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.hupu.shihuo:id/filter_root"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/container"][clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/ll_bottom_btn"] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -307,7 +307,7 @@ export default defineGkdApp({
           activityIds:
             'com.shizhuang.duapp.modules.rn.mini.MiniReactActivity$MiniUIXReactActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/container"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/fragment_container"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.ScrollView[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.TextView[text="浏览历史/节日大促/品类活动/领券活动等"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/container"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/fragment_container"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.widget.ScrollView > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup > android.widget.TextView[text="浏览历史/节日大促/品类活动/领券活动等"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -324,7 +324,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -341,7 +341,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.ImageView[id="com.hupu.shihuo:id/bottom_close"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.ImageView[id="com.hupu.shihuo:id/bottom_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -358,7 +358,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/cancel"][text="取消"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/cancel"][text="取消"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -375,7 +375,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_submit"][text="确定(14个配色)"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.LinearLayout[id="com.hupu.shihuo:id/content"] > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_submit"][text="确定(14个配色)"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -392,7 +392,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -409,7 +409,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_submit"][text="确定(14个配色)"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.LinearLayout[id="com.hupu.shihuo:id/content"] > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_submit"][text="确定(14个配色)"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -426,7 +426,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -443,7 +443,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -460,7 +460,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.hupu.shihuo:id/tv_confirm"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -477,7 +477,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/filter_root"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/container"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_title"][clickable=true] > android.widget.ImageView[id="com.hupu.shihuo:id/close"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.hupu.shihuo:id/filter_root"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/container"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_title"] > android.widget.ImageView[id="com.hupu.shihuo:id/close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -494,7 +494,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/detail_container"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/shopping_detail_fl_root"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/base_container_view_tag"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"][clickable=true] > android.widget.FrameLayout[id="com.hupu.shihuo:id/fl_container"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/refresh_layout"][clickable=true] > androidx.recyclerview.widget.RecyclerView[id="com.hupu.shihuo:id/recycler_view"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/shoes_title_view"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/title_normal"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_price_container"][clickable=true] > android.view.ViewGroup[id="com.hupu.shihuo:id/detail_price_tag_group_normal"][clickable=true] > android.widget.TextView[id="com.hupu.shihuo:id/tv_tag"][text="识货补贴"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.hupu.shihuo:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.hupu.shihuo:id/content"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/detail_container"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/shopping_detail_fl_root"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.hupu.shihuo:id/base_container_view_tag"] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_root"] > android.widget.FrameLayout[id="com.hupu.shihuo:id/fl_container"] > android.view.ViewGroup[id="com.hupu.shihuo:id/refresh_layout"] > androidx.recyclerview.widget.RecyclerView[id="com.hupu.shihuo:id/recycler_view"] > android.view.ViewGroup[id="com.hupu.shihuo:id/shoes_title_view"] > android.view.ViewGroup[id="com.hupu.shihuo:id/title_normal"] > android.view.ViewGroup[id="com.hupu.shihuo:id/cl_price_container"] > android.view.ViewGroup[id="com.hupu.shihuo:id/detail_price_tag_group_normal"] > android.widget.TextView[id="com.hupu.shihuo:id/tv_tag"][text="识货补贴"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

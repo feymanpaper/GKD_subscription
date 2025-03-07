@@ -16,7 +16,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds:
             'com.douyu.sdk.apkdownload.ui.dialog.TaskInstallGuideDialogActivity',
-          matches: 'android.widget.FrameLayout[clickable=true]',
+          matches: 'android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -33,7 +33,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.ScrollView[clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][text="允许"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][text="允许"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -50,7 +50,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="air.tv.douyu.android:id/kaw"][clickable=true] > android.widget.FrameLayout[id="air.tv.douyu.android:id/cws"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.ImageView[id="air.tv.douyu.android:id/ee2"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="air.tv.douyu.android:id/kaw"] > android.widget.FrameLayout[id="air.tv.douyu.android:id/cws"] > android.view.ViewGroup > android.widget.ImageView[id="air.tv.douyu.android:id/ee2"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -67,7 +67,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[id="tv.douyu.plugin.gamecenter:id/cm_dialog_left_btn_parent"][clickable=true] > android.widget.Button[id="tv.douyu.plugin.gamecenter:id/cm_dialog_left_btn"][text="取消"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.LinearLayout[id="tv.douyu.plugin.gamecenter:id/cm_dialog_left_btn_parent"] > android.widget.Button[id="tv.douyu.plugin.gamecenter:id/cm_dialog_left_btn"][text="取消"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -84,7 +84,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="air.tv.douyu.android:id/ad1"][text="暂时不用"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="air.tv.douyu.android:id/ad1"][text="暂时不用"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -101,7 +101,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.ImageView[id="air.tv.douyu.android:id/jvq"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.ImageView[id="air.tv.douyu.android:id/jvq"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -118,7 +118,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[id="air.tv.douyu.android:id/kbf"][clickable=true] > android.view.ViewGroup[id="air.tv.douyu.android:id/p8_"][clickable=true] > androidx.viewpager.widget.ViewPager[id="air.tv.douyu.android:id/fjf"][clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/kbf"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="air.tv.douyu.android:id/fky"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="air.tv.douyu.android:id/kbf"] > android.view.ViewGroup[id="air.tv.douyu.android:id/p8_"] > androidx.viewpager.widget.ViewPager[id="air.tv.douyu.android:id/fjf"] > android.widget.LinearLayout[id="air.tv.douyu.android:id/kbf"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="air.tv.douyu.android:id/fky"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -135,7 +135,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/g_i"][clickable=true] > android.widget.FrameLayout[id="air.tv.douyu.android:id/cqp"][clickable=true] > android.widget.TextView[id="air.tv.douyu.android:id/aei"][text="前往开启权限"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.LinearLayout[id="air.tv.douyu.android:id/g_i"] > android.widget.FrameLayout[id="air.tv.douyu.android:id/cqp"] > android.widget.TextView[id="air.tv.douyu.android:id/aei"][text="前往开启权限"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -152,7 +152,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.TextView[id="tv.douyu.plugin.gamecenter:id/btn_finish"][text="完成"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.view.ViewGroup > android.widget.TextView[id="tv.douyu.plugin.gamecenter:id/btn_finish"][text="完成"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -169,7 +169,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.TextView[id="air.tv.douyu.android:id/o71"][text="我知道了"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.TextView[id="air.tv.douyu.android:id/o71"][text="我知道了"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -186,7 +186,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[id="air.tv.douyu.android:id/b94"][clickable=true] > android.widget.Button[id="air.tv.douyu.android:id/ju_"][text="去设置"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="air.tv.douyu.android:id/b94"] > android.widget.Button[id="air.tv.douyu.android:id/ju_"][text="去设置"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -203,7 +203,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds:
             'com.douyu.sdk.apkdownload.ui.dialog.TaskInstallGuideDialogActivity',
-          matches: 'android.widget.FrameLayout[clickable=true]',
+          matches: 'android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -220,7 +220,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="air.tv.douyu.android:id/h4s"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="air.tv.douyu.android:id/h4s"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -237,7 +237,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -254,7 +254,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.douyu.module.search.view.activity.SearchActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.webkit.WebView[clickable=true] > android.webkit.WebView[text="请通过以下验证"][clickable=true] > android.view.View[id="captcha"][clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.widget.Button[text="提交答案"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.webkit.WebView > android.webkit.WebView[text="请通过以下验证"] > android.view.View[id="captcha"] > android.view.View > android.view.View > android.view.View > android.widget.Button[text="提交答案"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -271,7 +271,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="air.tv.douyu.android:id/ec"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="air.tv.douyu.android:id/b7a"][clickable=true] > android.view.ViewGroup[id="air.tv.douyu.android:id/b9n"][clickable=true] > android.widget.FrameLayout[id="air.tv.douyu.android:id/bko"][clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/kbf"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.ImageView[id="air.tv.douyu.android:id/ei6"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="air.tv.douyu.android:id/b7a"] > android.view.ViewGroup[id="air.tv.douyu.android:id/b9n"] > android.widget.FrameLayout[id="air.tv.douyu.android:id/bko"] > android.widget.LinearLayout[id="air.tv.douyu.android:id/kbf"] > android.view.ViewGroup > android.widget.ImageView[id="air.tv.douyu.android:id/ei6"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -288,7 +288,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/b1d"][clickable=true] > android.widget.Button[id="air.tv.douyu.android:id/b1c"][text="取消"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.LinearLayout[id="air.tv.douyu.android:id/b1d"] > android.widget.Button[id="air.tv.douyu.android:id/b1c"][text="取消"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -305,7 +305,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/bnu"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="air.tv.douyu.android:id/ahl"][text="忽略"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/bnu"] > android.widget.LinearLayout > android.widget.TextView[id="air.tv.douyu.android:id/ahl"][text="忽略"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -322,7 +322,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.douyu.module.h5.basic.WebViewActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="air.tv.douyu.android:id/h4s"][clickable=true] > android.webkit.WebView[clickable=true] > android.webkit.WebView[text="我的等级"][clickable=true] > android.view.View[id="root"][clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.widget.TextView[text="下一步"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="air.tv.douyu.android:id/h4s"] > android.webkit.WebView > android.webkit.WebView[text="我的等级"] > android.view.View[id="root"] > android.view.View > android.view.View > android.widget.TextView[text="下一步"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -339,7 +339,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"][clickable=true] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"][clickable=true] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"][clickable=true] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"][clickable=true] > android.widget.TextView[id="com.android.systemui:id/clock"][text="上午6:32"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"][text="上午6:32"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -356,7 +356,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.LinearLayout[id="air.tv.douyu.android:id/b1d"][clickable=true] > android.widget.Button[id="air.tv.douyu.android:id/b1c"][text="我知道了"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.LinearLayout[id="air.tv.douyu.android:id/b1d"] > android.widget.Button[id="air.tv.douyu.android:id/b1c"][text="我知道了"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -373,7 +373,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.TextView[id="air.tv.douyu.android:id/afw"][text="取消"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.TextView[id="air.tv.douyu.android:id/afw"][text="取消"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

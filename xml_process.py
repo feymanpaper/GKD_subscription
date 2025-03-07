@@ -36,7 +36,7 @@ def build_path(node):
     text = node.attrib.get("text", "")
     if text:
         res += f'[text="{text}"]'
-    if node.attrib.get("clickable"):
+    if node.attrib.get("clickable")=="true":
         res += f'[clickable=true]'
     return res
 

@@ -16,7 +16,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/container"][clickable=true] > android.view.ViewGroup[id="com.shizhuang.duapp:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/design_bottom_sheet"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.TextView[id="com.shizhuang.duapp:id/tvSave"][text="保存"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/container"] > android.view.ViewGroup[id="com.shizhuang.duapp:id/coordinator"] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/design_bottom_sheet"] > android.widget.FrameLayout > android.view.ViewGroup > android.widget.TextView[id="com.shizhuang.duapp:id/tvSave"][text="保存"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -33,7 +33,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.ImageView[id="com.shizhuang.duapp:id/iv_close"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.ImageView[id="com.shizhuang.duapp:id/iv_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -50,7 +50,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.ImageView[id="com.shizhuang.duapp:id/iv_close"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.ImageView[id="com.shizhuang.duapp:id/iv_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -67,7 +67,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.TextView[id="com.shizhuang.duapp:id/tvCollectNum"][text="458"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.view.ViewGroup > android.widget.TextView[id="com.shizhuang.duapp:id/tvCollectNum"][text="458"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -84,7 +84,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[id="com.shizhuang.duapp:id/rootView"][clickable=true] > android.widget.LinearLayout[id="com.shizhuang.duapp:id/llDialogRoot"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.shizhuang.duapp:id/tvSure"][text="拉黑Ta"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.shizhuang.duapp:id/rootView"] > android.widget.LinearLayout[id="com.shizhuang.duapp:id/llDialogRoot"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[id="com.shizhuang.duapp:id/tvSure"][text="拉黑Ta"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -101,7 +101,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[id="com.shizhuang.duapp:id/rootView"][clickable=true] > android.widget.LinearLayout[id="com.shizhuang.duapp:id/llDialogRoot"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.shizhuang.duapp:id/tvSure"][text="清空"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.shizhuang.duapp:id/rootView"] > android.widget.LinearLayout[id="com.shizhuang.duapp:id/llDialogRoot"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[id="com.shizhuang.duapp:id/tvSure"][text="清空"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -118,7 +118,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.View[id="com.shizhuang.duapp:id/viewBottom"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout > android.view.ViewGroup > android.view.View[id="com.shizhuang.duapp:id/viewBottom"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -136,7 +136,7 @@ export default defineGkdApp({
           activityIds:
             '.modules.product_detail.detailv4.ui.ProductDetailActivityV4',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/container"][clickable=true] > android.view.ViewGroup[id="com.shizhuang.duapp:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/design_bottom_sheet"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[id="com.shizhuang.duapp:id/titleView"][clickable=true] > android.widget.TextView[text=""][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/container"] > android.view.ViewGroup[id="com.shizhuang.duapp:id/coordinator"] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/design_bottom_sheet"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup[id="com.shizhuang.duapp:id/titleView"] > android.widget.TextView[text=""][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -154,7 +154,7 @@ export default defineGkdApp({
           activityIds:
             '.modules.product_detail.detailv4.ui.ProductDetailActivityV4',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/container"][clickable=true] > android.view.ViewGroup[id="com.shizhuang.duapp:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/design_bottom_sheet"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[id="com.shizhuang.duapp:id/titleView"][clickable=true] > android.widget.TextView[text=""][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/container"] > android.view.ViewGroup[id="com.shizhuang.duapp:id/coordinator"] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/design_bottom_sheet"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup[id="com.shizhuang.duapp:id/titleView"] > android.widget.TextView[text=""][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -171,7 +171,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[id="com.shizhuang.duapp:id/topLayout"][clickable=true] > android.widget.TextView[id="com.shizhuang.duapp:id/iconClose"][text=""][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.view.ViewGroup[id="com.shizhuang.duapp:id/topLayout"] > android.widget.TextView[id="com.shizhuang.duapp:id/iconClose"][text=""][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -188,7 +188,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.ImageView[id="com.shizhuang.duapp:id/closeBtn"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.ImageView[id="com.shizhuang.duapp:id/closeBtn"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -205,7 +205,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.shizhuang.duapp:id/layoutRoot"][clickable=true] > android.widget.RelativeLayout[id="com.shizhuang.duapp:id/cs_toolbar"][clickable=true] > android.widget.ImageView[id="com.shizhuang.duapp:id/cs_toolbar_right_iv"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.shizhuang.duapp:id/layoutRoot"][clickable=true] > android.widget.RelativeLayout[id="com.shizhuang.duapp:id/cs_toolbar"] > android.widget.ImageView[id="com.shizhuang.duapp:id/cs_toolbar_right_iv"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -222,7 +222,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.shizhuang.duapp:id/layoutRoot"][clickable=true] > android.widget.RelativeLayout[id="com.shizhuang.duapp:id/cs_toolbar"][clickable=true] > android.widget.ImageView[id="com.shizhuang.duapp:id/cs_toolbar_right_iv"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.shizhuang.duapp:id/layoutRoot"][clickable=true] > android.widget.RelativeLayout[id="com.shizhuang.duapp:id/cs_toolbar"] > android.widget.ImageView[id="com.shizhuang.duapp:id/cs_toolbar_right_iv"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -239,7 +239,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.ImageView[id="com.shizhuang.duapp:id/ivClose"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.view.ViewGroup > android.widget.ImageView[id="com.shizhuang.duapp:id/ivClose"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -256,7 +256,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"][clickable=true] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"][clickable=true] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"][clickable=true] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"][clickable=true] > android.widget.TextView[id="com.android.systemui:id/clock"][text="半夜12:53"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"][text="半夜12:53"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -273,7 +273,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.TextView[id="com.shizhuang.duapp:id/md_buttonDefaultPositive"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.TextView[id="com.shizhuang.duapp:id/md_buttonDefaultPositive"][text="确定"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -290,7 +290,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[id="com.shizhuang.duapp:id/rootView"][clickable=true] > android.widget.LinearLayout[id="com.shizhuang.duapp:id/llDialogRoot"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.shizhuang.duapp:id/tvCancel"][text="匿名不公开"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.shizhuang.duapp:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.shizhuang.duapp:id/rootView"][clickable=true] > android.widget.LinearLayout[id="com.shizhuang.duapp:id/llDialogRoot"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[id="com.shizhuang.duapp:id/tvCancel"][text="匿名不公开"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

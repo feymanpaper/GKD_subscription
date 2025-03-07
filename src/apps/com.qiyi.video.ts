@@ -16,7 +16,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.LinearLayout[id="com.qiyi.video:id/layout"][clickable=true] > android.widget.LinearLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.qiyi.video:id/layout"] > android.widget.LinearLayout[id="com.qiyi.video:id/unused_res_a"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -34,7 +34,7 @@ export default defineGkdApp({
           activityIds:
             'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true] > android.widget.RelativeLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true] > androidx.viewpager.widget.ViewPager[id="com.qiyi.video:id/unused_res_a"][clickable=true] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true] > android.widget.FrameLayout[id="com.qiyi.video:id/content_recycler_view_data"][clickable=true] > androidx.recyclerview.widget.RecyclerView[clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.RelativeLayout[desc="68集全凤印深宫策古风/宫廷/古风权谋/重生"][id="com.qiyi.video:id/blockId_0"][clickable=true] > android.widget.TextView[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.RelativeLayout[id="com.qiyi.video:id/unused_res_a"] > androidx.viewpager.widget.ViewPager[id="com.qiyi.video:id/unused_res_a"] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.FrameLayout[id="com.qiyi.video:id/content_recycler_view_data"] > androidx.recyclerview.widget.RecyclerView > android.widget.RelativeLayout > android.widget.RelativeLayout[desc="68集全凤印深宫策古风/宫廷/古风权谋/重生"][id="com.qiyi.video:id/blockId_0"][clickable=true] > android.widget.TextView',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -51,7 +51,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.qiyi.video:id/layout"][clickable=true] > android.widget.LinearLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.qiyi.video:id/layout"] > android.widget.LinearLayout[id="com.qiyi.video:id/unused_res_a"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -68,7 +68,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.iqiyi.reactnative.PGCBaseReactActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.TextView[text="取消"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.widget.TextView[text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -85,7 +85,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[id="android:id/parentPanel"][clickable=true] > android.widget.ScrollView[id="android:id/buttonPanel"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="android:id/parentPanel"] > android.widget.ScrollView[id="android:id/buttonPanel"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -102,7 +102,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true] > android.widget.RelativeLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true] > androidx.viewpager.widget.ViewPager[id="com.qiyi.video:id/view_pager"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.RelativeLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true] > androidx.viewpager.widget.ViewPager[id="com.qiyi.video:id/view_pager"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -119,7 +119,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.LinearLayout[id="com.qiyi.video:id/layout"][clickable=true] > android.widget.LinearLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.qiyi.video:id/layout"] > android.widget.LinearLayout[id="com.qiyi.video:id/unused_res_a"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -136,7 +136,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.WelcomeActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.RelativeLayout[clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.RelativeLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

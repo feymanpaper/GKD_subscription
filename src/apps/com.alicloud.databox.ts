@@ -16,7 +16,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.MainActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.alicloud.databox:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/ui_common_base_ui_activity_root"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/fragmentWebContainer"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/webContainer"][clickable=true] > android.webkit.WebView[clickable=true] > android.webkit.WebView[clickable=true] > android.view.View[id="root"][clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.widget.TextView[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.alicloud.databox:id/ui_common_base_ui_activity_root"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/fragmentWebContainer"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/webContainer"] > android.webkit.WebView > android.webkit.WebView > android.view.View[id="root"] > android.view.View > android.view.View > android.widget.TextView',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -33,7 +33,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds:
             'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
-          matches: 'android.widget.FrameLayout[clickable=true]',
+          matches: 'android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -50,7 +50,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"][clickable=true] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"][clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.ScrollView[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.alicloud.databox:id/album_setting"][text="相册备份设置"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"] > android.widget.LinearLayout > android.widget.ScrollView > android.widget.LinearLayout > android.widget.TextView[id="com.alicloud.databox:id/album_setting"][text="相册备份设置"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -68,7 +68,7 @@ export default defineGkdApp({
           activityIds:
             'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"][clickable=true] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"][clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"] > android.widget.LinearLayout > android.widget.LinearLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -86,7 +86,7 @@ export default defineGkdApp({
           activityIds:
             'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/nebulax_root_view"][clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/nebulax_wrapper_view"][clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/fragment_container"][clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/h5_web_content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/h5_pc_container"][clickable=true] > com.uc.webview.export.WebView[clickable=true] > com.uc.webkit.bb[clickable=true] > android.webkit.WebView[clickable=true] > android.view.View[id="__react-content"][clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/nebulax_root_view"] > android.widget.RelativeLayout[id="com.alicloud.databox:id/nebulax_wrapper_view"] > android.widget.RelativeLayout[id="com.alicloud.databox:id/fragment_container"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.alicloud.databox:id/h5_web_content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/h5_pc_container"] > com.uc.webview.export.WebView > com.uc.webkit.bb > android.webkit.WebView > android.view.View[id="__react-content"] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -103,7 +103,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[id="com.alicloud.databox:id/layoutLuckyBottle"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/cardFront"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/cvCardFront"][clickable=true] > android.widget.LinearLayout[id="com.alicloud.databox:id/llCardFrontContent"][clickable=true] > android.widget.LinearLayout[id="com.alicloud.databox:id/llContent"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.alicloud.databox:id/layoutLuckyBottle"] > android.widget.FrameLayout[id="com.alicloud.databox:id/cardFront"] > android.widget.FrameLayout[id="com.alicloud.databox:id/cvCardFront"] > android.widget.LinearLayout[id="com.alicloud.databox:id/llCardFrontContent"] > android.widget.LinearLayout[id="com.alicloud.databox:id/llContent"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -120,7 +120,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"][clickable=true] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"][clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.EditText[id="com.alicloud.databox:id/etInput"][text="请输入福利码"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"] > android.widget.LinearLayout > android.widget.EditText[id="com.alicloud.databox:id/etInput"][text="请输入福利码"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -137,7 +137,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/md_root"][clickable=true] > android.view.ViewGroup[id="com.alicloud.databox:id/md_button_layout"][clickable=true] > android.widget.Button[id="com.alicloud.databox:id/md_button_negative"][text="放入回收站"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/md_root"] > android.view.ViewGroup[id="com.alicloud.databox:id/md_button_layout"] > android.widget.Button[id="com.alicloud.databox:id/md_button_negative"][text="放入回收站"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -154,7 +154,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"][clickable=true] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"][clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.ImageView[id="com.alicloud.databox:id/close"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.ImageView[id="com.alicloud.databox:id/close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -171,7 +171,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"][clickable=true] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"][clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.ImageView[id="com.alicloud.databox:id/close"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.ImageView[id="com.alicloud.databox:id/close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -188,7 +188,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"][clickable=true] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.alicloud.databox:id/tv_ok"][text="继续管理我的分享"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"] > android.widget.LinearLayout > android.widget.TextView[id="com.alicloud.databox:id/tv_ok"][text="继续管理我的分享"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -205,7 +205,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"][clickable=true] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"][clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.alicloud.databox:id/llClose"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"] > android.widget.FrameLayout[id="com.alicloud.databox:id/layoutCard"] > android.widget.RelativeLayout[id="com.alicloud.databox:id/drag_view_group"] > android.widget.FrameLayout[id="com.alicloud.databox:id/fl_container"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.alicloud.databox:id/llClose"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -222,7 +222,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.jsbridge.BridgeWebViewActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.alicloud.databox:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[id="com.alicloud.databox:id/ui_common_base_ui_activity_root"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/ui_common_base_ui_activity_content"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/fragmentWebContainer"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/webContainer"][clickable=true] > android.webkit.WebView[clickable=true] > android.webkit.WebView[text="好运签"][clickable=true] > android.view.View[id="root"][clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.alicloud.databox:id/ui_common_base_ui_activity_root"] > android.widget.FrameLayout[id="com.alicloud.databox:id/ui_common_base_ui_activity_content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/fragmentWebContainer"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/webContainer"] > android.webkit.WebView > android.webkit.WebView[text="好运签"] > android.view.View[id="root"] > android.view.View > android.view.View > android.view.View',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -239,7 +239,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > androidx.appcompat.widget.LinearLayoutCompat[id="com.alicloud.databox:id/parentPanel"][clickable=true] > android.widget.ScrollView[id="com.alicloud.databox:id/buttonPanel"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.Button[id="android:id/button1"][text="前往设置"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > androidx.appcompat.widget.LinearLayoutCompat[id="com.alicloud.databox:id/parentPanel"] > android.widget.ScrollView[id="com.alicloud.databox:id/buttonPanel"] > android.widget.LinearLayout > android.widget.Button[id="android:id/button1"][text="前往设置"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -256,7 +256,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/md_root"][clickable=true] > android.view.ViewGroup[id="com.alicloud.databox:id/md_button_layout"][clickable=true] > android.widget.Button[id="com.alicloud.databox:id/md_button_positive"][text="确认"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/md_root"] > android.view.ViewGroup[id="com.alicloud.databox:id/md_button_layout"] > android.widget.Button[id="com.alicloud.databox:id/md_button_positive"][text="确认"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -273,7 +273,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.alicloud.databox:id/md_root"][clickable=true] > android.view.ViewGroup[id="com.alicloud.databox:id/md_button_layout"][clickable=true] > android.widget.Button[id="com.alicloud.databox:id/md_button_positive"][text="确认"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/md_root"] > android.view.ViewGroup[id="com.alicloud.databox:id/md_button_layout"] > android.widget.Button[id="com.alicloud.databox:id/md_button_positive"][text="确认"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

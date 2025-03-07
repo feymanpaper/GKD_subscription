@@ -15,7 +15,7 @@ export default defineGkdApp({
         {
           action: 'clickCenter',
           activityIds: '.plugin.live.web.OpenLiveWebViewActivity',
-          matches: 'android.widget.FrameLayout[clickable=true]',
+          matches: 'android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -32,7 +32,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/bmj"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/bmm"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.LynxFlattenUI[desc="07秒后可领奖励"][text="07秒后可领奖励"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read:id/bmj"] > android.widget.FrameLayout[id="com.dragon.read:id/bmm"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.LynxFlattenUI[desc="07秒后可领奖励"][text="07秒后可领奖励"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -48,7 +48,7 @@ export default defineGkdApp({
         {
           action: 'clickCenter',
           activityIds: '.reader.ui.ReaderActivity',
-          matches: 'android.widget.FrameLayout[clickable=true]',
+          matches: 'android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -65,7 +65,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/bmj"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/bmm"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.text.FlattenUIText[desc="立即打开"][text="立即打开"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read:id/bmj"] > android.widget.FrameLayout[id="com.dragon.read:id/bmm"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.text.FlattenUIText[desc="立即打开"][text="立即打开"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -82,7 +82,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.pages.main.MainFragmentActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/ail"][clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/aik"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/aic"][clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.text.FlattenUIText[desc="立即签到 +3066 金币"][text="立即签到 +3066 金币"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read:id/ail"] > android.widget.LinearLayout[id="com.dragon.read:id/aik"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.dragon.read:id/aic"] > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.text.FlattenUIText[desc="立即签到 +3066 金币"][text="立即签到 +3066 金币"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -99,7 +99,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.ScrollView[clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][text="允许"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][text="允许"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -116,7 +116,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/ne"][clickable=true] > android.widget.ImageView[id="com.dragon.read:id/cdw"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout > android.view.ViewGroup[id="com.dragon.read:id/ne"][clickable=true] > android.widget.ImageView[id="com.dragon.read:id/cdw"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -132,7 +132,7 @@ export default defineGkdApp({
         {
           action: 'clickCenter',
           activityIds: '.reader.ui.ReaderActivity',
-          matches: 'android.widget.FrameLayout[clickable=true]',
+          matches: 'android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -149,7 +149,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.plugin.live.web.OpenLiveWebViewActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_bottom_sheet_container"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/ttlive_coordinator"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_design_bottom_sheet"][clickable=true] > android.widget.RelativeLayout[id="com.dragon.read:id/root_layout"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/hybridContainer"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/realHybridContainer"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/annie_fragment_root_view"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/hybrid_view_container"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.text.FlattenUIText[desc="提现金额"][text="提现金额"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_bottom_sheet_container"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/ttlive_coordinator"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_design_bottom_sheet"] > android.widget.RelativeLayout[id="com.dragon.read:id/root_layout"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/hybridContainer"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/realHybridContainer"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/annie_fragment_root_view"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/hybrid_view_container"] > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.text.FlattenUIText[desc="提现金额"][text="提现金额"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -166,7 +166,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.pages.main.MainFragmentActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/ail"][clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/aik"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/aic"][clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.LynxFlattenUI[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read:id/ail"] > android.widget.LinearLayout[id="com.dragon.read:id/aik"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.dragon.read:id/aic"] > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.LynxFlattenUI[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -183,7 +183,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.pages.main.MainFragmentActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/root_layout"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/bvu"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/fragment_container"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/g0_"][clickable=true] > androidx.viewpager.widget.ViewPager[id="com.dragon.read:id/aax"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/bvs"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/eok"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/d_p"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/bjk"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.LynxFlattenUI[desc="立即领取"][text="立即领取"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read:id/root_layout"] > android.widget.FrameLayout[id="com.dragon.read:id/bvu"] > android.widget.FrameLayout[id="com.dragon.read:id/fragment_container"] > android.widget.FrameLayout[id="com.dragon.read:id/g0_"] > androidx.viewpager.widget.ViewPager[id="com.dragon.read:id/aax"] > android.widget.FrameLayout[id="com.dragon.read:id/bvs"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.dragon.read:id/eok"] > android.widget.FrameLayout[id="com.dragon.read:id/d_p"] > android.widget.FrameLayout[id="com.dragon.read:id/bjk"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.LynxFlattenUI[desc="立即领取"][text="立即领取"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -200,7 +200,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.pages.main.MainFragmentActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/ail"][clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/aik"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/aic"][clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.LynxFlattenUI[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read:id/ail"] > android.widget.LinearLayout[id="com.dragon.read:id/aik"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.dragon.read:id/aic"] > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.LynxFlattenUI[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -216,7 +216,7 @@ export default defineGkdApp({
         {
           action: 'clickCenter',
           activityIds: '.reader.ui.ReaderActivity',
-          matches: 'android.widget.FrameLayout[clickable=true]',
+          matches: 'android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -233,7 +233,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/n6"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.dragon.read:id/bd7"][text="加入书架"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.view.ViewGroup[id="com.dragon.read:id/n6"] > android.widget.LinearLayout > android.widget.TextView[id="com.dragon.read:id/bd7"][text="加入书架"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -250,7 +250,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.pages.main.MainFragmentActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/ail"][clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/aik"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/aic"][clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.LynxFlattenUI[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read:id/ail"] > android.widget.LinearLayout[id="com.dragon.read:id/aik"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.dragon.read:id/aic"] > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.LynxFlattenUI[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -267,7 +267,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/bgi"][clickable=true] > android.widget.TextView[id="com.dragon.read:id/bgg"][text="我知道了"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/bgi"] > android.widget.TextView[id="com.dragon.read:id/bgg"][text="我知道了"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -284,7 +284,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/ene"][clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/ne"][clickable=true] > android.widget.ImageView[id="com.dragon.read:id/k6"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.dragon.read:id/ene"] > android.view.ViewGroup[id="com.dragon.read:id/ne"] > android.widget.ImageView[id="com.dragon.read:id/k6"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -301,7 +301,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.plugin.live.web.OpenLiveWebViewActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/fragment_container"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/annie_fragment_root_view"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/hybrid_view_container"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.ScrollView[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read:id/fragment_container"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/annie_fragment_root_view"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/hybrid_view_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.ScrollView',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -318,7 +318,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.widget.ImageView[id="com.dragon.read:id/cdx"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.ImageView[id="com.dragon.read:id/cdx"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -335,7 +335,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.ImageView[id="com.dragon.read:id/f"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.ImageView[id="com.dragon.read:id/f"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -352,7 +352,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.ss.android.excitingvideo.ExcitingVideoActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/bmj"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/bmm"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.text.FlattenUIText[desc="立即打开"][text="立即打开"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read:id/bmj"] > android.widget.FrameLayout[id="com.dragon.read:id/bmm"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.text.FlattenUIText[desc="立即打开"][text="立即打开"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -368,7 +368,7 @@ export default defineGkdApp({
         {
           action: 'clickCenter',
           activityIds: '.plugin.live.web.OpenLiveWebViewActivity',
-          matches: 'android.widget.FrameLayout[clickable=true]',
+          matches: 'android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -385,7 +385,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/n6"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.dragon.read:id/bd7"][text="确认"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.view.ViewGroup[id="com.dragon.read:id/n6"] > android.widget.LinearLayout > android.widget.TextView[id="com.dragon.read:id/bd7"][text="确认"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -402,7 +402,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/ne"][clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/cxj"][clickable=true] > android.widget.TextView[id="com.dragon.read:id/bd7"][text="提交"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout > android.view.ViewGroup[id="com.dragon.read:id/ne"][clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/cxj"] > android.widget.TextView[id="com.dragon.read:id/bd7"][text="提交"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -419,7 +419,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/eng"][clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/n6"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/f3"][clickable=true] > android.view.View[id="com.dragon.read:id/bnq"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/eng"] > android.widget.LinearLayout[id="com.dragon.read:id/n6"] > android.widget.FrameLayout[id="com.dragon.read:id/f3"] > android.view.View[id="com.dragon.read:id/bnq"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -436,7 +436,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.plugin.live.web.OpenLiveWebViewActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_bottom_sheet_container"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/ttlive_coordinator"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_design_bottom_sheet"][clickable=true] > android.widget.RelativeLayout[id="com.dragon.read:id/root_layout"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/hybridContainer"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/realHybridContainer"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/annie_fragment_root_view"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/hybrid_view_container"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.view.UIView[desc="确认 变暗"][text="确认 变暗"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_bottom_sheet_container"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/ttlive_coordinator"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_design_bottom_sheet"] > android.widget.RelativeLayout[id="com.dragon.read:id/root_layout"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/hybridContainer"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/realHybridContainer"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/annie_fragment_root_view"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/hybrid_view_container"] > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.view.UIView[desc="确认 变暗"][text="确认 变暗"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -453,7 +453,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.plugin.live.web.OpenLiveWebViewActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_bottom_sheet_container"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/ttlive_coordinator"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_design_bottom_sheet"][clickable=true] > android.widget.RelativeLayout[id="com.dragon.read:id/root_layout"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/hybridContainer"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/realHybridContainer"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/annie_fragment_root_view"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/hybrid_view_container"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.ui.image.UIImage[clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_bottom_sheet_container"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/ttlive_coordinator"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_design_bottom_sheet"] > android.widget.RelativeLayout[id="com.dragon.read:id/root_layout"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/hybridContainer"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/realHybridContainer"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/annie_fragment_root_view"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/hybrid_view_container"] > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.tasm.ui.image.UIImage',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -470,7 +470,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/frj"][clickable=true] > android.widget.TextView[id="com.dragon.read:id/frk"][text="优先体验"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.dragon.read:id/frj"] > android.widget.TextView[id="com.dragon.read:id/frk"][text="优先体验"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -486,7 +486,7 @@ export default defineGkdApp({
         {
           action: 'clickCenter',
           activityIds: '.plugin.live.web.OpenLiveWebViewActivity',
-          matches: 'android.widget.FrameLayout[clickable=true]',
+          matches: 'android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -503,7 +503,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.plugin.live.web.OpenLiveWebViewActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"][clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_bottom_sheet_container"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/ttlive_coordinator"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_design_bottom_sheet"][clickable=true] > android.widget.RelativeLayout[id="com.dragon.read:id/root_layout"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/hybridContainer"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/realHybridContainer"][clickable=true] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/annie_fragment_root_view"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/hybrid_view_container"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > com.lynx.tasm.behavior.ui.text.UIText[desc="真实姓名"][text="真实姓名"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.dragon.read:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_bottom_sheet_container"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/ttlive_coordinator"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/ttlive_design_bottom_sheet"] > android.widget.RelativeLayout[id="com.dragon.read:id/root_layout"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/hybridContainer"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/realHybridContainer"] > android.view.ViewGroup[id="com.dragon.read.plugin.live:id/annie_fragment_root_view"] > android.widget.FrameLayout[id="com.dragon.read.plugin.live:id/hybrid_view_container"] > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.text.UIText[desc="真实姓名"][text="真实姓名"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -520,7 +520,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.social.profile.ProfileActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/brv"][clickable=true] > android.widget.FrameLayout[id="com.dragon.read:id/be5"][clickable=true] > android.widget.ScrollView[id="com.dragon.read:id/av"][clickable=true] > android.widget.LinearLayout[id="com.dragon.read:id/cw0"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.view.ViewGroup[id="com.dragon.read:id/cvr"][clickable=true] > android.widget.TextView[text="攻击谩骂"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.dragon.read:id/brv"] > android.widget.FrameLayout[id="com.dragon.read:id/be5"] > android.widget.ScrollView[id="com.dragon.read:id/av"] > android.widget.LinearLayout[id="com.dragon.read:id/cw0"][clickable=true] > android.widget.LinearLayout > android.view.ViewGroup[id="com.dragon.read:id/cvr"] > android.widget.TextView[text="攻击谩骂"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

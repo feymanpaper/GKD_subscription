@@ -16,7 +16,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.ScrollView[clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][text="允许"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][text="允许"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -33,7 +33,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.webview.activity.WebViewActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.cmcc.hebao:id/base_root_layout"][clickable=true] > androidx.appcompat.widget.LinearLayoutCompat[clickable=true] > android.widget.FrameLayout[id="com.cmcc.hebao:id/fl_container"][clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.FrameLayout[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.cmcc.hebao:id/base_root_layout"] > androidx.appcompat.widget.LinearLayoutCompat > android.widget.FrameLayout[id="com.cmcc.hebao:id/fl_container"] > android.widget.RelativeLayout > android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -50,7 +50,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.cmcc.wallet.mocam.activity.LoginActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.FrameLayout[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -67,7 +67,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.cmcc.wallet.mocam.activity.LoginActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[clickable=true] > android.widget.FrameLayout[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -84,7 +84,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[id="com.cmcc.hebao:id/dialog_layout"][clickable=true] > android.widget.LinearLayout[id="com.cmcc.hebao:id/buttonLayout"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.cmcc.hebao:id/dialog_layout"] > android.widget.LinearLayout[id="com.cmcc.hebao:id/buttonLayout"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -100,7 +100,7 @@ export default defineGkdApp({
         {
           action: 'clickCenter',
           activityIds: 'com.cmcc.wallet.mocam.activity.LoginFirstActivity',
-          matches: 'android.widget.FrameLayout[clickable=true]',
+          matches: 'android.widget.FrameLayout',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -117,7 +117,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[id="com.cmcc.hebao:id/dialog_layout"][clickable=true] > android.widget.LinearLayout[id="com.cmcc.hebao:id/buttonLayout"][clickable=true] > android.widget.Button[id="com.cmcc.hebao:id/positiveTB"][text="同意"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.cmcc.hebao:id/dialog_layout"] > android.widget.LinearLayout[id="com.cmcc.hebao:id/buttonLayout"] > android.widget.Button[id="com.cmcc.hebao:id/positiveTB"][text="同意"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -134,7 +134,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.LinearLayout[id="com.cmcc.hebao:id/dialog_layout"][clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.TextView[id="com.cmcc.hebao:id/titleTV"][text=""和包"想访问您的悬浮窗"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.cmcc.hebao:id/dialog_layout"] > android.widget.LinearLayout > android.widget.TextView[id="com.cmcc.hebao:id/titleTV"][text=""和包"想访问您的悬浮窗"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -151,7 +151,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.Button[id="com.cmcc.hebao:id/agree_check"][text="同意并继续"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[id="com.cmcc.hebao:id/agree_check"][text="同意并继续"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -168,7 +168,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.cmcc.wallet.mocam.activity.LoginFirstActivity',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout[id="com.cmcc.hebao:id/errorcode_dialog_close"][clickable=true] > android.widget.ImageView[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.cmcc.hebao:id/errorcode_dialog_close"][clickable=true] > android.widget.ImageView',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -185,7 +185,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="android:id/content"][clickable=true] > android.widget.RelativeLayout[id="com.cmcc.hebao:id/dialog_view"][clickable=true] > android.widget.ImageView[id="com.cmcc.hebao:id/closeImg"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.cmcc.hebao:id/dialog_view"][clickable=true] > android.widget.ImageView[id="com.cmcc.hebao:id/closeImg"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
