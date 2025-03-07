@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '百度网盘',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|LTOR9_2Ro7YoxXNhZ-30nHSaHhuoGaIEqZv1-c-DNhI=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|7DRbTxZNkfqNxiSPnOV4A9xiU99R30TLkjsv8LblCX4=.png',
       actionDelay: 2000,
       actionMaximum: 10,

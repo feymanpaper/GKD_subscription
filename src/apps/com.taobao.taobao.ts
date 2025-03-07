@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '淘宝',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|qCK1EaLBlAwEEPXEdoMVc0ZF2l39P1OkQLLO_caEqY0=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|036KoFRv8WOFzxSdwGGowVhIpmEDyl-h-tyIcxXD45M=.png',
       actionDelay: 2000,
       actionMaximum: 10,

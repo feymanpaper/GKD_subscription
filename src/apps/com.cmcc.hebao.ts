@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '和包',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'system|1KqJ9fkZ5_PlFMD0XdR0VhOOxE-zXj2B1nXFuLv9-F4=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|Vas7deOeAPs5WNQ_AVSJVGWvep_mOJhtPRnnAIQm5Kk=.png',
       actionDelay: 2000,
       actionMaximum: 10,

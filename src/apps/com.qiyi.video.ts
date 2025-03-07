@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '爱奇艺',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|TKwY_EzBY8I4PVu79cel-BPpmS3uOmT7B96IsfZ6fCY=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'system|Dckp69c8qTe0bz6HmdyxQT6C4vmgMighoQsFbWiJGBs=.png',
       actionDelay: 2000,
       actionMaximum: 10,

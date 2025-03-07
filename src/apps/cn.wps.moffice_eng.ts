@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: 'WPS',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|oaTRgaIdhpWaLAP7KaKAWGXLBvmymHnYbdLD3C9hKH4=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|I7iiQIAX8z3ce0-e7nrYQHCMoA_ZKwoc3ZP1zHkpM7c=.png',
       actionDelay: 2000,
       actionMaximum: 10,

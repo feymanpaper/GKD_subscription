@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '支付宝',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|qYbxIz5VNdDlAyFbhy17YG7osLh9CPuyqIgxVHvsZw8=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|mhp35S2N8LFukrEH_YoZzH1ULGtWQPMAIrkYCt8YnSo=.png',
       actionDelay: 2000,
       actionMaximum: 10,

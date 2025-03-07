@@ -101,9 +101,9 @@ def generate_ts_code(config_dict):
                 # 对于字符串类型的值，使用单引号包裹
                 if isinstance(value, str):
                     ts_lines.append(f"{indent}{key}: '{value}',")
-                elif value == True:
+                elif value is True:
                     ts_lines.append(f"{indent}{key}: true,")
-                elif value == False:
+                elif value is False:
                     ts_lines.append(f"{indent}{key}: false,")
                 else:
                     ts_lines.append(f"{indent}{key}: {value},")

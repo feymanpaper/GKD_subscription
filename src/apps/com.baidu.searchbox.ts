@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '百度',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|v6IOYX7OLaMe5gn-eLhX6oKVkieXdrnmpjmqg5k0uPE=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'system|zObKTU9MwYn3LmTQ4dJSl9hcSRQSVs-lU6YX-dDkOhc=.png',
       actionDelay: 2000,
       actionMaximum: 10,

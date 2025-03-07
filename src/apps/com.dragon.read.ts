@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '番茄免费小说',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|lQDh-qTVXXd6HRVl-lGQlSBSwaJbNs9XMY3zhXWsG_Y=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|KrjuDiAHh4zdBdTdWatrsS0AzqzFD7xTgByV2mOhcV0=.png',
       actionDelay: 2000,
       actionMaximum: 10,

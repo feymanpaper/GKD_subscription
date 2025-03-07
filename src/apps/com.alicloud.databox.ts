@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '阿里云盘',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|hJwJmBCrbXjQM8XFXmD5rwSDoUi7ziegOw7STYmkZhY=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|7Jwt86Bp38-ydIarqN125b15_uejKfBjdLw8O59Gxz8=.png',
       actionDelay: 2000,
       actionMaximum: 10,

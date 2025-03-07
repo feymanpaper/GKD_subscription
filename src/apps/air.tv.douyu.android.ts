@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '斗鱼',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|UIV73JwG9rakmdQweyN0-WSuwxtt8DDtf5qS5vGW8Mw=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -24,7 +24,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'system|1KqJ9fkZ5_PlFMD0XdR0VhOOxE-zXj2B1nXFuLv9-F4=.png',
       actionDelay: 2000,
       actionMaximum: 10,

@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '百度地图',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|IpF39fxK9MIfxJQQSmBZpRtfjgwOirt93CMJXN2Ov88=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|InZxQFpKktvbVSqztZcrivGVi5gea_HzJxLFrIbeFJw=.png',
       actionDelay: 2000,
       actionMaximum: 10,

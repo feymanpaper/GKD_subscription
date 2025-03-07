@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '饿了么',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|a8UXLvIbPExa5EexvBmkPG3HtfVL8QmlzW9quwKW2GQ=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|03k7j3lxvVripvyu6ZCDsPDQHnnymJHSGAlbrsmv630=.png',
       actionDelay: 2000,
       actionMaximum: 10,

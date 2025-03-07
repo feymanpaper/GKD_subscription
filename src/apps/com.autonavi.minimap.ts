@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '高德地图',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|dZEuYAdvANkB0l73uObdwJytXClnWP1FR7GvKEJO2fU=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|_YyaanZnDkcnJcPFTe5XoHLALqFSHVLsoOhmC0GI8K4=.png',
       actionDelay: 2000,
       actionMaximum: 10,

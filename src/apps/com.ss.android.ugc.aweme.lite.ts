@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '抖音极速版',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|a0dRaTFvriPsq0_hh8ix8mGb6_PiROOrr_4lilt2xpI=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'system|oWhZvP70ZCaU6IqNR8nWjQSIrQIhiotS9IFBYfMK6to=.png',
       actionDelay: 2000,
       actionMaximum: 10,

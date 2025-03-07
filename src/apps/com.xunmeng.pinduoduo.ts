@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '拼多多',
   groups: [
     {
-      key: false,
+      key: 0,
       name: 'in-app|BFRb9cR9H03LFlDsy9c9h02NJto8W-6AVXHtPfSrTFA=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -23,7 +23,7 @@ export default defineGkdApp({
       matchRoot: true,
     },
     {
-      key: true,
+      key: 1,
       name: 'in-app|NEwQRKMh8ONxCku5KxacxxxAHOF5UZ2zUdPOOwYDA_E=.png',
       actionDelay: 2000,
       actionMaximum: 10,
