@@ -379,23 +379,6 @@ export default defineGkdApp({
     },
     {
       key: 22,
-      name: 'in-app|U55PcHbuD_ooiGH-9kxYevtCpc5x8X5B0B3yeR4uTkI=.png',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.RelativeLayout[id="me.ele:id/trv_tab_container"] > android.widget.HorizontalScrollView > android.widget.LinearLayout > androidx.appcompat.app.ActionBar$Tab[clickable=true] > android.widget.RelativeLayout > android.widget.ImageView[id="me.ele:id/triver_tab_image"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 23,
       name: 'in-app|tMMmkvUYVxX7bwDI7f29S2aV4XgVJjdy5ZpsnLgvdBY=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -412,7 +395,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 24,
+      key: 23,
       name: 'in-app|Jg2ND-v-r3UuBaV7nMMLc3kFHFipodeunO3z3sqnf1E=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -429,7 +412,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 25,
+      key: 24,
       name: 'in-app|59zr1fkZ8aFQjIDUjrFFzhIDVl4oXBNg-PR8VT0Oqio=.png',
       matchTime: 10000,
       actionMaximum: 1,
