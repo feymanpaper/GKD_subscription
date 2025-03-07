@@ -1,130 +1,11 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: '',
-  name: '',
+  id: 'com.taobao.taobao',
+  name: '淘宝',
   groups: [
     {
       key: 0,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"] > android.widget.FrameLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_msg_stub_inflated"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_comment_bottom_container"] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao.liveroom_android_plugin_AType:id/recyclerview"] > android.widget.LinearLayout > android.widget.TextView[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_chat_item_action"][text="我也分享"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 1,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.taobao.taobao:id/ll_container"][clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/rl_panel"] > android.widget.FrameLayout[id="com.taobao.taobao:id/detail_fl_weex"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 2,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"] > android.widget.LinearLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_left_top_container"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/view_messsage_card_close_container"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 3,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.taobao.taobao:id/ll_container"][clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/rl_panel"] > android.widget.FrameLayout[id="com.taobao.taobao:id/detail_fl_weex"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 4,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[clickable=true] > android.widget.ImageView[desc="关闭"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 5,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"] > android.widget.LinearLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_left_top_container"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/view_messsage_card_close_container"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 6,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[desc="关闭"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 7,
       name: 'in-app|qCK1EaLBlAwEEPXEdoMVc0ZF2l39P1OkQLLO_caEqY0=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -141,7 +22,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 1,
       name: 'in-app|036KoFRv8WOFzxSdwGGowVhIpmEDyl-h-tyIcxXD45M=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -158,7 +39,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 9,
+      key: 2,
       name: 'system|iHTYJykVoT3y-9e9skUsmDa6399ve2dIRAOfLZ6FKi8=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -175,7 +56,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 10,
+      key: 3,
       name: 'in-app|mccZxI7fCPUlWhS7pyLWCLXeV18GKoy3-p9QXg6eBFo=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -192,24 +73,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 11,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"] > android.widget.FrameLayout > android.widget.FrameLayout > com.uc.webview.export.WebView > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="tblive-room-next-index"] > android.view.View[clickable=true] > android.view.View > android.view.View > android.view.View > android.widget.Image[text="O1CN01RSyakO1giermfifTj_!!6000000004176-2-tps-74-74.png_110x10000.jpg_"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 12,
+      key: 4,
       name: 'in-app|b_jPjbimdXvysBHjBWROjjV52T1ha_Lf6Cft7OliclI=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -226,7 +90,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 13,
+      key: 5,
       name: 'in-app|XY7Vxzqq3H3RkUtWV7Edk1YSmXQRStZ0mq4Y6W5o0Yk=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -243,24 +107,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 14,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 15,
+      key: 6,
       name: 'in-app|dN61ncRtitsbYrhU4AfcURY9ER8j-EyQR4CTwT75rVo=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -277,7 +124,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 16,
+      key: 7,
       name: 'in-app|wT1tU4tGkoqvMXKdEwnlG7WVGsDDGamYGYhnHKlaz1c=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -294,7 +141,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 17,
+      key: 8,
       name: 'in-app|RIjDJsik3YQeVeCDOQ9eSJWdD4SGOdzWbvCodnSB8N0=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -311,7 +158,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 18,
+      key: 9,
       name: 'in-app|5-W-62Se6Qo6fGWywc4MiFmcTjvCAW_mjpwXcz4atww=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -328,23 +175,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 19,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches: 'android.widget.FrameLayout',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 20,
+      key: 10,
       name: 'in-app|W320Vb8g1NRDXi_-skO1Ro2BKUDRzqaj8OxjSxA_SgI=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -361,75 +192,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 21,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[desc="剪贴板"][id="com.android.systemui:id/clipboard_ui"] > android.widget.FrameLayout[desc="忽略复制的文字"][id="com.android.systemui:id/dismiss_button"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 22,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"] > android.widget.FrameLayout',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 23,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[clickable=true] > android.widget.ImageView[desc="关闭"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 24,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/pagegroup"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout > android.view.View[desc="直播中"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 25,
+      key: 11,
       name: 'in-app|gM2iyoSJk9f-MCp7LhVtonnKQ6z4H1f-uwQV7X8mGkU=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -446,7 +209,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 26,
+      key: 12,
       name: 'in-app|9dGfgPAeHWkV-1axivb1yrvUI9tSDDLKJS7II2pkf9g=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -463,41 +226,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 27,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"] > android.widget.FrameLayout > android.widget.FrameLayout > com.uc.webview.export.WebView > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="tblive-room-next-index"] > android.view.View[clickable=true] > android.view.View > android.view.View > android.view.View > android.widget.Image[text="O1CN01RSyakO1giermfifTj_!!6000000004176-2-tps-74-74.png_110x10000.jpg_"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 28,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.taobao.taobao:id/ll_container"][clickable=true] > android.widget.RelativeLayout[id="com.taobao.taobao:id/rl_panel"] > android.widget.RelativeLayout[id="com.taobao.taobao:id/rl_bottom_container"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 29,
+      key: 13,
       name: 'in-app|4SiVK_Xzu0z5Y7AwKZgYG-sQQ1vIrmAtu2yZEhQBZTA=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -514,7 +243,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 30,
+      key: 14,
       name: 'in-app|bIhJolgYXmNDPJzCryAOGj6JA1c15FirMJw9ss6CNW4=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -531,7 +260,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 31,
+      key: 15,
       name: 'in-app|fCvYFh5fDJmGU2WoVV6EXHvOJsbJkZNDxxdIj7YrQpE=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -548,7 +277,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 32,
+      key: 16,
       name: 'in-app|UBnYEyqfvJdpmB-15xAmMVFMEuJX05fJ9WKyHkDCg6o=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -565,7 +294,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 33,
+      key: 17,
       name: 'in-app|-KhifSDM0l4wdk0lCadhsGobpeeY7xGGadcCaVcB1Ig=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -582,23 +311,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 34,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches: 'android.widget.FrameLayout',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 35,
+      key: 18,
       name: 'in-app|7S-Hls10M2e2HNpyo8hd1wIFZrcqAXIrv_bVYm-LRlk=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -615,7 +328,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 36,
+      key: 19,
       name: 'in-app|U55aZkChCEGB6fm5JGx-4lObg4J7uuizJR9AKAL_YnQ=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -632,7 +345,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 37,
+      key: 20,
       name: 'in-app|v5mRlFtsdAQmvkduI9wWX649ZtdtefODju4ALzkh75U=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -649,24 +362,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 38,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/tms_fragment_container"] > android.view.ViewGroup > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/tms_title_bar"] > android.widget.LinearLayout[id="com.taobao.taobao:id/left_panel"] > android.widget.FrameLayout[desc="返回"][clickable=true] > android.widget.ImageView',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 39,
+      key: 21,
       name: 'in-app|BmU3rzeBn_EYO9R0fYiapPQUc_MTYACYYedHh7iT1zs=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -683,7 +379,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 40,
+      key: 22,
       name: 'in-app|p86UzaddMhs52Dvk0o1_2R4815mBOg4c4zuB8U8MZgk=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -700,7 +396,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 41,
+      key: 23,
       name: 'in-app|5Ny15XrTL5pp0o0zPqbr5axmAWASGuNStyOk6c8iXZ0=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -717,7 +413,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 42,
+      key: 24,
       name: 'system|OTqKpr0xrWIp084M3Vp9I_6R3h3Ng9soGQir9KiuHPM=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -734,41 +430,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 43,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_avatar_card_detail_container_new"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/live_mini_avatar_container"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/live_avatar_card_first_container"] > android.widget.FrameLayout > android.widget.FrameLayout[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 44,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"][text="晚上8:42"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 45,
+      key: 25,
       name: 'in-app|PawtBJjPAFp_3Of6pbcHfR5r4ExfkGsLg0cju3wZoaA=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -785,7 +447,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 46,
+      key: 26,
       name: 'in-app|mbHHShYelfVjMxI44PI-jZtRabLfoCzDd-XR-4q4yGQ=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -802,7 +464,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 47,
+      key: 27,
       name: 'in-app|rks682NsimMvQCICPtCqrZwrKpfmpyHTb-Au03fXt68=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -819,24 +481,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 48,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[desc="关闭"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 49,
+      key: 28,
       name: 'in-app|cTOYlNbPT7WCnSNt5hbQWUmmOEC5wGC7MrfAW_nAFxo=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -853,24 +498,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 50,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"] > android.widget.LinearLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_left_top_container"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/view_messsage_card_close_container"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 51,
+      key: 29,
       name: 'in-app|q2jd4qHeKsukwunCguE6asKp97YMsKgnXoPcBem-7iQ=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -887,24 +515,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 52,
-      name: '|',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[desc="关闭"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 53,
+      key: 30,
       name: 'in-app|-1ZSx7HCv9f0Fsn9zDQaKsddmOh6Oxcs0uVV9nWN4J4=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -921,7 +532,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 54,
+      key: 31,
       name: 'system|QJa6OzJHO47gtw8K2gtXqJv42G1ca3UPuz7c736svTY=.png',
       matchTime: 10000,
       actionMaximum: 1,
@@ -939,7 +550,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 55,
+      key: 32,
       name: 'in-app|SEGS_X6urq_RM2U8ihZYpmkz6sboLXvUH7fNxxhEI8c=.png',
       matchTime: 10000,
       actionMaximum: 1,
