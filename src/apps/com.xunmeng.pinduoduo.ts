@@ -7,7 +7,9 @@ export default defineGkdApp({
     {
       key: 0,
       name: 'in-app|BFRb9cR9H03LFlDsy9c9h02NJto8W-6AVXHtPfSrTFA=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -21,7 +23,9 @@ export default defineGkdApp({
     {
       key: 1,
       name: 'in-app|NEwQRKMh8ONxCku5KxacxxxAHOF5UZ2zUdPOOwYDA_E=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -35,7 +39,9 @@ export default defineGkdApp({
     {
       key: 2,
       name: 'in-app|KS0nNhYAACdgvzJh5I5x-wFgy36jX5TqkUJR8DkiROc=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -49,7 +55,9 @@ export default defineGkdApp({
     {
       key: 3,
       name: 'system|1KqJ9fkZ5_PlFMD0XdR0VhOOxE-zXj2B1nXFuLv9-F4=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -63,7 +71,9 @@ export default defineGkdApp({
     {
       key: 4,
       name: 'in-app|pUw_NSb1jEsCNmhZySwpbNsV2lk4xdTpWow-nybxPDY=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -77,7 +87,9 @@ export default defineGkdApp({
     {
       key: 5,
       name: 'in-app|LjFYPG6pLSZEkqOrSWDI3exq8OaZ3hSoHwvMOMItvHw=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -91,7 +103,9 @@ export default defineGkdApp({
     {
       key: 6,
       name: 'in-app|6DPu6xuX1DcaWBUohVeXVIDOSCY2T5jzkK9EgT2ze7Q=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -105,7 +119,9 @@ export default defineGkdApp({
     {
       key: 7,
       name: 'in-app|0qd_s5xPJyAEetrHM_jYk3P0HhSH7HiekktSQuUVNDU=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -119,7 +135,9 @@ export default defineGkdApp({
     {
       key: 8,
       name: 'in-app|aOsyddouoe-JKx5503k2I82-Eeah9dnbXKU6fIRpkAc=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -133,7 +151,9 @@ export default defineGkdApp({
     {
       key: 9,
       name: 'in-app|EMkSYsrLJk6IGChaGwAZeBdhD3iR-bVD5ZG0UQyAbx0=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -147,7 +167,9 @@ export default defineGkdApp({
     {
       key: 10,
       name: 'in-app|M29QX7DjMpfXE4yFuqeGewbWpiUntyuQ4BjTezbdOys=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -161,7 +183,9 @@ export default defineGkdApp({
     {
       key: 11,
       name: 'in-app|v85AG9b9-Bly0iNzRE9_WxRpbcf2KCJpa0sNJcQjXvw=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -175,7 +199,9 @@ export default defineGkdApp({
     {
       key: 12,
       name: 'in-app|dYgOdvPN1jsk7Jx4udyGdLpRP3_hPrxXEQEyhU67gM4=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -188,7 +214,9 @@ export default defineGkdApp({
     {
       key: 13,
       name: 'in-app|iHTYJykVoT3y-9e9skUsmDa6399ve2dIRAOfLZ6FKi8=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -201,7 +229,9 @@ export default defineGkdApp({
     {
       key: 14,
       name: 'in-app|HMfSC9xEFI5hX2wtDdI6WV3lbld3-nvIBjEKw5Sm7zg=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -215,7 +245,9 @@ export default defineGkdApp({
     {
       key: 15,
       name: 'in-app|ZQz_h-ZXYx3oma-Jal81vHlx7X9sEaLNVlm6XIMSDQI=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -229,7 +261,9 @@ export default defineGkdApp({
     {
       key: 16,
       name: 'in-app|JybNTnRCVVu1Mp4csgAUHbKiYgnxWnxG5UGklJwLxgw=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -243,7 +277,9 @@ export default defineGkdApp({
     {
       key: 17,
       name: 'in-app|JAs24MrLLn4RWBdLaaVaCRWW5EJ9KVbcA0CnuHmsJ-I=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -257,7 +293,9 @@ export default defineGkdApp({
     {
       key: 18,
       name: 'in-app|acqW7DeFnSusOsdY0Yu3KGDHEfwvvRhsX-FOpzNcg_8=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -271,7 +309,9 @@ export default defineGkdApp({
     {
       key: 19,
       name: 'in-app|pwEf4A49xcupAExGyy3yKmMgA-EEOoJ6arf8_Xl6wNU=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -285,7 +325,9 @@ export default defineGkdApp({
     {
       key: 20,
       name: 'in-app|ly-mRRAO99vMJB2olOGgTDmCyauxr1cwNClQlRQSy7M=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -298,7 +340,9 @@ export default defineGkdApp({
     {
       key: 21,
       name: 'in-app|FJibc8L0stat6lq6XFpK644nqiodcduo_JdVLFDMpN0=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -312,7 +356,9 @@ export default defineGkdApp({
     {
       key: 22,
       name: 'in-app|pmqDTuTOp0PIfaRzp0uE0iGZf7IVx8DayROkTEBWZaY=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -326,7 +372,9 @@ export default defineGkdApp({
     {
       key: 23,
       name: 'in-app|IxKjevYNCsnYDrPjpK8Yv7eroDZXh9vhekDKp2abBAA=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -340,7 +388,9 @@ export default defineGkdApp({
     {
       key: 24,
       name: 'in-app|pDM4zocbuAzZPqyIWnKDKlLcEYhuuNneIfA2Yu3gEFU=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -354,7 +404,9 @@ export default defineGkdApp({
     {
       key: 25,
       name: 'in-app|lSXvusyhYzlu0KCOZJwFamfLoiGT86rJUnnsQlKM9tk=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -368,7 +420,9 @@ export default defineGkdApp({
     {
       key: 26,
       name: 'in-app|I_BW7vOEcnAwd31jhaclpfKVqUV63W9wKfrZX32o6uI=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -382,7 +436,9 @@ export default defineGkdApp({
     {
       key: 27,
       name: 'in-app|6EtP8vCo6Da5ZSg8JWG7nYx-XeiDSp5-LCfR9Mx8JHc=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -396,7 +452,9 @@ export default defineGkdApp({
     {
       key: 28,
       name: 'in-app|VGbr7Kl2_njdXhpcEopGBlQgraNz58jhNEDOC5jG49g=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -409,7 +467,9 @@ export default defineGkdApp({
     {
       key: 29,
       name: 'in-app|VWwXPfgA4su9OyRxh7FV5f-g67ykB0QUbizRQip6Nco=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -423,7 +483,9 @@ export default defineGkdApp({
     {
       key: 30,
       name: 'in-app|0xWFgy8SSJCBeJGpycw1YtPE7me9VUwXgC-3bwFQIlE=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -437,7 +499,9 @@ export default defineGkdApp({
     {
       key: 31,
       name: 'in-app|W4Zr944p5S99kTf2YsqLXr7AjrVz0LVKry-IZdbXOhU=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -451,7 +515,9 @@ export default defineGkdApp({
     {
       key: 32,
       name: 'in-app|j-g1wWWmnwNm0F4FLcm6mX7n9JbZZnUxdPysLHtwtzs=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -465,7 +531,9 @@ export default defineGkdApp({
     {
       key: 33,
       name: 'in-app|g74sXAAVKl1NzrFPhfKM92hNbskenXTModVDNZla6YM=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -479,7 +547,9 @@ export default defineGkdApp({
     {
       key: 34,
       name: 'in-app|X2j2L9S287p2h2zSvASY05nWaFWmS51CeR5hwCmp4IU=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -492,7 +562,9 @@ export default defineGkdApp({
     {
       key: 35,
       name: 'in-app|Nc_FTGT9oIKL8MRSTlosyaHle2EW4RvBrj8zjqXH44I=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -506,7 +578,9 @@ export default defineGkdApp({
     {
       key: 36,
       name: 'in-app|zpQq7al3wPI5HU5LN91G445eHyCEXcNZG8XmsYODr2M=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -520,7 +594,9 @@ export default defineGkdApp({
     {
       key: 37,
       name: 'in-app|4dSWX842l33PA-QHia0fgtcv3FzVJ2aCxBXl6izKQmc=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -534,7 +610,9 @@ export default defineGkdApp({
     {
       key: 38,
       name: 'in-app|N-3jsS1NdpE2mLrqe8aGHXAIoQkiyS6ZsNZqbv-adaw=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -548,7 +626,9 @@ export default defineGkdApp({
     {
       key: 39,
       name: 'in-app|JO65f6GryRYpJNKyEGdjMTczsjyng-Es6xtScLxE3as=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -561,7 +641,9 @@ export default defineGkdApp({
     {
       key: 40,
       name: 'in-app|1-yivG4zMujTGoquYyHAlHzLMOI1P4DzxrxnMhsfYKM=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -575,7 +657,9 @@ export default defineGkdApp({
     {
       key: 41,
       name: 'in-app|WnYG5dPmQo6dfvMT0yRZQMQWbYQfxF8_rk6rhjKmHdo=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -589,7 +673,9 @@ export default defineGkdApp({
     {
       key: 42,
       name: 'in-app|V2azD9a-VDyHq47uYlHDjPMSAOX_fhdjvXVhjrIA9ZA=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -603,7 +689,9 @@ export default defineGkdApp({
     {
       key: 43,
       name: 'in-app|ld2T2WV-mqyhJz_4ZjpFiDC6vbYnKvBjvYWmCYEEJsI=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -617,7 +705,9 @@ export default defineGkdApp({
     {
       key: 44,
       name: 'in-app|7-1HZjD7tuFAHOt2MZELbN4EEuxRBbzmRZuwH2NgxfI=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -631,7 +721,9 @@ export default defineGkdApp({
     {
       key: 45,
       name: 'in-app|hXB7MtzeJWR6ZVZ-iLt9s5revgFr2tklDUxaOWQ6Fg4=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -645,7 +737,9 @@ export default defineGkdApp({
     {
       key: 46,
       name: 'in-app|tpJMIQjiULnA_A8sNlOcDwZySx2yVWQ_SmySqkOM_k0=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -659,7 +753,9 @@ export default defineGkdApp({
     {
       key: 47,
       name: 'in-app|_oGncyG1wydCmahIqy5XIpubfqgJuPhdxPfQ6D59voo=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -673,7 +769,9 @@ export default defineGkdApp({
     {
       key: 48,
       name: 'in-app|8vpUj-_sGvugPWotvbGBZ5POGS33C9r_CVQO_u8Q5WQ=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -687,7 +785,9 @@ export default defineGkdApp({
     {
       key: 49,
       name: 'in-app|UfUnTM_H5WFd5zDs9l0ac5GSmpaP0tU147vQkV9hnGQ=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -700,7 +800,9 @@ export default defineGkdApp({
     {
       key: 50,
       name: 'in-app|2vEG6xVOTzbdC07yy5IG7DUgBUqCgkY7BVpnXEffqfU=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -713,7 +815,9 @@ export default defineGkdApp({
     {
       key: 51,
       name: 'in-app|ErenEFlXvk6ShxaC4CbajXQhShTPWnTVdmMDuXIXq4Y=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -727,7 +831,9 @@ export default defineGkdApp({
     {
       key: 52,
       name: 'in-app|6di1d5MEAx3f7jzUnmPTs2A4mmMRLCvmnEBtIQE1Qpg=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -741,7 +847,9 @@ export default defineGkdApp({
     {
       key: 53,
       name: 'in-app|deIMS5rm8IQ1yD_a3am5YrXmBI7MVeyH7E5HPAiyurs=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -755,7 +863,9 @@ export default defineGkdApp({
     {
       key: 54,
       name: 'in-app|VATyQfiHajanS7q80y4gj6331OMPVJviR32sWyXi-2I=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -769,7 +879,9 @@ export default defineGkdApp({
     {
       key: 55,
       name: 'in-app|F1TGlOxFyG_B5cJDk3LjxnxpbNjg6XTqzUccU_imuPw=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -783,7 +895,9 @@ export default defineGkdApp({
     {
       key: 56,
       name: 'in-app|6Mb-flvz4rEUCAA0DWFYeGlugdO6sqvZK4i4_bheqdI=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -796,7 +910,9 @@ export default defineGkdApp({
     {
       key: 57,
       name: 'in-app|dsafjosSrZGiryvTku1NjyjKs_ez_zFMi_EfJQnE-aA=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -810,7 +926,9 @@ export default defineGkdApp({
     {
       key: 58,
       name: 'in-app|DwEN8JmaxlfBeAaN2sevPuqo8DaTpYpsuCYDvKWW-bE=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -824,7 +942,9 @@ export default defineGkdApp({
     {
       key: 59,
       name: 'in-app|k__VrupWAIQKLa2J3dOoWbSr-UcysnevDhqcxpissDc=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -838,7 +958,9 @@ export default defineGkdApp({
     {
       key: 60,
       name: 'in-app|9og0IyKkSmIGYqKvHz3FpHS4ZLWrmryFfA_offs1fSs=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -852,7 +974,9 @@ export default defineGkdApp({
     {
       key: 61,
       name: 'in-app|JUipU9RZLsAt4lag2qq6OinR-AvA10IJs4k6Q-HK8yg=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -866,7 +990,9 @@ export default defineGkdApp({
     {
       key: 62,
       name: 'in-app|AwDhuy_pQJ4_juqB5KPZIw4UfcjwWaijaarwLQhPsjw=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
@@ -880,7 +1006,9 @@ export default defineGkdApp({
     {
       key: 63,
       name: 'in-app|uozPLUIHk9ieqz5s0Y-mXeSrgzHqABt8DljKooszed4=.png',
-      actionDelay: 2500,
+      matchDelay: 2500,
+      actionMaximum: 10,
+      resetMatch: 'app',
       rules: [
         {
           action: 'clickCenter',
