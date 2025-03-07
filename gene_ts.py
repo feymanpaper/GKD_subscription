@@ -36,10 +36,10 @@ def gene_ts_dict(matches):
         group_item = {
             "key": cnt,
             "name": mat["name"],
-            'actionDelay': 2500,
+            'matchDelay': 2500,
             # "matchTime": 10000,
-            # "actionMaximum": 1,
-            # "resetMatch": "app",
+            "actionMaximum": 10,
+            "resetMatch": "app",
             # "priorityTime": 10000,
             "rules": rule_list
         }
