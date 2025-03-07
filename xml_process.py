@@ -19,24 +19,26 @@ class Node:
     agg_text: str
     agg_desc: str
 
+
 def calculate_distance(bounds1, bounds2):
     # 矩形中心点
     x1, y1 = (bounds1[0] + bounds1[2]) / 2, (bounds1[1] + bounds1[3]) / 2
     x2, y2 = (bounds2[0] + bounds2[2]) / 2, (bounds2[1] + bounds2[3]) / 2
     return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
 
+
 def build_path(node):
     res = node.attrib.get("class", "")
-    desc = node.attrib.get("content-desc", "")
-    if desc:
-        res += f'[desc="{desc}"]'
     resource_id = node.attrib.get("resource-id", "")
     if resource_id:
         res += f'[id="{resource_id}"]'
+    desc = node.attrib.get("content-desc", "")
+    if not resource_id and desc:
+        res += f'[desc="{desc}"]'
     text = node.attrib.get("text", "")
-    if text:
+    if not resource_id and text:
         res += f'[text="{text}"]'
-    if node.attrib.get("clickable")=="true":
+    if node.attrib.get("clickable") == "true":
         res += f'[clickable=true]'
     return res
 
@@ -98,6 +100,7 @@ def get_mindis_node(xml_path, target_bounds):
         return node_info
     else:
         return None
+
 
 def filter_deepest_clickable_nodes(xml_path):
     tree = ET.parse(xml_path)

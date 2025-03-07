@@ -34,7 +34,7 @@ export default defineGkdApp({
           activityIds:
             'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.RelativeLayout[id="com.qiyi.video:id/unused_res_a"] > androidx.viewpager.widget.ViewPager[id="com.qiyi.video:id/unused_res_a"] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.FrameLayout[id="com.qiyi.video:id/content_recycler_view_data"] > androidx.recyclerview.widget.RecyclerView > android.widget.RelativeLayout > android.widget.RelativeLayout[desc="68集全凤印深宫策古风/宫廷/古风权谋/重生"][id="com.qiyi.video:id/blockId_0"][clickable=true] > android.widget.TextView',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.RelativeLayout[id="com.qiyi.video:id/unused_res_a"] > androidx.viewpager.widget.ViewPager[id="com.qiyi.video:id/unused_res_a"] > android.widget.FrameLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.FrameLayout[id="com.qiyi.video:id/content_recycler_view_data"] > androidx.recyclerview.widget.RecyclerView > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.qiyi.video:id/blockId_0"][clickable=true] > android.widget.TextView',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

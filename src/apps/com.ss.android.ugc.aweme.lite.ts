@@ -16,7 +16,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.view.ViewGroup[id="com.android.systemui:id/system_icon_area"] > android.view.ViewGroup[id="com.android.systemui:id/system_icons"] > android.widget.LinearLayout[desc="正在充电，已完成 100%。"][id="com.android.systemui:id/battery"] > android.widget.ImageView[id="com.android.systemui:id/battery_charge_out_image"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.view.ViewGroup[id="com.android.systemui:id/system_icon_area"] > android.view.ViewGroup[id="com.android.systemui:id/system_icons"] > android.widget.LinearLayout[id="com.android.systemui:id/battery"] > android.widget.ImageView[id="com.android.systemui:id/battery_charge_out_image"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -33,7 +33,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout > android.widget.Button[id="com.android.permissioncontroller:id/permission_deny_button"][text="不允许"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout > android.widget.Button[id="com.android.permissioncontroller:id/permission_deny_button"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -136,7 +136,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/ign"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/hdo"] > android.widget.TextView[id="com.ss.android.ugc.aweme.lite:id/c6"][text="去看看"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/ign"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/hdo"] > android.widget.TextView[id="com.ss.android.ugc.aweme.lite:id/c6"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -171,7 +171,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.view.ViewGroup[id="com.android.systemui:id/system_icon_area"] > android.view.ViewGroup[id="com.android.systemui:id/system_icons"] > android.widget.LinearLayout[desc="正在充电，已完成 100%。"][id="com.android.systemui:id/battery"] > android.widget.ImageView[id="com.android.systemui:id/battery_charge_out_image"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.view.ViewGroup[id="com.android.systemui:id/system_icon_area"] > android.view.ViewGroup[id="com.android.systemui:id/system_icons"] > android.widget.LinearLayout[id="com.android.systemui:id/battery"] > android.widget.ImageView[id="com.android.systemui:id/battery_charge_out_image"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -206,7 +206,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/container"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/cbn"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/cnm"] > android.view.ViewGroup > android.widget.ImageView[desc="关闭"][id="com.ss.android.ugc.aweme.lite:id/f-4"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/container"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/cbn"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/cnm"] > android.view.ViewGroup > android.widget.ImageView[id="com.ss.android.ugc.aweme.lite:id/f-4"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -359,7 +359,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/root_view"] > android.view.ViewGroup > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/am7"] > android.view.ViewGroup > android.widget.Button[id="com.ss.android.ugc.aweme.lite:id/cs"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/root_view"] > android.view.ViewGroup > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/am7"] > android.view.ViewGroup > android.widget.Button[id="com.ss.android.ugc.aweme.lite:id/cs"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -376,7 +376,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"][text="晚上10:55"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

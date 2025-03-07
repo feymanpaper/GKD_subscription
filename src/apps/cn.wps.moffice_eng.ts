@@ -49,7 +49,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/container"] > android.view.ViewGroup[id="cn.wps.moffice_eng:id/coordinator"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/design_bottom_sheet"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.Button[id="cn.wps.moffice_eng:id/record_filter_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/container"] > android.view.ViewGroup[id="cn.wps.moffice_eng:id/coordinator"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/design_bottom_sheet"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.Button[id="cn.wps.moffice_eng:id/record_filter_confirm"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -83,7 +83,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_background"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_cardview"] > android.widget.ScrollView > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/custom_dialog_cardcontent"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_bottom_layout"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/inner_bottom_layout"] > android.widget.Button[id="cn.wps.moffice_eng:id/dialog_button_positive"][text="我知道了"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_background"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_cardview"] > android.widget.ScrollView > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/custom_dialog_cardcontent"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_bottom_layout"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/inner_bottom_layout"] > android.widget.Button[id="cn.wps.moffice_eng:id/dialog_button_positive"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -117,7 +117,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/fl_content"] > android.widget.RelativeLayout > android.widget.Button[id="cn.wps.moffice.plugin.cloudPage:id/btn_upgrade"][text="开通会员"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/fl_content"] > android.widget.RelativeLayout > android.widget.Button[id="cn.wps.moffice.plugin.cloudPage:id/btn_upgrade"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -252,7 +252,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/fl_content"] > android.widget.RelativeLayout > android.widget.Button[id="cn.wps.moffice.plugin.cloudPage:id/btn_upgrade"][text="开通会员"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/fl_content"] > android.widget.RelativeLayout > android.widget.Button[id="cn.wps.moffice.plugin.cloudPage:id/btn_upgrade"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

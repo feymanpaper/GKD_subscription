@@ -321,7 +321,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.TextView[id="me.ele:id/buttonDefaultNegative"][text="取消"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.TextView[id="me.ele:id/buttonDefaultNegative"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -423,7 +423,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="me.ele:id/parent_frame_bg"] > android.widget.RelativeLayout[id="me.ele:id/frame_bottom_bg"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.TextView[id="me.ele:id/tv_open"][text="去开启"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="me.ele:id/parent_frame_bg"] > android.widget.RelativeLayout[id="me.ele:id/frame_bottom_bg"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.TextView[id="me.ele:id/tv_open"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

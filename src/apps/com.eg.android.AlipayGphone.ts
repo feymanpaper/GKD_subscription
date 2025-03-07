@@ -16,7 +16,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonView"] > android.widget.Button[id="com.alipay.mobile.antui:id/ensure"][text="Enable"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonView"] > android.widget.Button[id="com.alipay.mobile.antui:id/ensure"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -156,7 +156,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alipay.mobile.nebulax.integration:id/nebulax_root_view"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/nebulax_wrapper_view"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/fragment_container"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.alipay.mobile.nebula:id/h5_web_content"] > android.widget.FrameLayout[id="com.alipay.mobile.nebula:id/h5_pc_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.alipay.mywebview.sdk.WebView > android.webkit.WebView[text="申请资料填写"] > android.view.View[id="app"] > android.view.View[id="base-info-container"] > android.view.View > android.view.View > android.widget.Button[id="wtk-standardcard-baseInfoCommit"][text="同意合约条款并提交申请"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alipay.mobile.nebulax.integration:id/nebulax_root_view"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/nebulax_wrapper_view"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/fragment_container"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.alipay.mobile.nebula:id/h5_web_content"] > android.widget.FrameLayout[id="com.alipay.mobile.nebula:id/h5_pc_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.alipay.mywebview.sdk.WebView > android.webkit.WebView[text="申请资料填写"] > android.view.View[id="app"] > android.view.View[id="base-info-container"] > android.view.View > android.view.View > android.widget.Button[id="wtk-standardcard-baseInfoCommit"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -226,7 +226,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonView"] > android.widget.Button[id="com.alipay.mobile.antui:id/cancel"][text="我知道了"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonView"] > android.widget.Button[id="com.alipay.mobile.antui:id/cancel"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -260,7 +260,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/dialogContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/dialogRealContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonContainer"] > android.widget.Button[id="com.alipay.mobile.antui:id/ensure"][text="Replace"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/dialogContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/dialogRealContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonContainer"] > android.widget.Button[id="com.alipay.mobile.antui:id/ensure"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -415,7 +415,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.alipay.mobile.nebulax.integration:id/tiny_menu_modal_dialog_layout"] > android.support.v7.widget.RecyclerView[id="com.alipay.mobile.nebulax.integration:id/tiny_app_menu_top"] > android.widget.RelativeLayout[desc="Add to Home screen"][id="com.alipay.mobile.nebulax.integration:id/tiny_menu_item_layout"][clickable=true] > android.widget.FrameLayout[id="com.alipay.mobile.nebulax.integration:id/tiny_menu_item_icon_container"] > android.widget.TextView[id="com.alipay.mobile.nebulax.integration:id/tiny_menu_item_iconfont"][text=""]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.alipay.mobile.nebulax.integration:id/tiny_menu_modal_dialog_layout"] > android.support.v7.widget.RecyclerView[id="com.alipay.mobile.nebulax.integration:id/tiny_app_menu_top"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/tiny_menu_item_layout"][clickable=true] > android.widget.FrameLayout[id="com.alipay.mobile.nebulax.integration:id/tiny_menu_item_icon_container"] > android.widget.TextView[id="com.alipay.mobile.nebulax.integration:id/tiny_menu_item_iconfont"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -450,7 +450,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/action_container"] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/text_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[desc="Cancel"][id="com.alipay.mobile.antui:id/btn_close"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/action_container"] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/text_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.alipay.mobile.antui:id/btn_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -467,7 +467,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/dialogContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/dialogRealContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonContainer"] > android.widget.Button[id="com.alipay.mobile.antui:id/ensure"][text="Allow"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/dialogContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/dialogRealContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonContainer"] > android.widget.Button[id="com.alipay.mobile.antui:id/ensure"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -484,7 +484,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/dialogContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/dialogRealContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonContainer"] > android.widget.Button[id="com.alipay.mobile.antui:id/ensure"][text="Allow"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/dialogContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/dialogRealContainer"] > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonContainer"] > android.widget.Button[id="com.alipay.mobile.antui:id/ensure"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -501,7 +501,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alipay.mobile.nebulax.integration:id/nebulax_root_view"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/nebulax_wrapper_view"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/fragment_container"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.alipay.mobile.nebula:id/h5_web_content"] > android.widget.FrameLayout[id="com.alipay.mobile.nebula:id/h5_pc_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.alipay.mywebview.sdk.WebView > android.webkit.WebView[text="申请资料填写"] > android.view.View[id="app"] > android.view.View[id="base-info-container"] > android.view.View > android.view.View > android.widget.Button[id="wtk-standardcard-baseInfoCommit"][text="同意合约条款并提交申请"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alipay.mobile.nebulax.integration:id/nebulax_root_view"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/nebulax_wrapper_view"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/fragment_container"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.alipay.mobile.nebula:id/h5_web_content"] > android.widget.FrameLayout[id="com.alipay.mobile.nebula:id/h5_pc_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.alipay.mywebview.sdk.WebView > android.webkit.WebView[text="申请资料填写"] > android.view.View[id="app"] > android.view.View[id="base-info-container"] > android.view.View > android.view.View > android.widget.Button[id="wtk-standardcard-baseInfoCommit"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -570,7 +570,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonView"] > android.widget.Button[id="com.alipay.mobile.antui:id/ensure"][text="Enable"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonView"] > android.widget.Button[id="com.alipay.mobile.antui:id/ensure"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -638,7 +638,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.alipay.mobile.about.ui.AboutAlipayActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/action_container"] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/text_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[desc="取消"][id="com.alipay.mobile.antui:id/btn_close"][clickable=true] > android.widget.TextView[desc=" "][text=""]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/action_container"] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/text_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.alipay.mobile.antui:id/btn_close"][clickable=true] > android.widget.TextView[desc=" "][text=""]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -655,7 +655,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonView"] > android.widget.Button[id="com.alipay.mobile.antui:id/cancel"][text="Cancel"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/buttonView"] > android.widget.Button[id="com.alipay.mobile.antui:id/cancel"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -743,7 +743,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.alipay.mobile.beehive:id/ll_root"] > android.widget.Button[id="com.alipay.mobile.beehive:id/btn_i_know"][text="我知道了"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.alipay.mobile.beehive:id/ll_root"] > android.widget.Button[id="com.alipay.mobile.beehive:id/btn_i_know"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -760,7 +760,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.alipay.mobile.onsitepay.merge.OnsitepayActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.alipay.mobile.onsitepay:id/title_bar"] > android.widget.FrameLayout[desc="Return Button"][id="com.alipay.mobile.onsitepay:id/title_bar_back_button"][clickable=true] > android.widget.TextView[desc=" "][text=""]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.alipay.mobile.onsitepay:id/title_bar"] > android.widget.FrameLayout[id="com.alipay.mobile.onsitepay:id/title_bar_back_button"][clickable=true] > android.widget.TextView[desc=" "][text=""]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -795,7 +795,7 @@ export default defineGkdApp({
           activityIds:
             'com.alipay.mobile.beehive.cityselect.ui.CeilingHomeCitySelectActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/action_container"] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/text_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[desc="Cancel"][id="com.alipay.mobile.antui:id/btn_close"][clickable=true] > android.widget.TextView[desc=" "][text=""]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/action_container"] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/text_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.alipay.mobile.antui:id/btn_close"][clickable=true] > android.widget.TextView[desc=" "][text=""]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -829,7 +829,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.ImageView[desc="back"][id="com.alipay.mobile.scan:id/title_bar_back"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.ImageView[id="com.alipay.mobile.scan:id/title_bar_back"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -882,7 +882,7 @@ export default defineGkdApp({
           activityIds:
             'com.alipay.mobile.beehive.cityselect.ui.SelectAreaActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/action_container"] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/text_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[desc="Cancel"][id="com.alipay.mobile.antui:id/btn_close"][clickable=true] > android.widget.TextView[desc=" "][text=""]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.alipay.mobile.antui:id/action_container"] > android.widget.ScrollView[id="com.alipay.mobile.antui:id/text_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.alipay.mobile.antui:id/btn_close"][clickable=true] > android.widget.TextView[desc=" "][text=""]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -934,7 +934,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.antfortune.wealth.stock:id/stock_main_rlt"] > android.widget.RelativeLayout[id="com.antfortune.wealth.stock:id/stock_container"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.antfortune.wealth.portfolio:id/portfolio_main_pullrefreshview"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.antfortune.wealth.portfolio:id/parent_scroll_view"] > android.widget.RelativeLayout[id="com.antfortune.wealth.portfolio:id/child"] > android.widget.RelativeLayout[id="com.antfortune.wealth.portfolio:id/portfolio_layout"] > android.widget.RelativeLayout > android.support.v4.view.ViewPager[id="com.antfortune.wealth.portfolio:id/stock_portfolio_viewpager"] > android.widget.LinearLayout[id="com.antfortune.wealth.portfolio:id/portfolio_fragment_item_container"] > android.support.v7.widget.RecyclerView[id="com.antfortune.wealth.portfolio:id/stock_portfolio_list_view"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.antfortune.wealth.portfolio:id/add_footer_container"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.antfortune.wealth.portfolio:id/empty_card"] > android.widget.Button[id="com.antfortune.wealth.portfolio:id/add_stock"][text="添加股票"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.antfortune.wealth.stock:id/stock_main_rlt"] > android.widget.RelativeLayout[id="com.antfortune.wealth.stock:id/stock_container"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.antfortune.wealth.portfolio:id/portfolio_main_pullrefreshview"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.antfortune.wealth.portfolio:id/parent_scroll_view"] > android.widget.RelativeLayout[id="com.antfortune.wealth.portfolio:id/child"] > android.widget.RelativeLayout[id="com.antfortune.wealth.portfolio:id/portfolio_layout"] > android.widget.RelativeLayout > android.support.v4.view.ViewPager[id="com.antfortune.wealth.portfolio:id/stock_portfolio_viewpager"] > android.widget.LinearLayout[id="com.antfortune.wealth.portfolio:id/portfolio_fragment_item_container"] > android.support.v7.widget.RecyclerView[id="com.antfortune.wealth.portfolio:id/stock_portfolio_list_view"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.antfortune.wealth.portfolio:id/add_footer_container"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.antfortune.wealth.portfolio:id/empty_card"] > android.widget.Button[id="com.antfortune.wealth.portfolio:id/add_stock"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

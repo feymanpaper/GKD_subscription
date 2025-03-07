@@ -16,7 +16,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.baidu.ufosdk:string/dialog_complaint_content"] > android.widget.RelativeLayout[id="com.baidu.ufosdk:string/dialog_complaint_title"] > android.widget.Button[id="com.baidu.ufosdk:string/dialog_title"][text="下一步"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.baidu.ufosdk:string/dialog_complaint_content"] > android.widget.RelativeLayout[id="com.baidu.ufosdk:string/dialog_complaint_title"] > android.widget.Button[id="com.baidu.ufosdk:string/dialog_title"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -33,7 +33,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.baidu.ufosdk:string/dialog_complaint_content"] > android.widget.RelativeLayout[id="com.baidu.ufosdk:string/dialog_complaint_title"] > android.widget.Button[id="com.baidu.ufosdk:string/dialog_title"][text="下一步"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.baidu.ufosdk:string/dialog_complaint_content"] > android.widget.RelativeLayout[id="com.baidu.ufosdk:string/dialog_complaint_title"] > android.widget.Button[id="com.baidu.ufosdk:string/dialog_title"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -116,7 +116,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > com.baidu.searchbox.widget.SlidingPaneLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.baidu.searchbox:id/obfuscated"] > android.widget.RelativeLayout > android.widget.ImageView[desc="返回"][id="com.baidu.searchbox:id/obfuscated"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > com.baidu.searchbox.widget.SlidingPaneLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.baidu.searchbox:id/obfuscated"] > android.widget.RelativeLayout > android.widget.ImageView[id="com.baidu.searchbox:id/obfuscated"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -166,7 +166,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.view.ViewGroup[id="com.android.systemui:id/system_icon_area"] > android.view.ViewGroup[id="com.android.systemui:id/system_icons"] > android.widget.LinearLayout[desc="正在充电，已完成 100%。"][id="com.android.systemui:id/battery"] > android.widget.ImageView[id="com.android.systemui:id/battery_charge_out_image"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.view.ViewGroup[id="com.android.systemui:id/system_icon_area"] > android.view.ViewGroup[id="com.android.systemui:id/system_icons"] > android.widget.LinearLayout[id="com.android.systemui:id/battery"] > android.widget.ImageView[id="com.android.systemui:id/battery_charge_out_image"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -252,7 +252,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > com.baidu.searchbox.widget.SlidingPaneLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.baidu.searchbox:id/obfuscated"] > android.widget.LinearLayout[id="com.baidu.searchbox:id/obfuscated"] > android.view.ViewGroup[id="com.baidu.searchbox:id/obfuscated"] > android.widget.ScrollView > android.view.ViewGroup > android.widget.FrameLayout[id="com.baidu.searchbox:id/obfuscated"] > android.view.ViewGroup > android.widget.TextView[id="com.baidu.searchbox:id/obfuscated"][text="放心清理"]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > com.baidu.searchbox.widget.SlidingPaneLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.baidu.searchbox:id/obfuscated"] > android.widget.LinearLayout[id="com.baidu.searchbox:id/obfuscated"] > android.view.ViewGroup[id="com.baidu.searchbox:id/obfuscated"] > android.widget.ScrollView > android.view.ViewGroup > android.widget.FrameLayout[id="com.baidu.searchbox:id/obfuscated"] > android.view.ViewGroup > android.widget.TextView[id="com.baidu.searchbox:id/obfuscated"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

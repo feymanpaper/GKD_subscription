@@ -33,7 +33,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][text="允许"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -50,7 +50,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.duowan.kiwi:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/test_content"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/home_page"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/root_view"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/pages_container"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/hot_live_rootview"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/list_live_root_view"] > android.widget.RelativeLayout[id="com.duowan.kiwi:id/container_view"] > android.view.ViewGroup > com.huya.huyaui.widget.HuyaViewPager[id="com.duowan.kiwi:id/view_pager"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/list_live_root_view"] > android.widget.RelativeLayout[id="com.duowan.kiwi:id/container_view"] > android.view.ViewGroup > com.huya.huyaui.widget.HuyaViewPager[id="com.duowan.kiwi:id/view_pager"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/list_root_container"] > android.widget.FrameLayout > android.view.ViewGroup[id="com.duowan.kiwi:id/huya_smart_refresh"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/container_view"] > androidx.recyclerview.widget.RecyclerView[id="com.duowan.kiwi:id/content_view"] > android.widget.LinearLayout[id="com.duowan.kiwi:id/live_line_container"] > android.view.ViewGroup[id="com.duowan.kiwi:id/live_content"][clickable=true] > android.view.ViewGroup[id="com.duowan.kiwi:id/huyaui_list_card_top_container"] > android.view.ViewGroup[id="com.duowan.kiwi:id/huyaui_list_card_badge_bottom_right"] > android.widget.TextView[id="com.duowan.kiwi:id/huyaui_label_text"][text="4.6万"]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.duowan.kiwi:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/test_content"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/home_page"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/root_view"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/pages_container"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/hot_live_rootview"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/list_live_root_view"] > android.widget.RelativeLayout[id="com.duowan.kiwi:id/container_view"] > android.view.ViewGroup > com.huya.huyaui.widget.HuyaViewPager[id="com.duowan.kiwi:id/view_pager"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/list_live_root_view"] > android.widget.RelativeLayout[id="com.duowan.kiwi:id/container_view"] > android.view.ViewGroup > com.huya.huyaui.widget.HuyaViewPager[id="com.duowan.kiwi:id/view_pager"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/list_root_container"] > android.widget.FrameLayout > android.view.ViewGroup[id="com.duowan.kiwi:id/huya_smart_refresh"] > android.widget.FrameLayout[id="com.duowan.kiwi:id/container_view"] > androidx.recyclerview.widget.RecyclerView[id="com.duowan.kiwi:id/content_view"] > android.widget.LinearLayout[id="com.duowan.kiwi:id/live_line_container"] > android.view.ViewGroup[id="com.duowan.kiwi:id/live_content"][clickable=true] > android.view.ViewGroup[id="com.duowan.kiwi:id/huyaui_list_card_top_container"] > android.view.ViewGroup[id="com.duowan.kiwi:id/huyaui_list_card_badge_bottom_right"] > android.widget.TextView[id="com.duowan.kiwi:id/huyaui_label_text"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -84,7 +84,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.duowan.kiwi:id/recharge_container"] > android.widget.RelativeLayout > android.widget.TextView[id="com.duowan.kiwi:id/exchange"][text="立即充值 10元"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.duowan.kiwi:id/recharge_container"] > android.widget.RelativeLayout > android.widget.TextView[id="com.duowan.kiwi:id/exchange"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -118,7 +118,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.view.ViewGroup[id="com.android.systemui:id/system_icon_area"] > android.view.ViewGroup[id="com.android.systemui:id/system_icons"] > android.widget.LinearLayout[id="com.android.systemui:id/statusIcons"] > android.widget.FrameLayout[desc="WLAN 信号强度为三格。"][id="com.android.systemui:id/wifi_combo"] > android.widget.FrameLayout[id="com.android.systemui:id/wifi_group"] > android.widget.TextView[id="com.android.systemui:id/wifi_standard"][text="6"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.view.ViewGroup[id="com.android.systemui:id/system_icon_area"] > android.view.ViewGroup[id="com.android.systemui:id/system_icons"] > android.widget.LinearLayout[id="com.android.systemui:id/statusIcons"] > android.widget.FrameLayout[id="com.android.systemui:id/wifi_combo"] > android.widget.FrameLayout[id="com.android.systemui:id/wifi_group"] > android.widget.TextView[id="com.android.systemui:id/wifi_standard"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -152,7 +152,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.ScrollView > android.view.ViewGroup[id="com.lbe.security.miui:id/contentPanel"] > android.widget.FrameLayout[id="android:id/custom"] > android.widget.ScrollView > android.widget.LinearLayout > android.widget.TextView[id="com.lbe.security.miui:id/permission_group_title"][text="是否允许“虎牙直播”拍摄照片或录制视频"]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.ScrollView > android.view.ViewGroup[id="com.lbe.security.miui:id/contentPanel"] > android.widget.FrameLayout[id="android:id/custom"] > android.widget.ScrollView > android.widget.LinearLayout > android.widget.TextView[id="com.lbe.security.miui:id/permission_group_title"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -186,7 +186,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.duowan.kiwi:id/hyui_dialog_root"] > android.view.ViewGroup[id="com.duowan.kiwi:id/hyui_dialog_content_container"] > android.view.ViewGroup[id="com.duowan.kiwi:id/hyui_dialog_dialog_btn"] > android.widget.TextView[id="com.duowan.kiwi:id/hyui_dialog_button_positive"][text="允许"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.duowan.kiwi:id/hyui_dialog_root"] > android.view.ViewGroup[id="com.duowan.kiwi:id/hyui_dialog_content_container"] > android.view.ViewGroup[id="com.duowan.kiwi:id/hyui_dialog_dialog_btn"] > android.widget.TextView[id="com.duowan.kiwi:id/hyui_dialog_button_positive"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -271,7 +271,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.view.ViewGroup > android.widget.TextView[id="com.duowan.kiwi:id/btn_sure"][text="确认"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.view.ViewGroup > android.widget.TextView[id="com.duowan.kiwi:id/btn_sure"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -425,7 +425,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.ScrollView > android.view.ViewGroup[id="com.lbe.security.miui:id/contentPanel"] > android.widget.FrameLayout[id="android:id/custom"] > android.widget.ScrollView > android.widget.LinearLayout > android.widget.TextView[id="com.lbe.security.miui:id/permission_group_title"][text="是否允许“虎牙直播”访问设备上的照片、视频、音频"]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.ScrollView > android.view.ViewGroup[id="com.lbe.security.miui:id/contentPanel"] > android.widget.FrameLayout[id="android:id/custom"] > android.widget.ScrollView > android.widget.LinearLayout > android.widget.TextView[id="com.lbe.security.miui:id/permission_group_title"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -459,7 +459,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.view.ViewGroup[id="com.android.systemui:id/system_icon_area"] > android.view.ViewGroup[id="com.android.systemui:id/system_icons"] > android.widget.LinearLayout[desc="正在充电，已完成 100%。"][id="com.android.systemui:id/battery"] > android.widget.ImageView[id="com.android.systemui:id/battery_charge_out_image"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.view.ViewGroup[id="com.android.systemui:id/system_icon_area"] > android.view.ViewGroup[id="com.android.systemui:id/system_icons"] > android.widget.LinearLayout[id="com.android.systemui:id/battery"] > android.widget.ImageView[id="com.android.systemui:id/battery_charge_out_image"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

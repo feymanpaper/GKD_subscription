@@ -11,9 +11,9 @@ def build_matches(node_dict):
     if resource_id:
         res += f'[id="{resource_id}"]'
     text = node_dict.get("text")
-    if text:
+    if not resource_id and text:
         res += f'[text="{text}"]'
-    if node_dict.get("clickable"):
+    if node_dict.get("clickable")=="true":
         res += f'[clickable=true]'
     return res
 

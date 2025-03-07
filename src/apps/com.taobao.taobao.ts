@@ -237,7 +237,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.taobao.tao.welcome.Welcome',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/layermanager_penetrate_webview_container_id"] > android.widget.FrameLayout > android.widget.FrameLayout > com.uc.webview.export.WebView[desc="WVUCWebView"][id="com.taobao.taobao:id/poplayer_inner_view"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView > android.view.View[id="root"] > android.view.View > android.view.View > android.view.View > android.widget.Image[text="O1CN01db8geS1QXdLJRv2c3_!!6000000001986-2-tps-26-26"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/layermanager_penetrate_webview_container_id"] > android.widget.FrameLayout > android.widget.FrameLayout > com.uc.webview.export.WebView[id="com.taobao.taobao:id/poplayer_inner_view"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView > android.view.View[id="root"] > android.view.View > android.view.View > android.view.View > android.widget.Image[text="O1CN01db8geS1QXdLJRv2c3_!!6000000001986-2-tps-26-26"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -288,7 +288,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"][text="上午10:02"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -390,7 +390,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"][text="上午6:06"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -441,7 +441,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"][text="上午10:02"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -475,7 +475,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/pagegroup"] > android.widget.FrameLayout[id="com.taobao.taobao:id/pagecontent"] > android.widget.ScrollView[id="com.taobao.taobao:id/aliDetailNestedScrollContainer"] > android.widget.LinearLayout > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/mainpage2"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/tt_detail_header_contaner_view_id"] > android.view.ViewGroup[id="com.taobao.taobao:id/cl_dimension_container"] > android.widget.LinearLayout[id="com.taobao.taobao:id/ll_index_container"][clickable=true] > android.widget.TextView[id="com.taobao.taobao:id/tv_current_index"][text="3"]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/pagegroup"] > android.widget.FrameLayout[id="com.taobao.taobao:id/pagecontent"] > android.widget.ScrollView[id="com.taobao.taobao:id/aliDetailNestedScrollContainer"] > android.widget.LinearLayout > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/mainpage2"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/tt_detail_header_contaner_view_id"] > android.view.ViewGroup[id="com.taobao.taobao:id/cl_dimension_container"] > android.widget.LinearLayout[id="com.taobao.taobao:id/ll_index_container"][clickable=true] > android.widget.TextView[id="com.taobao.taobao:id/tv_current_index"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

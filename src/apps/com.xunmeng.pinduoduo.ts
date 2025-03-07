@@ -16,7 +16,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[desc="关闭"][id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -33,7 +33,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.TextView[id="com.xunmeng.pinduoduo:id/pdd"][text="取消"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.TextView[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -67,7 +67,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][text="允许"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_singleton"][clickable=true] > android.widget.LinearLayout[id="com.android.permissioncontroller:id/grant_dialog"][clickable=true] > android.widget.LinearLayout > android.widget.Button[id="com.android.permissioncontroller:id/permission_allow_button"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -203,7 +203,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[desc="关闭"][id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -421,7 +421,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.view.View[desc="关闭"][id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.view.View[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -522,7 +522,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[desc="关闭"][id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -539,7 +539,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[desc="关闭"][id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -556,7 +556,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[desc="关闭"][id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -640,7 +640,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[id="com.xunmeng.pinduoduo:id/pdd"][text="关闭提醒"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -758,7 +758,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout[desc="返回"] > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout[desc="顶部工具栏"][id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[desc="返回"][id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.view.View[id="com.xunmeng.pinduoduo:id/pdd"]',
+            'android.widget.FrameLayout[desc="返回"] > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.view.View[id="com.xunmeng.pinduoduo:id/pdd"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -909,7 +909,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"][text="晚上10:29"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.android.systemui:id/status_bar_container"] > android.widget.FrameLayout[id="com.android.systemui:id/status_bar"] > android.widget.LinearLayout[id="com.android.systemui:id/status_bar_contents"] > android.widget.LinearLayout[id="com.android.systemui:id/phone_status_bar_left_container"] > android.widget.TextView[id="com.android.systemui:id/clock"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -993,7 +993,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[desc="关闭"][id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true] > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

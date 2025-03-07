@@ -118,7 +118,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][text="设置"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -203,7 +203,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][text="设置"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -254,7 +254,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][text="设置"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -407,7 +407,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][text="设置"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -492,7 +492,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][text="设置"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -543,7 +543,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][text="设置"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.autonavi.minimap:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.autonavi.minimap:id/buttonPanel"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/button_container"] > android.widget.Button[id="com.autonavi.minimap:id/button3"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
