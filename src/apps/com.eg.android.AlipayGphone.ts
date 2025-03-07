@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '支付宝',
   groups: [
     {
-      key: 0,
+      key: false,
       name: 'in-app|qYbxIz5VNdDlAyFbhy17YG7osLh9CPuyqIgxVHvsZw8=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -20,10 +20,10 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
-      key: 1,
+      key: true,
       name: 'in-app|mhp35S2N8LFukrEH_YoZzH1ULGtWQPMAIrkYCt8YnSo=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -39,7 +39,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 2,
@@ -58,7 +58,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 3,
@@ -76,7 +76,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 4,
@@ -95,7 +95,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 5,
@@ -114,7 +114,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 6,
@@ -132,7 +132,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 7,
@@ -151,7 +151,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 8,
@@ -169,7 +169,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 9,
@@ -188,7 +188,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 10,
@@ -207,7 +207,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 11,
@@ -225,7 +225,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 12,
@@ -243,7 +243,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 13,
@@ -261,7 +261,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 14,
@@ -279,7 +279,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 15,
@@ -298,7 +298,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 16,
@@ -316,7 +316,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 17,
@@ -335,7 +335,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 18,
@@ -354,7 +354,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 19,
@@ -373,7 +373,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 20,
@@ -392,7 +392,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 21,
@@ -410,7 +410,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 22,
@@ -428,7 +428,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 23,
@@ -446,7 +446,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 24,
@@ -464,7 +464,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 25,
@@ -482,7 +482,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 26,
@@ -500,7 +500,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 27,
@@ -519,7 +519,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 28,
@@ -538,7 +538,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 29,
@@ -557,7 +557,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 30,
@@ -575,7 +575,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 31,
@@ -593,7 +593,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 32,
@@ -611,7 +611,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 33,
@@ -629,7 +629,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 34,
@@ -647,7 +647,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 35,
@@ -666,7 +666,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 36,
@@ -685,7 +685,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 37,
@@ -704,7 +704,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 38,
@@ -722,7 +722,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 39,
@@ -740,7 +740,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 40,
@@ -758,7 +758,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 41,
@@ -776,7 +776,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 42,
@@ -794,7 +794,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 43,
@@ -812,7 +812,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 44,
@@ -830,7 +830,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 45,
@@ -849,7 +849,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 46,
@@ -868,7 +868,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 47,
@@ -886,7 +886,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 48,
@@ -905,7 +905,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 49,
@@ -923,7 +923,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 50,
@@ -942,7 +942,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
   ],
 });

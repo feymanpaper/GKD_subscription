@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: 'WPS',
   groups: [
     {
-      key: 0,
+      key: false,
       name: 'in-app|oaTRgaIdhpWaLAP7KaKAWGXLBvmymHnYbdLD3C9hKH4=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -20,10 +20,10 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
-      key: 1,
+      key: true,
       name: 'in-app|I7iiQIAX8z3ce0-e7nrYQHCMoA_ZKwoc3ZP1zHkpM7c=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -38,7 +38,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 2,
@@ -56,7 +56,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 3,
@@ -74,7 +74,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 4,
@@ -92,7 +92,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 5,
@@ -110,7 +110,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 6,
@@ -128,7 +128,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 7,
@@ -146,7 +146,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 8,
@@ -164,7 +164,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 9,
@@ -182,7 +182,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
   ],
 });

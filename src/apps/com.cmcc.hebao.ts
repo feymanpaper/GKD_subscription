@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '和包',
   groups: [
     {
-      key: 0,
+      key: false,
       name: 'system|1KqJ9fkZ5_PlFMD0XdR0VhOOxE-zXj2B1nXFuLv9-F4=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -20,10 +20,10 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
-      key: 1,
+      key: true,
       name: 'in-app|Vas7deOeAPs5WNQ_AVSJVGWvep_mOJhtPRnnAIQm5Kk=.png',
       actionDelay: 2000,
       actionMaximum: 10,
@@ -38,7 +38,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 2,
@@ -56,7 +56,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 3,
@@ -74,7 +74,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 4,
@@ -92,7 +92,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
     {
       key: 5,
@@ -110,7 +110,7 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
-      matchRoot: 'true',
+      matchRoot: true,
     },
   ],
 });

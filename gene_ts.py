@@ -42,7 +42,7 @@ def gene_ts_dict(matches):
             "resetMatch": "app",
             "priorityTime": 10000,
             "rules": rule_list,
-            "matchRoot": "true",
+            "matchRoot": True,
         }
         group_list.append(group_item)
         cnt += 1
@@ -101,6 +101,10 @@ def generate_ts_code(config_dict):
                 # 对于字符串类型的值，使用单引号包裹
                 if isinstance(value, str):
                     ts_lines.append(f"{indent}{key}: '{value}',")
+                elif value == True:
+                    ts_lines.append(f"{indent}{key}: true,")
+                elif value == False:
+                    ts_lines.append(f"{indent}{key}: false,")
                 else:
                     ts_lines.append(f"{indent}{key}: {value},")
 
