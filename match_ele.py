@@ -57,23 +57,23 @@ def process_files(directory):
                 img_name = file
                 type_name = data.get("type", "")
 
+                # 优先级: cross > skip > open
+                status = ""
                 for element in pow_ele:
-                    if not is_inbox(pow_bounds, element.get("bounds")):
-                        continue
+                    # if not is_inbox(pow_bounds, element.get("bounds")):
+                    #     continue
                     if element.get("class") == "cross":
                         cross_bounds = element.get("bounds")
-                        print(f"Found cross bounds in {json_path}: {cross_bounds}")
+                        status = "cross"
                         break
-                    if element.get("class") == "skip":
+                    elif element.get("class") == "skip" and (status == "" or status == "open"):
                         cross_bounds = element.get("bounds")
-                        print(f"Found skip bounds in {json_path}: {cross_bounds}")
-                        break
-                    if element.get("class") == "open":
+                        status = "skip"
+                    elif element.get("class") == "open" and status == "":
                         cross_bounds = element.get("bounds")
-                        print(f"Found open bounds in {json_path}: {cross_bounds}")
-                        break
+                        status = "open"
 
-                if not cross_bounds:
+                if status == "":
                     print(f"No cross element found in {json_path}.")
                     continue
 
@@ -103,7 +103,6 @@ def process_files(directory):
             mat_item["app_name"] = app_name
             mat_item["name"] = type_name + "|" + img_name
 
-
             mat.append(mat_item)
 
     config_dict = gene_ts_dict(mat)
@@ -116,19 +115,20 @@ def process_files(directory):
     ts_file_path = os.path.join(ts_file_dir, ts_file_name)
     write_ts_file(ts_file_path, ts_code)
 
-def is_inbox(pow_bounds, ele_bounds):
-    px1=pow_bounds[0]
-    py1=pow_bounds[1]
-    px2=pow_bounds[2]
-    py2=pow_bounds[3]
 
-    ex1=ele_bounds[0]
-    ey1=ele_bounds[1]
-    ex2=ele_bounds[2]
-    ey2=ele_bounds[3]
-    if ex1>px1 and ey1>py1 and ex2<px2 and ey2<py2:
+def is_inbox(pow_bounds, ele_bounds):
+    px1 = pow_bounds[0]
+    py1 = pow_bounds[1]
+    px2 = pow_bounds[2]
+    py2 = pow_bounds[3]
+
+    ex = (ele_bounds[0] + ele_bounds[2]) / 2
+    ey = (ele_bounds[1] + ele_bounds[3]) / 2
+
+    if ex > px1 and ey > py1 and ex < px2 and ey < py2:
         return True
     return False
+
 
 def process_dirs(base_dir):
     # 遍历 base_dir 目录下的所有子目录
@@ -139,6 +139,7 @@ def process_dirs(base_dir):
         if os.path.isdir(subdir_path) and os.path.isdir(powup_dir):
             # 遍历powup目录中的每个文件
             process_files(powup_dir)
+
 
 if __name__ == "__main__":
     # 替换为目标目录路径

@@ -15,10 +15,9 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds:
-            'com.douyu.sdk.apkdownload.ui.dialog.TaskInstallGuideDialogActivity',
+          activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > androidx.viewpager.widget.ViewPager[id="air.tv.douyu.android:id/h53"] > android.widget.RelativeLayout > android.widget.LinearLayout > androidx.viewpager.widget.ViewPager[id="air.tv.douyu.android:id/dlr"] > android.widget.FrameLayout[id="tv.douyu.plugin.gamecenter:id/reco_base_container"] > android.view.ViewGroup[id="tv.douyu.plugin.gamecenter:id/refresh_layout"] > androidx.recyclerview.widget.RecyclerView[id="tv.douyu.plugin.gamecenter:id/rv"] > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="tv.douyu.plugin.gamecenter:id/rv_list"] > android.widget.RelativeLayout[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > androidx.viewpager.widget.ViewPager[id="air.tv.douyu.android:id/h53"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="air.tv.douyu.android:id/fkr"][clickable=true] > android.widget.LinearLayout > android.widget.RelativeLayout > android.widget.RelativeLayout[id="air.tv.douyu.android:id/fko"] > android.widget.ImageView[id="air.tv.douyu.android:id/ebb"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -54,7 +53,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="air.tv.douyu.android:id/kaw"] > android.widget.FrameLayout[id="air.tv.douyu.android:id/cws"] > android.view.ViewGroup > android.view.ViewGroup[id="air.tv.douyu.android:id/imz"] > android.widget.TextView[id="air.tv.douyu.android:id/af9"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="air.tv.douyu.android:id/kaw"] > android.widget.FrameLayout[id="air.tv.douyu.android:id/cws"] > android.view.ViewGroup > android.widget.ImageView[id="air.tv.douyu.android:id/ee2"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -90,7 +89,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="air.tv.douyu.android:id/ad1"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.view.View[id="air.tv.douyu.android:id/jix"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -144,7 +143,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.LinearLayout[id="air.tv.douyu.android:id/g_i"] > android.widget.FrameLayout[id="air.tv.douyu.android:id/cqp"] > android.widget.TextView[id="air.tv.douyu.android:id/aei"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.view.View[id="air.tv.douyu.android:id/jix"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -223,6 +222,24 @@ export default defineGkdApp({
     },
     {
       key: 12,
+      name: 'in-app|1eVJB1FsSlgUpLel2y9wq0j4YIRd4r06L8tWWpLn1mk=.png',
+      actionDelay: 5000,
+      actionMaximum: 10,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="air.tv.douyu.android:id/h4s"] > android.webkit.WebView[id="air.tv.douyu.android:id/pyd"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 13,
       name: 'system|OTqKpr0xrWIp084M3Vp9I_6R3h3Ng9soGQir9KiuHPM=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -241,7 +258,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 13,
+      key: 14,
       name: 'in-app|WgmW27qDBROzddwiRzN2iHXYWrJnopJFBWEKI4PUAYw=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -259,7 +276,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 14,
+      key: 15,
       name: 'in-app|yHFEIzJGdAu17kz2TNZYtpQ4vmoNGiQMvDfAERrhdWE=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -277,7 +294,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 15,
+      key: 16,
       name: 'in-app|nNiF4aV1etrwjFb_soVRu7DhSa4OJQJGp9FwnLOdeaQ=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -295,7 +312,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 16,
+      key: 17,
       name: 'in-app|aW_4n4KDgvv2yNbUX5nY57ul4VjCG1P6Sx7OYgSSzD4=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -313,7 +330,25 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 17,
+      key: 18,
+      name: 'in-app|nU9G95BoM2GZMWGC37e6Scavxe-xHPS6uytZYyfjyeU=.png',
+      actionDelay: 5000,
+      actionMaximum: 10,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/ec"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup[id="air.tv.douyu.android:id/lsm"] > android.widget.LinearLayout[id="air.tv.douyu.android:id/er"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="air.tv.douyu.android:id/jvv"] > android.widget.ImageView[id="air.tv.douyu.android:id/ds1"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 19,
       name: 'in-app|GIAXXle8ybG2dVKTii11WzP2kseXmcaJZWnXDx2rzK4=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -325,13 +360,13 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="air.tv.douyu.android:id/b94"] > android.widget.Button[id="air.tv.douyu.android:id/ju_"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="air.tv.douyu.android:id/b94"] > android.widget.Button[id="air.tv.douyu.android:id/fth"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
-      key: 18,
+      key: 20,
       name: 'in-app|CS6woZdiR0r4Sbi-MdfwvMVsKMqTNWr3WzDNWIyRIgY=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -349,7 +384,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 19,
+      key: 21,
       name: 'in-app|rsPkqDNq8A1TRZjFKm23IxCO05Uj2dXYeGl0VZz-xEA=.png',
       actionDelay: 5000,
       actionMaximum: 10,

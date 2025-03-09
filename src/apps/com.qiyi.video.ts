@@ -54,7 +54,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.qiyi.video:id/layout"] > android.widget.LinearLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.Button[id="com.qiyi.video:id/confirm_btn"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.qiyi.video:id/layout"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.qiyi.video:id/unused_res_a"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -79,6 +79,24 @@ export default defineGkdApp({
     },
     {
       key: 4,
+      name: 'system|cPNIAu30CZbu0dgc0i84OH5MtEiUS-vJmr4Gee5-8d0=.png',
+      actionDelay: 5000,
+      actionMaximum: 10,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="android:id/parentPanel"] > android.widget.ScrollView[id="android:id/buttonPanel"] > android.widget.LinearLayout > android.widget.Button[id="android:id/button2"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 5,
       name: 'in-app|Bn-iyiepPPXX5kfYTUuLSYwXax8jTVL6MdKHTuobXn4=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -96,7 +114,25 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
+      key: 6,
+      name: 'in-app|R5EuOz0a186-7ArmXKw_weaSJ1zrx0TXmJEWG4knV4Y=.png',
+      actionDelay: 5000,
+      actionMaximum: 10,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.qiyi.video:id/layout"] > android.widget.LinearLayout[id="com.qiyi.video:id/unused_res_a"] > android.widget.Button[id="com.qiyi.video:id/cancel_btn"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 7,
       name: 'in-app|PqNZynmQZaCJrcDJXXXc6LpRFaTmCmVEtcV2la5w2v8=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -108,7 +144,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.WelcomeActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView > android.widget.LinearLayout[clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.RelativeLayout > android.widget.LinearLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

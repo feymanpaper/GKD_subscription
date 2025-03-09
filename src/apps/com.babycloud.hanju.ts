@@ -33,9 +33,9 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '.ui.activity.StarDetailActivity',
+          activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.babycloud.hanju:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.babycloud.hanju:id/star_detail_coordinator_layout"] > android.view.ViewGroup[id="com.babycloud.hanju:id/star_detail_vp"] > android.widget.RelativeLayout > android.view.ViewGroup[id="com.babycloud.hanju:id/refresh_layout"] > androidx.recyclerview.widget.RecyclerView[id="com.babycloud.hanju:id/discuss_rv"] > android.widget.LinearLayout[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.babycloud.hanju:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.babycloud.hanju:id/star_detail_coordinator_layout"] > android.view.ViewGroup[id="com.babycloud.hanju:id/star_detail_vp"] > android.widget.RelativeLayout > android.view.ViewGroup[id="com.babycloud.hanju:id/refresh_layout"] > androidx.recyclerview.widget.RecyclerView[id="com.babycloud.hanju:id/discuss_rv"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.TextView[id="com.babycloud.hanju:id/bbs_tab_recommend"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -60,6 +60,42 @@ export default defineGkdApp({
     },
     {
       key: 3,
+      name: 'in-app|VGe5fDZbrXAky4bpM0tOjscnahijt3IiZRZvYrKI6Gk=.png',
+      actionDelay: 5000,
+      actionMaximum: 10,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.babycloud.hanju:id/lLayout_bg"] > android.widget.LinearLayout > android.widget.Button[id="com.babycloud.hanju:id/btn_pos"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 4,
+      name: 'in-app|majp8AmeDgExio8m83FKkAABFNREOyRhFZobGN9FIM8=.png',
+      actionDelay: 5000,
+      actionMaximum: 10,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.view.ViewGroup[id="com.babycloud.hanju:id/share_cl"] > android.widget.ImageView[id="com.babycloud.hanju:id/share_qq_zone_iv"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 5,
       name: 'in-app|QmDD-yGHJxtTVK9SjvEEoYAu8I3kl_DLZod7FwO8lQ4=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -77,7 +113,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 6,
       name: 'in-app|sMKE30OXClJDPlSHxuZUhwd7R4Ao0NJyhaAnpJ4ERJc=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -95,7 +131,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
+      key: 7,
       name: 'in-app|opG_qL_38M3S6ET4enkPLPv_87u26fQU6uqt93XaEIc=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -114,7 +150,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 6,
+      key: 8,
       name: 'in-app|eT3DvJXM1SEBlRkDOWp_nOzM8kc1IqA9QBxYbe64cug=.png',
       actionDelay: 5000,
       actionMaximum: 10,
@@ -132,7 +168,43 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 7,
+      key: 9,
+      name: 'in-app|rloYkV0Jk6NnPlcA2uZjaCnhXynmKQhLAKMwFUumtMI=.png',
+      actionDelay: 5000,
+      actionMaximum: 10,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.ImageView[id="com.babycloud.hanju:id/close_iv"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 10,
+      name: 'in-app|J1gQ8LbrNVyOzkYZatY2RzQ40D5Rs6AKdbiBk_6lhgw=.png',
+      actionDelay: 5000,
+      actionMaximum: 10,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '.homepage.PersonalHomePageActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 11,
       name: 'in-app|fVy94kYypn3Oeajuq_BqIGFcgzz4WQ-huZdSRMkPddE=.png',
       actionDelay: 5000,
       actionMaximum: 10,
