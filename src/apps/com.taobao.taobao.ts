@@ -42,24 +42,6 @@ export default defineGkdApp({
     },
     {
       key: 2,
-      name: 'system|iHTYJykVoT3y-9e9skUsmDa6399ve2dIRAOfLZ6FKi8=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 3,
       name: 'in-app|mccZxI7fCPUlWhS7pyLWCLXeV18GKoy3-p9QXg6eBFo=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -77,7 +59,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 3,
       name: 'in-app|b_jPjbimdXvysBHjBWROjjV52T1ha_Lf6Cft7OliclI=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -95,25 +77,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
-      name: 'in-app|XY7Vxzqq3H3RkUtWV7Edk1YSmXQRStZ0mq4Y6W5o0Yk=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'com.taobao.taolive.room.TaoLiveVideoActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/taolive_root_view"] > android.support.v7.widget.RecyclerView[id="com.taobao.taobao:id/taolive_recyclerview"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/taolive_room_layout"] > android.support.v4.view.ViewPager[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_viewpager"] > android.widget.RelativeLayout[id="com.taobao.taobao.liveroom_android_plugin_AType:id/taolive_fullscreen_front"] > android.widget.FrameLayout > android.widget.FrameLayout > com.uc.webview.export.WebView > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="tblive-room-next-index"] > android.view.View[clickable=true] > android.view.View > android.view.View > android.view.View > android.widget.TextView[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 6,
+      key: 4,
       name: 'in-app|dN61ncRtitsbYrhU4AfcURY9ER8j-EyQR4CTwT75rVo=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -131,7 +95,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 7,
+      key: 5,
       name: 'in-app|wrmk7F-W9QR3FVryhTztzy1kcO2VOjQj3Mb0wS78CX8=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -149,7 +113,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 6,
       name: 'in-app|wT1tU4tGkoqvMXKdEwnlG7WVGsDDGamYGYhnHKlaz1c=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -167,7 +131,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 9,
+      key: 7,
       name: 'in-app|RIjDJsik3YQeVeCDOQ9eSJWdD4SGOdzWbvCodnSB8N0=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -185,7 +149,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 10,
+      key: 8,
       name: 'in-app|5-W-62Se6Qo6fGWywc4MiFmcTjvCAW_mjpwXcz4atww=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -203,7 +167,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 11,
+      key: 9,
       name: 'in-app|W320Vb8g1NRDXi_-skO1Ro2BKUDRzqaj8OxjSxA_SgI=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -221,25 +185,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 12,
-      name: 'in-app|gM2iyoSJk9f-MCp7LhVtonnKQ6z4H1f-uwQV7X8mGkU=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="android:id/parentPanel"] > android.widget.ScrollView[id="android:id/buttonPanel"] > android.widget.LinearLayout > android.widget.Button[id="android:id/button2"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 13,
+      key: 10,
       name: 'in-app|J63Jv1mIUiL5FfRfH4ElLn5lfO8IOCr-awZNV_u2aek=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -257,7 +203,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 14,
+      key: 11,
       name: 'in-app|9dGfgPAeHWkV-1axivb1yrvUI9tSDDLKJS7II2pkf9g=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -275,7 +221,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 15,
+      key: 12,
       name: 'in-app|4SiVK_Xzu0z5Y7AwKZgYG-sQQ1vIrmAtu2yZEhQBZTA=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -293,7 +239,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 16,
+      key: 13,
       name: 'in-app|bIhJolgYXmNDPJzCryAOGj6JA1c15FirMJw9ss6CNW4=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -311,7 +257,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 17,
+      key: 14,
       name: 'in-app|fCvYFh5fDJmGU2WoVV6EXHvOJsbJkZNDxxdIj7YrQpE=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -329,7 +275,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 18,
+      key: 15,
       name: 'in-app|UBnYEyqfvJdpmB-15xAmMVFMEuJX05fJ9WKyHkDCg6o=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -347,7 +293,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 19,
+      key: 16,
       name: 'in-app|-KhifSDM0l4wdk0lCadhsGobpeeY7xGGadcCaVcB1Ig=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -365,7 +311,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 20,
+      key: 17,
       name: 'in-app|7S-Hls10M2e2HNpyo8hd1wIFZrcqAXIrv_bVYm-LRlk=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -383,7 +329,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 21,
+      key: 18,
       name: 'in-app|U55aZkChCEGB6fm5JGx-4lObg4J7uuizJR9AKAL_YnQ=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -401,7 +347,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 22,
+      key: 19,
       name: 'in-app|v5mRlFtsdAQmvkduI9wWX649ZtdtefODju4ALzkh75U=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -419,7 +365,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 23,
+      key: 20,
       name: 'in-app|BmU3rzeBn_EYO9R0fYiapPQUc_MTYACYYedHh7iT1zs=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -437,25 +383,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 24,
-      name: 'in-app|p86UzaddMhs52Dvk0o1_2R4815mBOg4c4zuB8U8MZgk=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.view.View[id="com.taobao.taobao:id/uik_menu_panel_view"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 25,
+      key: 21,
       name: 'in-app|5Ny15XrTL5pp0o0zPqbr5axmAWASGuNStyOk6c8iXZ0=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -473,26 +401,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 26,
-      name: 'system|OTqKpr0xrWIp084M3Vp9I_6R3h3Ng9soGQir9KiuHPM=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds:
-            'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"] > android.widget.Button[text="本次运行允许"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 27,
+      key: 22,
       name: 'in-app|PawtBJjPAFp_3Of6pbcHfR5r4ExfkGsLg0cju3wZoaA=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -510,7 +419,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 28,
+      key: 23,
       name: 'in-app|mbHHShYelfVjMxI44PI-jZtRabLfoCzDd-XR-4q4yGQ=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -528,7 +437,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 29,
+      key: 24,
       name: 'in-app|rks682NsimMvQCICPtCqrZwrKpfmpyHTb-Au03fXt68=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -546,7 +455,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 30,
+      key: 25,
       name: 'in-app|cTOYlNbPT7WCnSNt5hbQWUmmOEC5wGC7MrfAW_nAFxo=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -564,7 +473,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 31,
+      key: 26,
       name: 'in-app|_ZnZrxETne01BFVtFDQH_tsbpkvRuPC1BvaR27yf1x4=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -582,7 +491,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 32,
+      key: 27,
       name: 'in-app|q2jd4qHeKsukwunCguE6asKp97YMsKgnXoPcBem-7iQ=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -600,7 +509,25 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 33,
+      key: 28,
+      name: 'in-app|kgL0EgP4cSk2ThghnyDc8dLTUhGIUOABFxF86iHhS2A=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.taobao.themis.container.app.TMSActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true] > android.app.Dialog > android.view.View[clickable=true] > android.view.View[clickable=true] > android.widget.Button[text="关闭"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 29,
       name: 'in-app|-1ZSx7HCv9f0Fsn9zDQaKsddmOh6Oxcs0uVV9nWN4J4=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -618,26 +545,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 34,
-      name: 'system|QJa6OzJHO47gtw8K2gtXqJv42G1ca3UPuz7c736svTY=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds:
-            'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"] > android.widget.Button[text="拒绝"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 35,
+      key: 30,
       name: 'in-app|SEGS_X6urq_RM2U8ihZYpmkz6sboLXvUH7fNxxhEI8c=.png',
       actionDelay: 3000,
       actionMaximum: 5,

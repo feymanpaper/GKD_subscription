@@ -97,6 +97,7 @@ def process_files(directory):
             nearest_component = get_mindis_node(xml_path, cross_bounds)
 
             if nearest_component is None:
+                print("no nearest comp")
                 continue
 
             matches = nearest_component["path"]
