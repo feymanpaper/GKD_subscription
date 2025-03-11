@@ -683,7 +683,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.FrameLayout[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.xunmeng.pinduoduo:id/pdd"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.ImageView[id="com.xunmeng.pinduoduo:id/pdd"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

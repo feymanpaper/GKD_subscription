@@ -106,9 +106,9 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '',
+          activityIds: 'com.ss.android.ugc.aweme.detail.ui.DetailActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/dialog_root"][clickable=true] > android.widget.Button[id="com.ss.android.ugc.aweme.lite:id/giz"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/dialog_root"][clickable=true] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/cjp"] > android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -347,7 +347,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/container"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/cbn"] > android.view.View[id="com.ss.android.ugc.aweme.lite:id/mvz"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/container"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/cbn"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/cnm"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/cancel_btn"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -420,7 +420,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/container"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/cbn"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/cnm"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/l_i"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/l_h"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/l_n"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/eqz"] > android.widget.RelativeLayout[id="com.ss.android.ugc.aweme.lite:id/eq0"] > android.widget.ImageView[id="com.ss.android.ugc.aweme.lite:id/e+f"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/container"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/cbn"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/cnm"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/l_i"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/l_h"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/l_n"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/eqz"] > androidx.recyclerview.widget.RecyclerView[id="com.ss.android.ugc.aweme.lite:id/kfa"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/=l"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

@@ -63,7 +63,16 @@ def process_files(directory):
                     # if not is_inbox(pow_bounds, element.get("bounds")):
                     #     continue
                     if element.get("class") == "cross":
-                        cross_bounds = element.get("bounds")
+                        # 优先考虑下面的cross
+                        if status == "cross":
+                            iy1, iy2 = cross_bounds[1], cross_bounds[3]
+                            jy1, jy2 = element.get("bounds")[1], element.get("bounds")[3]
+                            iy = (iy1 + iy2) / 2
+                            jy = (jy1 + jy2) / 2
+                            if jy > iy:
+                                cross_bounds = element.get("bounds")
+                        else:
+                            cross_bounds = element.get("bounds")
                         status = "cross"
                     elif element.get("class") == "skip" and (status == "" or status == "open"):
                         cross_bounds = element.get("bounds")

@@ -143,7 +143,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.newretail.muise.MuiseContainerActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="me.ele:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="me.ele:id/content_loading_layout"] > android.widget.FrameLayout[id="me.ele:id/fl_root"] > android.widget.FrameLayout[id="me.ele:id/fl_render"] > android.view.ViewGroup[id="me.ele:id/weex_common_fragment_root"] > android.widget.FrameLayout[id="me.ele:id/weex_common_fragment_frame"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="me.ele:id/render_container"] > android.view.ViewGroup > android.view.View[desc="返回"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="me.ele:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.view.View[desc="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -161,7 +161,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.newretail.muise.MuiseContainerActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="me.ele:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="me.ele:id/content_loading_layout"] > android.widget.FrameLayout[id="me.ele:id/fl_root"] > android.widget.FrameLayout[id="me.ele:id/fl_render"] > android.view.ViewGroup[id="me.ele:id/weex_common_fragment_root"] > android.widget.FrameLayout[id="me.ele:id/weex_common_fragment_frame"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="me.ele:id/render_container"] > android.view.ViewGroup > android.view.View[desc="返回"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="me.ele:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.view.View[desc="关闭 按钮"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -324,7 +324,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.newretail.muise.MuiseContainerActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="me.ele:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="me.ele:id/content_loading_layout"] > android.widget.FrameLayout[id="me.ele:id/fl_root"] > android.widget.FrameLayout[id="me.ele:id/fl_render"] > android.view.ViewGroup[id="me.ele:id/weex_common_fragment_root"] > android.widget.FrameLayout[id="me.ele:id/weex_common_fragment_frame"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="me.ele:id/render_container"] > android.view.ViewGroup > android.view.View[desc="返回"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="me.ele:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.view.View[desc="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

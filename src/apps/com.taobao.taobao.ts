@@ -60,24 +60,6 @@ export default defineGkdApp({
     },
     {
       key: 3,
-      name: 'in-app|5Ma-YP3zz6pLfCUgoq21wkdZKCldTrM-hiwgzh3YJ8w=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.taobao.taobao:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.taobao.taobao:id/tbFragment"] > android.widget.FrameLayout[id="com.taobao.taobao:id/tb_main_fragment"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 4,
       name: 'in-app|mccZxI7fCPUlWhS7pyLWCLXeV18GKoy3-p9QXg6eBFo=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -95,7 +77,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
+      key: 4,
       name: 'in-app|b_jPjbimdXvysBHjBWROjjV52T1ha_Lf6Cft7OliclI=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -113,7 +95,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 6,
+      key: 5,
       name: 'in-app|XY7Vxzqq3H3RkUtWV7Edk1YSmXQRStZ0mq4Y6W5o0Yk=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -131,7 +113,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 7,
+      key: 6,
       name: 'in-app|dN61ncRtitsbYrhU4AfcURY9ER8j-EyQR4CTwT75rVo=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -144,6 +126,24 @@ export default defineGkdApp({
           activityIds: 'com.taobao.themis.container.app.TMSActivity',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/tms_fragment_container"] > android.view.ViewGroup > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.FrameLayout > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="天天领钱"] > android.view.View[id="ice-container"][clickable=true] > android.view.View > android.view.View > android.view.View[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 7,
+      name: 'in-app|wrmk7F-W9QR3FVryhTztzy1kcO2VOjQj3Mb0wS78CX8=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.taobao.tao.TBMainActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.taobao.taobao:id/layermanager_penetrate_webview_container_id"] > android.widget.FrameLayout > android.widget.FrameLayout > com.uc.webview.export.WebView[id="com.taobao.taobao:id/poplayer_inner_view"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView > android.view.View[id="root"] > android.view.View > android.view.View > android.view.View > android.widget.Image[text="O1CN01db8geS1QXdLJRv2c3_!!6000000001986-2-tps-26-26"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -323,7 +323,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.taobao.themis.container.app.TMSActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true] > android.app.Dialog > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.view.View[text="送你一笔现金，直接提现"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true] > android.app.Dialog > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.widget.Button[text="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -467,7 +467,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.taobao.themis.container.app.TMSActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true] > android.app.Dialog > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.view.View[text="送你一笔现金，直接提现"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true] > android.app.Dialog > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.widget.Button[text="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -558,13 +558,31 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.taobao.themis.container.app.TMSActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true] > android.app.Dialog > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.view.View[text="送你一笔现金，直接提现"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true] > android.app.Dialog > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.widget.Button[text="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 31,
+      name: 'in-app|_ZnZrxETne01BFVtFDQH_tsbpkvRuPC1BvaR27yf1x4=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.taobao.themis.container.app.TMSActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.taobao.taobao:id/tms_fragment_container"] > android.view.ViewGroup > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.FrameLayout > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView > android.view.View[clickable=true] > android.view.View > android.view.View > android.view.View > android.view.View > android.view.View[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 32,
       name: 'in-app|q2jd4qHeKsukwunCguE6asKp97YMsKgnXoPcBem-7iQ=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -582,7 +600,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 32,
+      key: 33,
       name: 'in-app|-1ZSx7HCv9f0Fsn9zDQaKsddmOh6Oxcs0uVV9nWN4J4=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -600,7 +618,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 33,
+      key: 34,
       name: 'system|QJa6OzJHO47gtw8K2gtXqJv42G1ca3UPuz7c736svTY=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -619,7 +637,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 34,
+      key: 35,
       name: 'in-app|SEGS_X6urq_RM2U8ihZYpmkz6sboLXvUH7fNxxhEI8c=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -631,7 +649,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.taobao.themis.container.app.TMSActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true] > android.app.Dialog > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.view.View[text="送你一笔现金，直接提现"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true] > android.app.Dialog > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.widget.Button[text="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
