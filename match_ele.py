@@ -65,7 +65,6 @@ def process_files(directory):
                     if element.get("class") == "cross":
                         cross_bounds = element.get("bounds")
                         status = "cross"
-                        break
                     elif element.get("class") == "skip" and (status == "" or status == "open"):
                         cross_bounds = element.get("bounds")
                         status = "skip"

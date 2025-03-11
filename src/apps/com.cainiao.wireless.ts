@@ -307,7 +307,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.cainiao.wireless:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.cainiao.wireless:id/container"] > android.view.ViewGroup[id="com.cainiao.wireless:id/coordinator"] > android.view.View[id="com.cainiao.wireless:id/touch_outside"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.cainiao.wireless:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.cainiao.wireless:id/container"] > android.view.ViewGroup[id="com.cainiao.wireless:id/coordinator"] > android.widget.FrameLayout[id="com.cainiao.wireless:id/design_bottom_sheet"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.cainiao.wireless:id/cn_bottom_sheet_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -399,7 +399,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.cainiao.wireless:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.cainiao.wireless:id/container"] > android.view.ViewGroup[id="com.cainiao.wireless:id/coordinator"] > android.view.View[id="com.cainiao.wireless:id/touch_outside"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.cainiao.wireless:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.cainiao.wireless:id/container"] > android.view.ViewGroup[id="com.cainiao.wireless:id/coordinator"] > android.widget.FrameLayout[id="com.cainiao.wireless:id/design_bottom_sheet"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.cainiao.wireless:id/layout_root_share_action"] > android.widget.ImageView[id="com.cainiao.wireless:id/iv_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -418,7 +418,7 @@ export default defineGkdApp({
           activityIds:
             '.components.hybrid.windvane.activity.GuoGuoNewWebViewActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.cainiao.wireless:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.cainiao.wireless:id/base_webview_activity"] > android.widget.LinearLayout[id="com.cainiao.wireless:id/webview_fragment_layout"] > android.view.ViewGroup[id="com.cainiao.wireless:id/ptr_frame_layout"] > android.widget.RelativeLayout[id="com.cainiao.wireless:id/browser_fragment_layout"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.webkit.bb > android.webkit.WebView[text="幸运包裹"] > android.view.View[id="root"][clickable=true] > android.view.View > android.view.View[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.cainiao.wireless:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.cainiao.wireless:id/base_webview_activity"] > android.widget.LinearLayout[id="com.cainiao.wireless:id/webview_fragment_layout"] > android.view.ViewGroup[id="com.cainiao.wireless:id/ptr_frame_layout"] > android.widget.RelativeLayout[id="com.cainiao.wireless:id/browser_fragment_layout"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.webkit.bb > android.webkit.WebView[text="幸运包裹"] > android.view.View[id="root"][clickable=true] > android.view.View[clickable=true] > android.view.View > android.view.View > android.widget.Image[text="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

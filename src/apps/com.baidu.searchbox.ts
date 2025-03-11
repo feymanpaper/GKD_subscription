@@ -53,7 +53,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '.lightbrowser.ImmerseBrowserActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.baidu.searchbox:id/obfuscated"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.baidu.zeus.webviewpager2.ViewPager > android.widget.FrameLayout > com.baidu.webkit.sdk.WebView[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.baidu.searchbox:id/obfuscated"] > android.widget.ImageView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

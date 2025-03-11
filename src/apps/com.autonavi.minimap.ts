@@ -17,7 +17,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.autonavi.minimap:id/mapInteractiveRelativeLayout"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.autonavi.minimap:id/mapInteractiveRelativeLayout"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -108,7 +108,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.autonavi.minimap:id/mapInteractiveRelativeLayout"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.autonavi.minimap:id/mapInteractiveRelativeLayout"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -342,7 +342,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -523,7 +523,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.autonavi.minimap:id/mapInteractiveRelativeLayout"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.autonavi.minimap:id/root_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fl_content_view"] > android.widget.FrameLayout[id="com.autonavi.minimap:id/fragment_container"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.autonavi.minimap:id/mapInteractiveRelativeLayout"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
