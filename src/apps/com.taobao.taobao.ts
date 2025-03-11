@@ -366,6 +366,24 @@ export default defineGkdApp({
     },
     {
       key: 20,
+      name: 'in-app|dnnTAyPfcEALB33rk7-01To07FeNiEU5B6C228xewMM=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.taobao.browser.BrowserActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.taobao.taobao:id/decor_content_parent"] > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView > android.view.View[clickable=true] > android.view.View[id="ice-container"][clickable=true] > android.view.View[clickable=true] > android.view.View > android.view.View > android.view.View[id="get_red_pack_pop"] > android.widget.Image[text="O1CN01L3ioMF1cisgMzpri0_!!6000000003635-2-tps-144-144.png_q50.jpg_"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 21,
       name: 'in-app|BmU3rzeBn_EYO9R0fYiapPQUc_MTYACYYedHh7iT1zs=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -383,7 +401,25 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 21,
+      key: 22,
+      name: 'in-app|smbwETxc_UdTkKd-gykL7pfELPnS82dlI4edeo6MnA0=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.taobao.themis.container.app.TMSActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.uc.webview.export.WebView[desc="WVUCWebView"] > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="红包签到"] > android.view.View[id="ice-container"][clickable=true] > android.app.Dialog > android.view.View[clickable=true] > android.view.View[clickable=true] > android.widget.Button[text="关闭"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 23,
       name: 'in-app|5Ny15XrTL5pp0o0zPqbr5axmAWASGuNStyOk6c8iXZ0=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -401,7 +437,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 22,
+      key: 24,
       name: 'in-app|PawtBJjPAFp_3Of6pbcHfR5r4ExfkGsLg0cju3wZoaA=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -419,7 +455,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 23,
+      key: 25,
       name: 'in-app|mbHHShYelfVjMxI44PI-jZtRabLfoCzDd-XR-4q4yGQ=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -437,7 +473,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 24,
+      key: 26,
       name: 'in-app|rks682NsimMvQCICPtCqrZwrKpfmpyHTb-Au03fXt68=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -455,7 +491,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 25,
+      key: 27,
       name: 'in-app|cTOYlNbPT7WCnSNt5hbQWUmmOEC5wGC7MrfAW_nAFxo=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -473,7 +509,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 26,
+      key: 28,
       name: 'in-app|_ZnZrxETne01BFVtFDQH_tsbpkvRuPC1BvaR27yf1x4=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -491,7 +527,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 27,
+      key: 29,
       name: 'in-app|q2jd4qHeKsukwunCguE6asKp97YMsKgnXoPcBem-7iQ=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -509,7 +545,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 28,
+      key: 30,
       name: 'in-app|kgL0EgP4cSk2ThghnyDc8dLTUhGIUOABFxF86iHhS2A=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -527,7 +563,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 29,
+      key: 31,
       name: 'in-app|-1ZSx7HCv9f0Fsn9zDQaKsddmOh6Oxcs0uVV9nWN4J4=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -545,7 +581,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 30,
+      key: 32,
       name: 'in-app|SEGS_X6urq_RM2U8ihZYpmkz6sboLXvUH7fNxxhEI8c=.png',
       actionDelay: 3000,
       actionMaximum: 5,
