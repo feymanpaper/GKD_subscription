@@ -38,7 +38,7 @@ def gene_ts_dict(matches):
             "name": mat["name"],
             'actionDelay': 3000,
             # "matchTime": 10000,
-            "actionMaximum": 5,
+            "actionMaximum": 3,
             "resetMatch": "app",
             "priorityTime": 10000,
              "matchRoot": True,
