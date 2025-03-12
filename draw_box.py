@@ -3,7 +3,7 @@ import os
 import json
 import shutil
 
-
+# draw画框
 def draw_box(image_path, bound_list, output_path="output.png"):
     """
     在图片上画框，并保存结果。
