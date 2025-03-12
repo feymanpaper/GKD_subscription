@@ -132,6 +132,25 @@ export default defineGkdApp({
     },
     {
       key: 7,
+      name: 'in-app|VQb5musq40l6WPQ_cwX31vwcQXoGPeYNDoKe9eJhH6E=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds:
+            'com.kugou.framework.musicfees.ui.feeintercept.FeeInterceptWebActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.kugou.android:id/ayn"] > android.widget.RelativeLayout[id="com.kugou.android:id/fi7"][clickable=true] > android.widget.RelativeLayout[id="com.kugou.android:id/ovx"] > android.widget.FrameLayout[id="com.kugou.android:id/af2"] > android.widget.FrameLayout[id="com.kugou.android:id/a5a"] > android.webkit.WebView > android.webkit.WebView[text="开通会员服务"] > android.view.View[id="payBox"][clickable=true] > android.view.View[id="payBoxMain"] > android.widget.Button[text="关闭"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 8,
       name: 'system|Yaac9k5K8fvvLnK4tJ9mIzoxB5bsnvLRvLAEFrWsVR8=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -149,7 +168,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 9,
       name: 'in-app|yZokFxHFPNrXL_MScnCcafkVmktxS4Yi4yci78UkW9o=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -162,6 +181,24 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.kugou.android:id/tiq"] > android.widget.RelativeLayout[id="com.kugou.android:id/a8eq"] > android.widget.RelativeLayout[id="com.kugou.android:id/a8dp"] > android.widget.LinearLayout[id="com.kugou.android:id/a8ed"] > android.widget.LinearLayout[id="com.kugou.android:id/a8ef"] > android.widget.RelativeLayout[id="com.kugou.android:id/a8eg"] > android.widget.ImageView[id="com.kugou.android:id/a8eh"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 10,
+      name: 'in-app|zxjtL9Bbimd4y6UOTa7smBIYKcCWMTIPHh_sF6p58Hg=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.kugou.android:id/ejt"] > android.widget.FrameLayout > android.view.ViewGroup[id="com.kugou.android:id/a4"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.kugou.android:id/ejf"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.kugou.android:id/a7"] > android.widget.FrameLayout[id="com.kugou.android:id/c7x"] > android.widget.RelativeLayout[id="com.kugou.android:id/c84"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

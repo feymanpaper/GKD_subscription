@@ -58,5 +58,23 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 3,
+      name: 'in-app|uc6Hj7bveUuMNjrGBD4BzfcuuFa4K4y-FX9VyPwoOAA=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout > android.widget.ScrollView > android.widget.LinearLayout > android.widget.ScrollView > android.view.ViewGroup > android.widget.ImageView[id="com.tencent.mtt:id/btn_close"][desc="关闭按钮"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
   ],
 });

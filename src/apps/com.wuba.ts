@@ -24,6 +24,24 @@ export default defineGkdApp({
     },
     {
       key: 1,
+      name: 'in-app|EgExot4SxWkY-J-P1ibPIo3JSwgo2mP6WAaQM6qWPTg=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '.hybrid.CommonWebActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.wuba:id/fragment_container"] > android.widget.LinearLayout[id="com.wuba:id/all_content_layout"] > android.widget.RelativeLayout[id="com.wuba:id/webview_container"] > android.widget.RelativeLayout[id="com.wuba:id/titlebar_content"] > android.view.ViewGroup[id="com.wuba:id/content_webview"] > android.widget.FrameLayout > android.webkit.WebView > android.webkit.WebView[text="简历发布"] > android.view.View[id="app"] > android.view.View[clickable=true] > android.view.View > android.widget.TextView[text="坚持退出"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 2,
       name: 'in-app|mVTFi4rDDBrHFQ4Kfui2Kp6PAiSmtYLH6_OCK4q1ZmA=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -41,7 +59,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 2,
+      key: 3,
       name: 'system|OG3-m0skPG4b-Uf96clX8FA_IoGkx3v3RTaBkKAyOdQ=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -60,7 +78,25 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 4,
+      name: 'in-app|PDyZTe-pfbR6EI7zu1w7SdtlapSqBEUMzfIgF-DwdyM=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.wuba:id/sys_dalg_button"] > android.widget.LinearLayout > android.widget.Button[id="com.wuba:id/sys_dalg_button_cancel"][text="取消"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 5,
       name: 'system|Sh9NwpsmhHhNVtic91Rz5qA7dp0N8qcFRD-ZLkYRESI=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -78,7 +114,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 6,
       name: 'in-app|tBpNMonvYilxVKYH665IuMEH6ba23Bfz3B-Yj6f0g0M=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -91,6 +127,42 @@ export default defineGkdApp({
           activityIds: '.hybrid.CommonWebActivity',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.wuba:id/fragment_container"] > android.widget.LinearLayout[id="com.wuba:id/all_content_layout"] > android.widget.RelativeLayout[id="com.wuba:id/webview_container"] > android.widget.RelativeLayout[id="com.wuba:id/titlebar_content"] > android.view.ViewGroup[id="com.wuba:id/content_webview"] > android.widget.FrameLayout > android.webkit.WebView > android.webkit.WebView[text="简历发布"] > android.view.View[id="app"] > android.view.View[clickable=true] > android.view.View > android.widget.TextView[text="坚持退出"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 7,
+      name: 'in-app|txmsi29ji4kx84Hb9hSA8z_7qQAvNNa6Nol2olOJoOM=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.wuba:id/changecitybg"] > android.widget.RelativeLayout[id="com.wuba:id/dialog_layout"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.wuba:id/buttonPanel"] > android.widget.TextView[id="com.wuba:id/city_change_cancel"][text="暂不切换"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 8,
+      name: 'in-app|UH7Lfe1lNkGEXWOCshQC9ptsWe59mBKCjkzl9tMKv8k=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.ImageView[id="com.wuba:id/close_btn"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

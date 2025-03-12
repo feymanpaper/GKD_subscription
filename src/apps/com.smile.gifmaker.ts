@@ -6,6 +6,24 @@ export default defineGkdApp({
   groups: [
     {
       key: 0,
+      name: 'in-app|3otLxSfrJnklltRrhOybVnFPvUmDTNTckAGIs9uPIT8=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.yxcorp.gifshow.webview.KwaiYodaWebViewActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.smile.gifmaker:id/swipe"] > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.smile.gifmaker:id/root"] > android.widget.RelativeLayout[id="com.smile.gifmaker:id/root"] > android.widget.FrameLayout[id="com.smile.gifmaker:id/webView"] > android.webkit.WebView > android.webkit.WebView > android.view.View > android.view.View > android.view.View > android.widget.Image[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 1,
       name: 'in-app|8JWt_CvqCSmosFRxhN5iziCG7U_WfEkt1QVtZP4wlbM=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -23,7 +41,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 1,
+      key: 2,
       name: 'in-app|9SdknJ5AF0sJlEgxHDWssINmKCp6YbU_-AvrCk0qsTE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -41,7 +59,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 2,
+      key: 3,
       name: 'in-app|iLduKjuthJeTpOHGwZCGxEVARPYJGf78iw6SY4auGtI=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -60,7 +78,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 4,
       name: 'in-app|wCo92KxIg9OiF-eoUjJCeqQLNAhOh5XC_6HDItW7hss=.png',
       actionDelay: 3000,
       actionMaximum: 3,

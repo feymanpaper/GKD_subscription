@@ -60,6 +60,114 @@ export default defineGkdApp({
     },
     {
       key: 3,
+      name: 'in-app|93avcHybOOq94a8MUazruEI1QMjD5RGy_i9lRnMFsBQ=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.snda.wifilocating:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.snda.wifilocating:id/ad_layout"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.zm.wfsdk:id/wf_splash_root_rl"] > android.widget.TextView[id="com.zm.wfsdk:id/wf_splash_skip_tv"][text="跳过 4"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 4,
+      name: 'in-app|cQCe2AQGlU_E3Xr2qA0QyZQwVx1T0IUyUjYq1VdR6WA=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[id="com.zm.wfsdk:id/tv_illegality"][text="违法违规"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 5,
+      name: 'in-app|dGLXAQoIYfbCo7rNi5KbADm9BXbE3k_7Ud8Oi-5_aH4=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.snda.wifilocating:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.TextView[id="com.snda.wifilocating:id/cancel"][text="取消"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 6,
+      name: 'in-app|KLb_8j7SVzvI9VeACCPQ3DvNUG4Az2r0HMsW9UGOEP8=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.zm.wfsdk:id/wf_sdk_root_container"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.zm.wfsdk:id/wf_sdk_root_container"][clickable=true] > android.widget.FrameLayout[id="com.zm.wfsdk:id/wf_sdk_fl_top_action_view"] > android.widget.LinearLayout > android.widget.TextView[id="com.zm.wfsdk:id/wf_sdk_tv_skip"][text="跳过"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 7,
+      name: 'in-app|pzovXJRSMSU9H14m74E1BpDPV1FzoVhEJpuHd7Yccd8=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.snda.wifilocating:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.snda.wifilocating:id/ad_layout"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.zm.wfsdk:id/wf_splash_root_rl"] > android.widget.TextView[id="com.zm.wfsdk:id/wf_splash_skip_tv"][text="跳过 5"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 8,
+      name: 'in-app|RPt8oOrj4c59u3Sbllo_Th8m-y5AH1roF7Ydso-HvgM=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.wifitutu.ui.main.MainActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.snda.wifilocating:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.view.ViewGroup[id="com.snda.wifilocating:id/tools_container"] > android.widget.LinearLayout[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 9,
       name: 'system|wmA_kM5WskpOPMfVBOm-33VsbrVTNJg6lHNFCrtoXn0=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -77,7 +185,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 10,
       name: 'in-app|wMbgtavPjmsB2XvMXm6DgwYD7gtfjYyxpcjiETkjMQw=.png',
       actionDelay: 3000,
       actionMaximum: 3,

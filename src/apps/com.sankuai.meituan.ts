@@ -42,6 +42,24 @@ export default defineGkdApp({
     },
     {
       key: 2,
+      name: 'system|Ei1Mb6GAr6RvLuEcJmnWrEOOVoQnXCPQgmj4XWvTQY8=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.sankuai.meituan:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.sankuai.meituan:id/fl_container"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.sankuai.meituan:id/fl_container"] > android.view.ViewGroup[id="com.sankuai.meituan:id/simple_root_constraint"] > android.widget.LinearLayout[id="com.sankuai.meituan:id/simple_multi_container_root"] > android.widget.LinearLayout[id="com.sankuai.meituan:id/simple_bar_container"] > android.widget.FrameLayout[id="com.sankuai.meituan:id/simple_multi_container"] > android.widget.FrameLayout[id="com.sankuai.meituan:id/simple_bar_top_container"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 3,
       name: 'in-app|KvPiQIzoib40Fv5SlCyIuIoxqsrB39VUO07co-VJufg=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -59,7 +77,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 4,
       name: 'in-app|TA_6ImHeexFYs3v698tYTvU5IqA6LZAYk8VvyyOOGZA=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -77,7 +95,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 5,
       name: 'in-app|V3cRV0xVhilKDsfwrEr99WFq7MLHmOwZunkTUXRkjuM=.png',
       actionDelay: 3000,
       actionMaximum: 3,

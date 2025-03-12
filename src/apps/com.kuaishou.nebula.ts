@@ -2,10 +2,28 @@ import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
   id: 'com.kuaishou.nebula',
-  name: '快手极速版',
+  name: '快手',
   groups: [
     {
       key: 0,
+      name: 'in-app|2klcGnNrsQr8InYZmGygLuHq3y-HX_nBL1EOjBY9osI=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.kuaishou.nebula:id/widget_popup_bottom_anim_view"][clickable=true] > android.widget.ImageView[id="com.kuaishou.nebula:id/close"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 1,
       name: 'in-app|bUNWqqD7nu74t7z3jRMa5hI6zkZ31or69Lwwcfo-qCA=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -24,7 +42,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 1,
+      key: 2,
       name: 'in-app|heDvmcQeRsmcZftDiDp_CEzZsVPNSXfdpfnKDd-KaVs=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -42,7 +60,43 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 2,
+      key: 3,
+      name: 'in-app|j6DgHkbppaCcAK6qgFea5IVYkFoFI9PAjPUsWpdPROc=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.yxcorp.gifshow.profile.activity.AvatarActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.view.ViewGroup > android.widget.RelativeLayout[id="com.kuaishou.nebula:id/rn_container"] > android.widget.FrameLayout[id="com.kuaishou.nebula:id/kwai_rn_fragment_root"] > android.widget.FrameLayout[id="com.kuaishou.nebula:id/krn_content_container"] > android.widget.FrameLayout[id="com.kuaishou.nebula:id/krn_content_view"] > android.widget.FrameLayout[id="com.kuaishou.nebula:id/krn_container"] > android.widget.FrameLayout[id="com.kuaishou.nebula:id/krn_content_container"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 4,
+      name: 'in-app|MsFIwVATIsU7A2kS_kca646qSkP2PousQ6am1ULyqyQ=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.kwai.kds.krn.api.page.KwaiRnActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.kuaishou.nebula:id/swipe"] > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.kuaishou.nebula:id/rn_container"] > android.widget.FrameLayout[id="com.kuaishou.nebula:id/kwai_rn_fragment_root"] > android.widget.FrameLayout[id="com.kuaishou.nebula:id/krn_content_container"] > android.widget.FrameLayout[id="com.kuaishou.nebula:id/krn_content_view"] > android.widget.FrameLayout[id="com.kuaishou.nebula:id/krn_container"] > android.widget.FrameLayout[id="com.kuaishou.nebula:id/krn_content_container"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 5,
       name: 'in-app|muvuKpeUmG3craDrzPhOk4f44g39lzgkse-a-6NbjKk=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -60,7 +114,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 6,
       name: 'in-app|niswtZLtMcqHsSW24M-nHkjPDBDHQWL0k5ZxK8hH_E4=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -78,7 +132,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 7,
       name: 'in-app|V6-xOebE3pDJr2fOFPBN9UePPNYBwgktzGRTUm2cALM=.png',
       actionDelay: 3000,
       actionMaximum: 3,
