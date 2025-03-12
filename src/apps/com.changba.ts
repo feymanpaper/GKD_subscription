@@ -395,7 +395,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'flutter.FlutterCustomActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.View > android.view.View > android.view.View > android.view.View[desc="真的要放弃购买会员吗?你可能会错过25+会员特权VIP音效 - 智能混音、HQ伴奏、混响等高级音效导出作品 -时光留声，珍藏美好时刻最近来访 -不错过每个默默关心你的人包房特权 - 加速免费鲜花生成，送给心动的ta"][clickable=true] > android.view.View[desc="残忍离开"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.View > android.view.View > android.view.View > android.view.View[desc="真的要放弃购买会员吗?&#10;你可能会错过25+会员特权&#10;VIP音效 - 智能混音、HQ伴奏、混响等高级音效&#10;导出作品 -时光留声，珍藏美好时刻&#10;最近来访 -不错过每个默默关心你的人&#10;包房特权 - 加速免费鲜花生成，送给心动的ta"][clickable=true] > android.view.View[desc="残忍离开"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
