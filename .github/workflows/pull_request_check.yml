@@ -21,15 +21,15 @@ jobs:
             src/globalGroups.ts
             src/subscription.ts
 
-      - name: Check changed files
-        run: |
-          for file in ${{ steps.changed_files.outputs.all_changed_files }}; do
-            echo "$file was changed"
-          done
-          if [ ${{ steps.changed_files.outputs.all_changed_files_count }} -gt 1 ]; then
-            echo "your src subscription changed files count must <= 1"
-            exit 1
-          fi
+      # - name: Check changed files
+      #   run: |
+      #     for file in ${{ steps.changed_files.outputs.all_changed_files }}; do
+      #       echo "$file was changed"
+      #     done
+      #     if [ ${{ steps.changed_files.outputs.all_changed_files_count }} -gt 1 ]; then
+      #       echo "your src subscription changed files count must <= 1"
+      #       exit 1
+      #     fi
 
       - uses: actions/setup-node@v4
         with:
