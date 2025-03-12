@@ -8,7 +8,7 @@ export default defineGkdApp({
       key: 0,
       name: 'system|MyNQhnaLmekZhUhxyI5KB-wHUW9xE6nY1SgpiBLTjNU=.png',
       actionDelay: 3000,
-      actionMaximum: 5,
+      actionMaximum: 3,
       resetMatch: 'app',
       priorityTime: 10000,
       matchRoot: true,
