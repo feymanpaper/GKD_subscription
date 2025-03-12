@@ -33,10 +33,10 @@ def build_path(node):
     if resource_id:
         res += f'[id="{resource_id}"]'
     desc = node.attrib.get("content-desc", "")
-    if not resource_id and desc:
+    if desc:
         res += f'[desc="{desc}"]'
     text = node.attrib.get("text", "")
-    if not resource_id and text:
+    if text:
         res += f'[text="{text}"]'
     if node.attrib.get("clickable") == "true":
         res += f'[clickable=true]'
