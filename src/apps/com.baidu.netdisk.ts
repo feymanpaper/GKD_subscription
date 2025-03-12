@@ -6,24 +6,6 @@ export default defineGkdApp({
   groups: [
     {
       key: 0,
-      name: 'in-app|LTOR9_2Ro7YoxXNhZ-30nHSaHhuoGaIEqZv1-c-DNhI=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[id="com.baidu.netdisk:id/dialog_button_confirm"][text="确认"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 1,
       name: 'in-app|7DRbTxZNkfqNxiSPnOV4A9xiU99R30TLkjsv8LblCX4=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -41,7 +23,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 2,
+      key: 1,
       name: 'in-app|J9MDnTESjykTgUVrVu9vepyVF80F9fg1UUVi5NUVdAE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -59,7 +41,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 2,
       name: 'in-app|xb3SQ03zy-_-Hb1750Gx2rtE1rml5fTazBEBWoGo7zc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -72,6 +54,24 @@ export default defineGkdApp({
           activityIds: '.update.UpdateDialogActivity',
           matches:
             'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.ImageView[desc="关闭"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 3,
+      name: 'in-app|IvwZ7YVqfVnRFO5WiCE7zA0dEsHm6M5kntNTbhpzJpA=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '.ui.cloudp2p.RichMediaActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout[clickable=true] > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.baidu.netdisk:id/rl_red_bag_root"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.netdisk:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.baidu.netdisk:id/content_webview"] > android.widget.ScrollView > android.webkit.WebView[text="我的会员"] > android.view.View[clickable=true] > android.view.View[id="newUserCenter"] > android.view.View > android.view.View[clickable=true] > android.view.View > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -108,25 +108,6 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.ImageView[id="com.baidu.netdisk:id/yike_guide_exit"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 6,
-      name: 'system|OTqKpr0xrWIp084M3Vp9I_6R3h3Ng9soGQir9KiuHPM=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds:
-            'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"] > android.widget.Button[text="仅在使用中允许"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
