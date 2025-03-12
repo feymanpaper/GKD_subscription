@@ -6,7 +6,7 @@ export default defineGkdApp({
   groups: [
     {
       key: 0,
-      name: 'in-app|2-vO62fib1fbgoTIpDW8TjX-pOURmS07VmkQht3iFaE=.png',
+      name: 'in-app|09FsjhnpWMx5QCxhk7QjU-dv7VwGGnIxoRkoKWU-K0U=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -17,14 +17,14 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup[id="com.changba:id/small_window_container"] > android.widget.ImageView[id="com.changba:id/ktv_small_window_close_iv"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.changba:id/layout"] > android.widget.RelativeLayout[id="com.changba:id/dialog_content"] > android.widget.LinearLayout > android.widget.EditText[id="com.changba:id/apply_content"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 1,
-      name: 'in-app|6gmBIGjodBmOHkEvEytzcyFpyhBYaOs9WFxBvKuKghM=.png',
+      name: 'in-app|1mz3pBTY9Kw9leiPX_-0Fnu6-r85PMnhjFFGqtS2GX0=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -35,14 +35,14 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.changba:id/fragment_content"] > android.view.ViewGroup > android.widget.LinearLayout[id="com.changba:id/titleBar"] > android.widget.RelativeLayout[id="com.changba:id/title_layout"] > android.widget.ImageView[id="com.changba:id/mini_player"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.changba:id/fragment_content"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.changba:id/title_bar"] > android.widget.RelativeLayout[id="com.changba:id/title_layout"] > android.widget.TextView[id="com.changba:id/my_lefttview"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 2,
-      name: 'in-app|bmR925eHBymXS750CSWnaV4nCk7dOfhKP5XeVHCHXY4=.png',
+      name: 'in-app|7gIeOvFD9n3UwFTgqb8HGI2nV3bHJJKLFAxThyQ3heQ=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -51,16 +51,16 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '',
+          activityIds: '.songlib.activity.SongInfoActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.changba:id/fragment_content"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.changba:id/webpageView"] > android.widget.FrameLayout > android.webkit.WebView[id="com.changba:id/webview"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.changba:id/item_layout"] > android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 3,
-      name: 'in-app|BWUSq7_XvsQGr7p4rHlUxWq6-fkEtbOC_bGB_6w9ixQ=.png',
+      name: 'in-app|bu-BrCt4W0JL0LVbjUkx19yir2C-sMzbVGqD1CSXm58=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -69,16 +69,16 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '',
+          activityIds: '.webview.CommonWebViewActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.TextView[id="com.changba:id/cancel_btn"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.changba:id/common_activity_web_view_container_fl"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.changba:id/common_fragment_web_view_parent"][clickable=true] > android.webkit.WebView > android.webkit.WebView[text="礼物墙"] > android.view.View > android.view.View[id="app"][clickable=true] > android.view.View > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 4,
-      name: 'in-app|dVr26W82oghXmp9wSOttItov62jTnv8Ba6ScWIWAK_Y=.png',
+      name: 'in-app|c7wVb7GWHQHzYudKbh3CvfyYsWKGuTtC7CdwfUhyFeE=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -87,16 +87,16 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '',
+          activityIds: '.webview.CommonWebViewActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.changba:id/share_item_rl"] > android.widget.RelativeLayout[id="com.changba:id/share_h5_item_rl"] > android.widget.ImageView[id="com.changba:id/share_h5_finish"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.changba:id/common_activity_web_view_container_fl"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.changba:id/common_fragment_web_view_parent"][clickable=true] > android.webkit.WebView > android.webkit.WebView[text="礼物墙"] > android.view.View > android.view.View[id="app"][clickable=true] > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 5,
-      name: 'in-app|E8BWBrwCQf6zUietS643E7np6uGQwetzPQfgVMuSNHY=.png',
+      name: 'in-app|cxhT9VE60FjWbzeWKhPiTyUoztBRSK_7L24iwiy8gB8=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -107,7 +107,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout[id="com.changba:id/layout"] > android.widget.LinearLayout[id="com.changba:id/process_layout"] > android.widget.TextView[id="com.changba:id/confirm_btn"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.changba:id/fragment_content"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.changba:id/title_bar"] > android.widget.RelativeLayout[id="com.changba:id/title_layout"] > android.widget.TextView[id="com.changba:id/my_lefttview"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -150,25 +150,7 @@ export default defineGkdApp({
     },
     {
       key: 8,
-      name: 'in-app|GzQ7nN1AMo1RFKubHIZwqpB-faxiCEPb14cA2WcZzz0=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.activity.CommonFragmentActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.changba:id/fragment_content"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.changba:id/webpageView"] > android.widget.FrameLayout > android.webkit.WebView > android.webkit.WebView[text="声动次元·网络翻唱联赛"] > android.view.View > android.view.View > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.widget.TextView[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 9,
-      name: 'in-app|h2fER6TknnlfAetQeV6fQg6RhIjlga8n81FffQlLAMo=.png',
+      name: 'in-app|fZtr-5Nz21DBiCtQDYgvS5NZjJQwRucrgb8scz85ubs=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -179,14 +161,14 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.changba:id/user_card_container"][clickable=true] > android.view.ViewGroup[id="com.changba:id/ktv_interact_self"] > android.widget.LinearLayout[id="com.changba:id/give_gift_self_container"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.TextView[id="com.changba:id/knowTv"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
-      key: 10,
-      name: 'in-app|hJKrfYLhyNdmdbw-S5qM_Ny9PoOsXDE5D2984xDAzNs=.png',
+      key: 9,
+      name: 'in-app|gys1hCuSyqUy0txrgnVRStcgbzb0Ni2dl9_5q-5Ukfs=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -195,9 +177,27 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '.activity.MainActivity',
+          activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.changba:id/common_dialog_fragment_web_view_container_fl"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.changba:id/common_fragment_web_view_parent"][clickable=true] > android.webkit.WebView > android.webkit.WebView[text="歌手等级奖励弹窗"] > android.view.View > android.view.View[id="app"] > android.view.View > android.view.View > android.view.View > android.widget.Button[text="关闭"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.changba:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.changba:id/container"] > android.view.ViewGroup[id="com.changba:id/coordinator"] > android.widget.FrameLayout[id="com.changba:id/design_bottom_sheet"] > android.view.ViewGroup > android.widget.ImageView[id="com.changba:id/iv_personal_perfect_info_close"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 10,
+      name: 'in-app|iFTNYqRDOvkvh6h7RlsKR_u0_RASqlTwkjeWtT8a4p4=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.changba:id/fragment_content"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.changba:id/title_bar"] > android.widget.RelativeLayout[id="com.changba:id/title_layout"] > android.widget.TextView[id="com.changba:id/my_lefttview"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -240,7 +240,7 @@ export default defineGkdApp({
     },
     {
       key: 13,
-      name: 'in-app|kJwZJmUr-4bpGiXSjR6XBXEVpKmit4E0MNHQhEWoDzI=.png',
+      name: 'in-app|SJWzNk_MWAYKzXhTPgE5Bwc5PX16lGl1hNEFwYZzSpo=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -251,14 +251,14 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.view.ViewGroup[id="com.changba:id/close_room"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.TextView[id="com.changba:id/btn_do"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 14,
-      name: 'in-app|LJz-W0elLJ2GUMMDhR6JvbF_wWJr9Es1VFUC8DtTzhE=.png',
+      name: 'in-app|TjIe9ProBMbH7ow4uhOiZTeK0nI16j7yeXFV_t1aKv0=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -267,51 +267,15 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '',
+          activityIds: '.webview.CommonWebViewActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.changba:id/root_layout"][clickable=true] > android.view.ViewGroup[id="com.changba:id/humming_base_layout"][clickable=true] > android.view.View[id="com.changba:id/btn_close"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.changba:id/common_activity_web_view_container_fl"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.changba:id/common_fragment_web_view_parent"][clickable=true] > android.webkit.WebView > android.webkit.WebView[text="礼物墙"] > android.view.View > android.view.View[id="app"][clickable=true] > android.view.View > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 15,
-      name: 'in-app|O5upNTp2kSXkm90TZ1xmWcj6vW1z1Oz6Eep4zu1or-Y=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.view.ViewGroup[id="com.changba:id/rootLayout"] > android.widget.ImageView[id="com.changba:id/closeBT"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 16,
-      name: 'in-app|TkMxy3iMblAXgejenhpkLCwZ7TBRo_eWAljoHXqo0Ms=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.changba:id/root_layout"][clickable=true] > android.view.ViewGroup[id="com.changba:id/humming_base_layout"][clickable=true] > android.view.View[id="com.changba:id/btn_close"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 17,
       name: 'in-app|TvqrAkYqPFMf_CHT8ZWCH6s_Ogkj_MolLes1BUAX3r8=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -329,8 +293,8 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 18,
-      name: 'in-app|wWCtJ6mrlWXpDBwvGM0MWFOLmUnP0Gyx1dEpnglRhy8=.png',
+      key: 16,
+      name: 'in-app|VP4lvGAxDSXCUuRGKFGAdZwIuEKZqA-wb7HnP9uKADY=.png',
       actionDelay: 3000,
       actionMaximum: 5,
       resetMatch: 'app',
@@ -339,15 +303,87 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '.module.globalplay.GlobalPlayerActivity',
+          activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.changba:id/act_titlebar"] > android.widget.RelativeLayout[id="com.changba:id/title_layout"] > android.widget.HorizontalScrollView[id="com.changba:id/tab_layout"] > android.widget.LinearLayout > androidx.appcompat.app.ActionBar$Tab[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.changba:id/fragment_content"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.changba:id/title_bar"] > android.widget.RelativeLayout[id="com.changba:id/title_layout"] > android.widget.TextView[id="com.changba:id/my_lefttview"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 17,
+      name: 'in-app|wmFptwLQA76Appi0sOOFJVurAPcUCNoHlQshQZp_DDY=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.view.ViewGroup[id="com.changba:id/close_room"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 18,
+      name: 'in-app|wNZTaOo-V-X2Y-9SIYzaWgM_XNBri59r4f93SeCLiYg=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.changba:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.changba:id/container"] > android.view.ViewGroup[id="com.changba:id/coordinator"] > android.widget.FrameLayout[id="com.changba:id/design_bottom_sheet"] > android.view.ViewGroup > android.widget.ImageView[id="com.changba:id/iv_personal_perfect_info_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 19,
+      name: 'in-app|xzAGp5bdBvUkRUK4BM-UuvXF45SfhY2-cwOdgbwMWkg=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'flutter.FlutterCustomActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.View > android.view.View[desc="Dismiss"][clickable=true] > android.view.View > android.view.View[desc="榜单说明"][clickable=true] > android.widget.ImageView[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 20,
+      name: 'in-app|Y6FGn3DM3OQpZQJq3N_CMhHj5dGtlnUlmiJ9oestYfU=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.TextView[id="com.changba:id/knowTv"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 21,
       name: 'in-app|yFgoMcqD5msGOXH_KKLPkPVgAsW2iSRpD0qb2S7eIFM=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -365,7 +401,25 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 20,
+      key: 22,
+      name: 'in-app|z0TCEa6ejETrZyq1-skh5g14OxdeBSD9kVjzsIDVEAk=.png',
+      actionDelay: 3000,
+      actionMaximum: 5,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.TextView[id="com.changba:id/ok_btn"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 23,
       name: 'in-app|zDFsnjaBNITDDt93IHKV_3AitPeqPm_Yrvv33JGJlOQ=.png',
       actionDelay: 3000,
       actionMaximum: 5,
@@ -378,24 +432,6 @@ export default defineGkdApp({
           activityIds: '.songlib.activity.SongInfoActivity',
           matches:
             'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.Button[text="政治或色情内容"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 21,
-      name: 'in-app|zGxjLNEJKG1vJUARf2F3paxHLPPR0m31IMn7PWOmyKY=.png',
-      actionDelay: 3000,
-      actionMaximum: 5,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.ImageView[id="com.changba:id/btn_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
