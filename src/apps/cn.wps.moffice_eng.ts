@@ -114,24 +114,6 @@ export default defineGkdApp({
     },
     {
       key: 6,
-      name: 'in-app|djK0_RVNrFZEcBp9Jqx3sb4n549eVDdT9KAQl6Mtojw=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/fl_content"] > android.widget.RelativeLayout > android.widget.Button[id="cn.wps.moffice.plugin.cloudPage:id/btn_upgrade"][text="开通会员"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 7,
       name: 'in-app|ryC7pxNQqgCU9Q51F77x2AVNPsKzUMt-M7erf2ptidE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -149,25 +131,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
-      name: 'in-app|OT-nvU_nWfHueZkWGIquqVbfcBFUe4bj9QyzM76Jh-I=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/public_circle_progressbar"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 9,
+      key: 7,
       name: 'in-app|R3aAeJo3Eu72GaP7iDJZLteG4u36GkBcTpVNg2AyEqc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -185,7 +149,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 10,
+      key: 8,
       name: 'in-app|RbCDrhaeznWX7bZIx187Qh1vqlytN2zwOmxMq1Wy8bg=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -203,7 +167,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 11,
+      key: 9,
       name: 'in-app|sru9NZGHNb9VrCJlYuBNsYbUlU0ZezJRQvj9V7qyZyc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -221,7 +185,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 12,
+      key: 10,
       name: 'in-app|Okg_03Y3YDxSf4KDXpBZvELuqovU2jaASJ4Q-WRELiQ=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -239,44 +203,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 13,
-      name: 'system|OTqKpr0xrWIp084M3Vp9I_6R3h3Ng9soGQir9KiuHPM=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds:
-            'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true] > android.widget.LinearLayout[id="com.lbe.security.miui:id/buttonPanel"] > android.widget.Button[text="本次运行允许"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 14,
-      name: 'in-app|0e0MkEhvlng_mSyzNo6MjN6Jd1abjULtQ-V0O_txW7o=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/fl_content"] > android.widget.RelativeLayout > android.widget.Button[id="cn.wps.moffice.plugin.cloudPage:id/btn_upgrade"][text="开通会员"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 15,
+      key: 11,
       name: 'in-app|piyqY5BSDcvILJEyfDuIu2gg2IFnDkmhKDuh7fUjQxQ=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -294,7 +221,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 16,
+      key: 12,
       name: 'in-app|NAciHk3y60D7h2fYs4oBytkpgIqZCAkXIvxcC4iVQUI=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -307,24 +234,6 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_background"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_cardview"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/custom_dialog_cardcontent"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/dialog_bottom_layout"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/dialog_button_positive_layout"] > android.widget.Button[id="cn.wps.moffice_eng:id/dialog_button_positive"][text="再次许可授权"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 17,
-      name: 'system|QJa6OzJHO47gtw8K2gtXqJv42G1ca3UPuz7c736svTY=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.lbe.security.miui:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.lbe.security.miui:id/dialog_root_view"] > android.widget.LinearLayout[id="com.lbe.security.miui:id/parentPanel"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
