@@ -24,6 +24,24 @@ export default defineGkdApp({
     },
     {
       key: 1,
+      name: 'in-app|8UwfbjGmmhPDunQJfGmRkaERCMAGiqeZdqrTLt7xGt8=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > com.bytedance.android.gaia.activity.slideback.SlideFrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.ss.android.article.news:id/czq"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 2,
       name: 'in-app|E4K_5gJXnuR4GJ7t_EojuriVIsjhNeGrHILFok6vi7g=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -41,7 +59,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 2,
+      key: 3,
       name: 'in-app|GBZY82AjK4rsNtuVSH-tv_t34zAwhQWLMUsWGh7GWgs=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -59,7 +77,97 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 4,
+      name: 'system|NVgty-UA8w5kK29hVYJCVKgXcNNl_Ry7qT196g5tOCY=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.ss.android.article.news:id/bv0"] > android.widget.TabHost[id="android:id/tabhost"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/d08"] > androidx.viewpager.widget.ViewPager[id="com.ss.android.article.news:id/ao"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/h4b"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/h27"] > android.widget.LinearLayout[id="com.ss.android.article.news:id/ghk"] > androidx.recyclerview.widget.RecyclerView > android.widget.LinearLayout[id="com.ss.android.article.news:id/akb"][desc="奋进的春天丨向“新”而行 提“质”而上置顶央视新闻531评论 文章"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 5,
+      name: 'in-app|p5JBjEZ1dhPKOOZIB_J6gT6mSMbd11QlF1dU2_3j6AM=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.ss.android.article.news:id/ccm"] > android.widget.LinearLayout[id="com.ss.android.article.news:id/ccu"][clickable=true] > android.widget.FrameLayout[id="com.ss.android.article.news:id/fs5"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 6,
+      name: 'in-app|R7xjVB8qKXDCaVF7K4_J6D7oVOO_oXWdQl5L8mLfI7U=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > com.bytedance.android.gaia.activity.slideback.SlideFrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.ss.android.article.news:id/czq"][clickable=true] > android.widget.FrameLayout[id="com.ss.android.article.news:id/d76"][clickable=true] > android.widget.RelativeLayout[id="com.ss.android.article.news:id/bt0"] > android.widget.RelativeLayout[id="com.ss.android.article.news:id/iac"] > android.widget.ImageView[id="com.ss.android.article.news:id/ad7"][desc="关闭"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 7,
+      name: 'in-app|ViiXElWtQZwI0_r8dvFCBBnc_oN10_6dRZaG_pFeaV4=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > com.bytedance.android.gaia.activity.slideback.SlideFrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.ss.android.article.news:id/czq"][clickable=true] > android.widget.FrameLayout[id="com.ss.android.article.news:id/d76"][clickable=true] > android.widget.RelativeLayout[id="com.ss.android.article.news:id/bt0"] > android.widget.RelativeLayout[id="com.ss.android.article.news:id/iac"] > android.widget.ImageView[id="com.ss.android.article.news:id/ad7"][desc="关闭"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 8,
+      name: 'in-app|WH8jmu-cUb1m3Xxr3HeEMN9-1Pe0qqGtqDciz8NK6o0=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > com.bytedance.android.gaia.activity.slideback.SlideFrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.ss.android.article.news:id/czq"][clickable=true] > android.widget.FrameLayout[id="com.ss.android.article.news:id/d76"][clickable=true] > android.widget.RelativeLayout[id="com.ss.android.article.news:id/bt0"] > android.widget.RelativeLayout[id="com.ss.android.article.news:id/iac"] > android.widget.ImageView[id="com.ss.android.article.news:id/ad7"][desc="关闭"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 9,
       name: 'in-app|yyNLJO8fnYrS1tXNPDc4ATL_yTrf9OtbyFdnIl1yEps=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -72,6 +180,24 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.ss.android.article.news:id/bv0"] > android.widget.TabHost[id="android:id/tabhost"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/d08"] > androidx.viewpager.widget.ViewPager[id="com.ss.android.article.news:id/ao"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/h4b"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/h27"] > android.widget.LinearLayout[id="com.ss.android.article.news:id/ghk"] > androidx.recyclerview.widget.RecyclerView > android.widget.LinearLayout[id="com.ss.android.article.news:id/akb"][desc="足不出户如何做到月入过万，看看Deepseek提供的方案三张内容图片历史轮回梦一场头像历史轮回梦一场656 文章"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 10,
+      name: 'in-app|__DBoZ2ObKthqW9tY-K29mi32aOyjzvVZvVAPEuF_OA=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/l"] > android.view.ViewGroup[id="com.ss.android.article.news:id/bvw"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/fw"] > android.view.ViewGroup > android.widget.RelativeLayout[id="com.ss.android.article.news:id/lj5"] > android.widget.ImageView[id="com.ss.android.article.news:id/liv"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
