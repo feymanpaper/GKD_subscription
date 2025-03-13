@@ -24,24 +24,6 @@ export default defineGkdApp({
     },
     {
       key: 1,
-      name: 'in-app|8mt6ihi5jbP1hH00xPnpAeDGndp4nyKO_R2377cn6eM=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/container"] > android.view.ViewGroup[id="com.netease.newsreader.activity:id/coordinator"] > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/design_bottom_sheet"] > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/label_fragment_layout"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/layout_info"] > android.widget.TextView[id="com.netease.newsreader.activity:id/label_name_text"][text="有理有据，使人信服"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 2,
       name: 'in-app|c8wCDgQsxulRqAjAyii-r97tTC-cUL1Bzf5lkX5e2ak=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -59,8 +41,8 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
-      name: 'in-app|gKE50n8V7qmUI1kvdV_M9FOhUqtNBYm51_GxT6wX2X0=.png',
+      key: 2,
+      name: 'in-app|F-ZQvnza_6NclLxI4Yi9xfBEsoA02ExmOn3oKsKdrhc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
       resetMatch: 'app',
@@ -72,13 +54,13 @@ export default defineGkdApp({
           activityIds:
             'com.netease.newsreader.common.base.activity.SingleFragmentActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/base_fragment_content"] > android.widget.RelativeLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/webview"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/root"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.netease.newsreader.activity:id/webview_layout"] > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/webview_container"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/web_container"] > android.webkit.WebView[clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/base_fragment_content"] > android.widget.RelativeLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/webview"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/root"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.netease.newsreader.activity:id/webview_layout"] > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/webview_container"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/web_container"] > android.webkit.WebView > android.webkit.WebView[text="任务中心"] > android.view.View[id="app"] > android.view.View > android.view.View > android.widget.TextView[text="我知道了"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
-      key: 4,
+      key: 3,
       name: 'in-app|Ir4rpf5siYJ1hLceWIt9lwx5KN50a9xZkNjsMniLsFE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -96,25 +78,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
-      name: 'in-app|LPe3IfVUkfk8SUrBm6CUE3za7G5jB-OUsvP0vSXxzLA=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/container"] > android.view.ViewGroup[id="com.netease.newsreader.activity:id/coordinator"] > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/design_bottom_sheet"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/full_login_view"] > android.widget.FrameLayout > android.widget.ScrollView[id="com.netease.newsreader.activity:id/login_scrollview"] > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/loginRoot"][clickable=true] > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/login_other_way"] > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/login_plats"] > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/id_account_login_type"][desc="更多登录方式按钮"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 6,
+      key: 4,
       name: 'in-app|MGfNEUVOaQzrHX7WtFRwr76qZbs3qk8v9RAQVv4z9Ug=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -132,7 +96,26 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 7,
+      key: 5,
+      name: 'in-app|QCXqi7BEOeQOjvZIDTTgHqXwGlgsiCfclsWvN1FzOP4=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds:
+            'com.netease.newsreader.common.base.activity.SingleFragmentActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/base_fragment_content"] > android.widget.RelativeLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/webview"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/root"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.netease.newsreader.activity:id/webview_layout"] > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/webview_container"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/web_container"] > android.webkit.WebView > android.webkit.WebView[text="金币商城"] > android.view.View[id="root"] > android.view.View > android.view.View > android.view.View > android.widget.TextView[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 6,
       name: 'system|R2x8F9xmcix1GSEI4vtgQuT8xNu4iiNQ_Z3jcYIqwcw=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -151,7 +134,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 7,
       name: 'in-app|rDXSQVL7sPRuUs2jhLrptuwloT-pfOPLM_lvVhM0s0I=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -169,7 +152,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 9,
+      key: 8,
       name: 'in-app|SWydODmHG5PkLclmGbvyyUcsuN_RIPzek-5EeTpP0SA=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -182,6 +165,24 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/dialog_root"] > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/dialog_container"] > android.widget.RelativeLayout > android.widget.Button[id="com.netease.newsreader.activity:id/ok"][text="确定"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 9,
+      name: 'in-app|t2q9Jw1hJ7y9jZoCDjJLqk-BaEefWki1wVl8zVlvdII=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.ImageView[id="com.netease.newsreader.activity:id/vip_coupon_dialog_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -225,43 +226,6 @@ export default defineGkdApp({
     },
     {
       key: 12,
-      name: 'in-app|VWIammSECptlLbYu4qKN6sgOxI4rJl7CjY1Ig93jj-M=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds:
-            'com.netease.newsreader.common.base.activity.SingleFragmentActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/base_fragment_content"] > android.widget.RelativeLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/webview"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/root"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.netease.newsreader.activity:id/webview_layout"] > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/webview_container"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/web_container"] > android.webkit.WebView > android.webkit.WebView[text="中国商报：【#长和暴涨24%#！#李嘉诚拟228亿美元卖掉43个港口#】3月5日，长和股价大涨，盘中涨幅近24%。截至5日14时40分，长和股价报46.95港元/股，涨幅为21.47%。3月4日深夜，长江和记实业有限公司（长和）在港交所公告，发布《有关涉及和记港口集团所拥有及经营若干港口之交易之独家磋商內幕消息》。根据公告，长和与贝莱德（BlackRock）牵头的财团达成原则性协议，出售其全球港口业务核心资产，其中涉及巴拿马港口公司90%股权。 根据公告，长和拟向该财团全数出售持有的和记港口控股（HPHS）及和记港口集团控股（HPGHL）股权，二者合计控制着和记港口集团80%的全球权益。标的资产覆盖亚欧美洲23个国家的43个港口，涵盖199个泊位及配套的智能码头管理系统、全球物流网络等核心资源。据悉，此次整体出售总企业价值为228亿美元，预期将为该集团带来逾190亿美元的现金收益。#港股#"] > android.view.View[clickable=true] > android.view.View[id="root"] > android.view.View > android.widget.TextView[text="APP内打开"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 13,
-      name: 'in-app|WcOyz5VnRvr2lzXf2jMLuT6Bb3RZ1ATybMPMJVmnS8Y=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/base_fragment_content"] > android.widget.RelativeLayout[id="com.netease.newsreader.activity:id/diamond_container"] > android.widget.LinearLayout > android.widget.Button[id="com.netease.newsreader.activity:id/diamond_buy"][text="立即充值"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 14,
       name: 'in-app|xYTs3gNqUZChVpq7Ywj4wt3QsCdM3GIzWPwThcgL75s=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -279,7 +243,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 15,
+      key: 13,
       name: 'in-app|y3J1uWQPHCgJlH7ImvgSGns4lWLpH7_fqX_U-x0VKa8=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -297,7 +261,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 16,
+      key: 14,
       name: 'in-app|yiLAobwOyZnAYVzv4umJTWDBZHvkFrtLD1nzHELSnNs=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -311,6 +275,24 @@ export default defineGkdApp({
             'com.netease.newsreader.common.base.activity.SingleFragmentActivity',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/base_fragment_content"] > android.widget.RelativeLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/webview"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/root"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.netease.newsreader.activity:id/webview_layout"] > android.widget.LinearLayout[id="com.netease.newsreader.activity:id/webview_container"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/web_container"] > android.webkit.WebView > android.webkit.WebView[text="影响力"] > android.view.View > android.view.View > android.widget.TextView[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 15,
+      name: 'in-app|YUVg8wdZOG-Kq_-SxEK1hpwkkQTpGm0ZQHCRrqFtRDw=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/container"] > android.view.ViewGroup[id="com.netease.newsreader.activity:id/coordinator"] > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/design_bottom_sheet"] > android.widget.FrameLayout[clickable=true] > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/list_container"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.newsreader.activity:id/base_fragment_content"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.netease.newsreader.activity:id/news_vip_user_titlebar"] > android.widget.ImageView[id="com.netease.newsreader.activity:id/news_vip_user_close"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
