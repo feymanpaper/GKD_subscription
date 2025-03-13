@@ -42,24 +42,6 @@ export default defineGkdApp({
     },
     {
       key: 2,
-      name: 'in-app|ff0d7e_SZLG9SlIGCT0wZX1tuUVgX4B7d61b21CA-9A=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.WebActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.jingdong.app.mall:id/dp"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout > android.webkit.WebView > android.webkit.WebView[text="东东农场"] > android.view.View[id="root"][clickable=true] > android.view.View > android.view.View > android.view.View[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 3,
       name: 'in-app|HZIoFkGVIeg78vKbGysWo8BaA_SRRj5O0yP-klodDa0=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -77,7 +59,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 3,
       name: 'in-app|JXPnbihdTgkxoUjpiSBQwg3202mOXBKQl5v2VojFKVU=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -95,7 +77,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
+      key: 4,
       name: 'in-app|LkBydCUy0kIH417LU8THdZf4UYwRQO7X3CzwX9JTvUE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -113,7 +95,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 6,
+      key: 5,
       name: 'in-app|nh_4Ok6qAl9V59YJzVWwsEIXuWtWGhhmrx2pkIrIPKg=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -131,7 +113,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 7,
+      key: 6,
       name: 'in-app|NQZsJYVla6Kat0LEtO1C4rG56Cgk6kziuQjWu-QEjJY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -149,7 +131,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 7,
       name: 'in-app|r1XPjiVqtXwo4m_HY6O0GVmOGHh35ZbczSou6fxxS1A=.png',
       actionDelay: 3000,
       actionMaximum: 3,
