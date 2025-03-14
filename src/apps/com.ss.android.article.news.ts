@@ -42,6 +42,24 @@ export default defineGkdApp({
     },
     {
       key: 2,
+      name: 'in-app|bqXBXy1eEs7vYG_ybhlpDvQxw_HWHfN0AcSz-DEcN1A=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.ss.android.template.page.MainLynxActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > com.bytedance.android.gaia.activity.slideback.SlideFrameLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.ss.android.article.news:id/d0u"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.article.news:id/f0n"] > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.LynxFlattenUI[desc="返回活动"][text="返回活动"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 3,
       name: 'in-app|E4K_5gJXnuR4GJ7t_EojuriVIsjhNeGrHILFok6vi7g=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -59,7 +77,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 4,
       name: 'in-app|GBZY82AjK4rsNtuVSH-tv_t34zAwhQWLMUsWGh7GWgs=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -77,7 +95,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 5,
       name: 'system|NVgty-UA8w5kK29hVYJCVKgXcNNl_Ry7qT196g5tOCY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -90,24 +108,6 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.ss.android.article.news:id/bv0"] > android.widget.TabHost[id="android:id/tabhost"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/d08"] > androidx.viewpager.widget.ViewPager[id="com.ss.android.article.news:id/ao"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/h4b"] > android.widget.FrameLayout[id="com.ss.android.article.news:id/h27"] > android.widget.LinearLayout[id="com.ss.android.article.news:id/ghk"] > androidx.recyclerview.widget.RecyclerView > android.widget.LinearLayout[id="com.ss.android.article.news:id/akb"][desc="奋进的春天丨向“新”而行 提“质”而上置顶央视新闻531评论 文章"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 5,
-      name: 'in-app|p5JBjEZ1dhPKOOZIB_J6gT6mSMbd11QlF1dU2_3j6AM=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.ss.android.article.news:id/ccm"] > android.widget.LinearLayout[id="com.ss.android.article.news:id/ccu"][clickable=true] > android.widget.FrameLayout[id="com.ss.android.article.news:id/fs5"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -132,6 +132,24 @@ export default defineGkdApp({
     },
     {
       key: 7,
+      name: 'in-app|tfij7BJDl57bcZvWQeVvPiksSWWWcfxJdu5FGbA4FI4=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '.activity.MainActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.component.svg.UISvg[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 8,
       name: 'in-app|ViiXElWtQZwI0_r8dvFCBBnc_oN10_6dRZaG_pFeaV4=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -149,7 +167,25 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 9,
+      name: 'in-app|wEod8JzK21nWEdKEMcUhTqA-PSgmBcY76Wvm1FPwx3w=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.ss.android.template.page.MainLynxActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.article.news:id/j6"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.component.svg.UISvg[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 10,
       name: 'in-app|WH8jmu-cUb1m3Xxr3HeEMN9-1Pe0qqGtqDciz8NK6o0=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -167,7 +203,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 9,
+      key: 11,
       name: 'in-app|yyNLJO8fnYrS1tXNPDc4ATL_yTrf9OtbyFdnIl1yEps=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -185,7 +221,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 10,
+      key: 12,
       name: 'in-app|__DBoZ2ObKthqW9tY-K29mi32aOyjzvVZvVAPEuF_OA=.png',
       actionDelay: 3000,
       actionMaximum: 3,

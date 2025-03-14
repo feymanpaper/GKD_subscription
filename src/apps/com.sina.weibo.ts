@@ -150,5 +150,23 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 8,
+      name: 'in-app|S1XhJ6FR_cBJj7DhqJ-nTSlWEbfYPT4joeVKFGuq1Ss=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '.feed.MPDialogActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.view.ViewGroup[id="com.sina.weibo:id/ptr_container"] > android.widget.FrameLayout[id="com.sina.weibo:id/container"] > android.webkit.WebView > android.webkit.WebView[text="Wbox"] > android.view.View > android.view.View > android.view.View > android.widget.TextView[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
   ],
 });

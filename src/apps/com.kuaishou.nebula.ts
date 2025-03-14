@@ -2,7 +2,7 @@ import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
   id: 'com.kuaishou.nebula',
-  name: '快手',
+  name: '快手极速版',
   groups: [
     {
       key: 0,

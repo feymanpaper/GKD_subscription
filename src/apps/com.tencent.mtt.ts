@@ -6,7 +6,7 @@ export default defineGkdApp({
   groups: [
     {
       key: 0,
-      name: 'in-app|8Mrv8778hVbb-LvuZ_OEP4Ycb1XKboeL0bZseRDHnL0=.png',
+      name: 'in-app|AKDD5lg9fHhENMe4BgZH_mtWLohiQzwrCkHltYwu-4M=.png',
       actionDelay: 3000,
       actionMaximum: 3,
       resetMatch: 'app',
@@ -17,14 +17,14 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="com.tencent.mtt:id/toolBoxRootView"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.tencent.mtt:id/toolBoxCancel"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.tencent.mtt:id/toolBoxCardView"] > android.widget.LinearLayout > android.widget.TextView[id="com.tencent.mtt:id/save_page_long_pic"][text="保存为长图"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 1,
-      name: 'in-app|ekbRClzclXG56oFDPdmKwhAD-Agmej--HH24k_Acf6g=.png',
+      name: 'in-app|Fby3livYBCksikj9GEOSlCx8J2axWqfNK1MrVNOB0oY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
       resetMatch: 'app',
@@ -33,16 +33,16 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '',
+          activityIds: '.MainActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout > android.widget.ScrollView > android.widget.LinearLayout > android.widget.Button[id="com.tencent.mtt:id/qb_dialog_first_button"][text="去设置"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 2,
-      name: 'in-app|rKRMh_OA33kD8X4TjO4uv0HqDAbaeEi1ou68wdhtmSc=.png',
+      name: 'in-app|rKRMh_OA33kD8X4TjO4uv0HqDAbaeEi1ou68wdhtmSd.png',
       actionDelay: 3000,
       actionMaximum: 3,
       resetMatch: 'app',
@@ -72,6 +72,24 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout > android.widget.ScrollView > android.widget.LinearLayout > android.widget.ScrollView > android.view.ViewGroup > android.widget.ImageView[id="com.tencent.mtt:id/btn_close"][desc="关闭按钮"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 4,
+      name: 'in-app|ZNmJMo9eMqyN8hZ9W9QnSVlwB8G23DEVzUEQEbsjur4=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.tencent.mtt:id/roundRectDialogRootCardView"] > android.widget.ScrollView[id="com.tencent.mtt:id/dialogScrollView"] > android.widget.LinearLayout > android.widget.Button[id="com.tencent.mtt:id/mainButtonProgressView"][text="下载"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
