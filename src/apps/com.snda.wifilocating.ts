@@ -78,24 +78,6 @@ export default defineGkdApp({
     },
     {
       key: 4,
-      name: 'in-app|cQCe2AQGlU_E3Xr2qA0QyZQwVx1T0IUyUjYq1VdR6WA=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[id="com.zm.wfsdk:id/tv_illegality"][text="违法违规"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 5,
       name: 'in-app|dGLXAQoIYfbCo7rNi5KbADm9BXbE3k_7Ud8Oi-5_aH4=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -113,7 +95,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 6,
+      key: 5,
       name: 'in-app|KLb_8j7SVzvI9VeACCPQ3DvNUG4Az2r0HMsW9UGOEP8=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -131,7 +113,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 7,
+      key: 6,
       name: 'in-app|pzovXJRSMSU9H14m74E1BpDPV1FzoVhEJpuHd7Yccd8=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -149,7 +131,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 7,
       name: 'in-app|RPt8oOrj4c59u3Sbllo_Th8m-y5AH1roF7Ydso-HvgM=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -167,7 +149,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 9,
+      key: 8,
       name: 'system|wmA_kM5WskpOPMfVBOm-33VsbrVTNJg6lHNFCrtoXn0=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -185,7 +167,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 10,
+      key: 9,
       name: 'in-app|wMbgtavPjmsB2XvMXm6DgwYD7gtfjYyxpcjiETkjMQw=.png',
       actionDelay: 3000,
       actionMaximum: 3,
