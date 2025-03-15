@@ -1,21 +1,19 @@
 # 变更记录
 
-v29 -> v30
+v30 -> v31
 
 ||||||
 |-|:-:|:-:|:-:|:-:|
-|应用||~8||93 -> 93|
-|应用规则|+8|~26|-15|999 -> 992|
+|应用||~6||93 -> 93|
+|应用规则|+15|~22|-2|992 -> 1005|
 
 ## 应用规则
 
 ||+|~|-|
 |:-:|-|-|-|
-|今日头条<br>+2,~8|<li>in-app|yyNLJO8fnYrS1tXNPDc4ATL_yTrf9OtbyFdnIl1yEps=.png,<li>in-app|__DBoZ2ObKthqW9tY-K29mi32aOyjzvVZvVAPEuF_OA=.png|<li>in-app|bqXBXy1eEs7vYG_ybhlpDvQxw_HWHfN0AcSz-DEcN1A=.png,<li>in-app|E4K_5gJXnuR4GJ7t_EojuriVIsjhNeGrHILFok6vi7g=.png,<li>in-app|GBZY82AjK4rsNtuVSH-tv_t34zAwhQWLMUsWGh7GWgs=.png,<li>system|NVgty-UA8w5kK29hVYJCVKgXcNNl_Ry7qT196g5tOCY=.png,<li>in-app|tfij7BJDl57bcZvWQeVvPiksSWWWcfxJdu5FGbA4FI4=.png,<li>in-app|ViiXElWtQZwI0_r8dvFCBBnc_oN10_6dRZaG_pFeaV4=.png,<li>in-app|wEod8JzK21nWEdKEMcUhTqA-PSgmBcY76Wvm1FPwx3w=.png,<li>in-app|WH8jmu-cUb1m3Xxr3HeEMN9-1Pe0qqGtqDciz8NK6o0=.png||
-|快手<br>+4,~5|<li>in-app|bYby4EIx-7xvfLbejeKiOo7xk495wUjn7N3xyW1owpQ=.png,<li>in-app|iLduKjuthJeTpOHGwZCGxEVARPYJGf78iw6SY4auGtI=.png,<li>in-app|vz9RJGaG7lH8kcBsmaPsMEK0Lf35IT4toFpT7he6NmY=.png,<li>in-app|wCo92KxIg9OiF-eoUjJCeqQLNAhOh5XC_6HDItW7hss=.png|<li>in-app|3AJUbJ4rihIM92Zp_6d0eoXgs-qgrBXjG0FBzy3aeZs=.png,<li>in-app|3otLxSfrJnklltRrhOybVnFPvUmDTNTckAGIs9uPIT8=.png,<li>in-app|8JWt_CvqCSmosFRxhN5iziCG7U_WfEkt1QVtZP4wlbM=.png,<li>in-app|97jqvN2Y3TsTPc_4ehcjmgSFMv-aFV8ThsifRIYqgJ8=.png,<li>in-app|9SdknJ5AF0sJlEgxHDWssINmKCp6YbU_-AvrCk0qsTE=.png||
-|快手极速版<br>||||
-|腾讯视频<br>~4,-13||<li>in-app|4Fuvcktltvj0rjg4Wt3L5lpzrma5VEGmE9RiCsAm9Jc=.png,<li>in-app|5p02SXiEScNO1rNa56f4PjVaLPblpFup0DaNXFpmNsE=.png,<li>system|MyNQhnaLmekZhUhxyI5KB-wHUW9xE6nY1SgpiBLTjNU=.png,<li>in-app|Sh9NwpsmhHhNVtic91Rz5qA7dp0N8qcFRD-ZLkYRESI=.png|<li>in-app|fzvf1lpwStGi6_4CW4EqMlNuBnjN6QkXDvdhCKbg6uQ=.png,<li>in-app|GXetE4Q21h8X9BJ1YfPEg9py7rSpFwX_0yK9046NwoQ=.png,<li>in-app|ldHvM3Q4T37d0A-RUjO9h4jN6FBuWvXH2EvlmxSE2og=.png,<li>in-app|lzjwXqLVkuNUgFxjoAiHj2BcYcXvqKdJg-xugDjaKIk=.png,<li>system|MyNQhnaLmekZhUhxyI5KB-wHUW9xE6nY1SgpiBLTjNU=.png,<li>in-app|Sh9NwpsmhHhNVtic91Rz5qA7dp0N8qcFRD-ZLkYRESI=.png,<li>in-app|TmIBc1qOYTDtP-CPcAMuOnokEoJ0kj0yEuOHySa4H0I=.png,<li>in-app|Us9Rv0aHqrgHHs-N5Ak9Z3vo3Lt9_uVK8gvMInqwg6o=.png,<li>in-app|WO6KIRt09P7GTE_71Q-BU7YTCLj5wH1SiIILeofQfcM=.png,<li>in-app|WZZTzlYhuPgVdLqV9Iq8QKfw64cWXdg948VqOuQ3WQI=.png,<li>in-app|zu99TMgMqvZ7W8ebRERY4OimkUrGdMUDNkPzJ61xXyM=.png,<li>in-app|_1NcnTYlQPXL6qEx6hsAlbXc0t_frzXz5MZL8dwGXdA=.png,<li>in-app|_3U63AVwjGa5P9izDC_m6VLM1vPVN1Th8EC2OmV_ZaQ=.png|
-|微博<br>+1|<li>in-app|S1XhJ6FR_cBJj7DhqJ-nTSlWEbfYPT4joeVKFGuq1Ss=.png|||
-|QQ浏览器<br>+1,~3|<li>in-app|ZNmJMo9eMqyN8hZ9W9QnSVlwB8G23DEVzUEQEbsjur4=.png|<li>in-app|AKDD5lg9fHhENMe4BgZH_mtWLohiQzwrCkHltYwu-4M=.png,<li>in-app|Fby3livYBCksikj9GEOSlCx8J2axWqfNK1MrVNOB0oY=.png,<li>in-app|rKRMh_OA33kD8X4TjO4uv0HqDAbaeEi1ou68wdhtmSd.png||
-|QQ邮箱<br>-1|||<li>in-app|wrlexBrCA616Uf5LAEc34VGZGf48TSgMpIGsdg0NTGg=.png|
-|WiFi万能钥匙<br>~6,-1||<li>in-app|dGLXAQoIYfbCo7rNi5KbADm9BXbE3k_7Ud8Oi-5_aH4=.png,<li>in-app|KLb_8j7SVzvI9VeACCPQ3DvNUG4Az2r0HMsW9UGOEP8=.png,<li>in-app|pzovXJRSMSU9H14m74E1BpDPV1FzoVhEJpuHd7Yccd8=.png,<li>in-app|RPt8oOrj4c59u3Sbllo_Th8m-y5AH1roF7Ydso-HvgM=.png,<li>system|wmA_kM5WskpOPMfVBOm-33VsbrVTNJg6lHNFCrtoXn0=.png,<li>in-app|wMbgtavPjmsB2XvMXm6DgwYD7gtfjYyxpcjiETkjMQw=.png|<li>in-app|wMbgtavPjmsB2XvMXm6DgwYD7gtfjYyxpcjiETkjMQw=.png|
+|58同城<br>+3,~4|<li>in-app|UH7Lfe1lNkGEXWOCshQC9ptsWe59mBKCjkzl9tMKv8k=.png,<li>in-app|uus6eJAbuQR_xUB2ojQvVSGyOGg_1_N9PQ0qn4vD7O4=.png,<li>in-app|VV6WUYEaOQD8htMr-XkjjiCYiihLPq-Wmr35ieW40Pk=.png|<li>in-app|QPBpTwXUKPyKy4hApzpivyNqFrgXhcJ7rGVxlzUBLP8=.png,<li>system|Sh9NwpsmhHhNVtic91Rz5qA7dp0N8qcFRD-ZLkYRESI=.png,<li>in-app|tBpNMonvYilxVKYH665IuMEH6ba23Bfz3B-Yj6f0g0M=.png,<li>in-app|txmsi29ji4kx84Hb9hSA8z_7qQAvNNa6Nol2olOJoOM=.png||
+|快手<br>~7,-1||<li>in-app|8JWt_CvqCSmosFRxhN5iziCG7U_WfEkt1QVtZP4wlbM=.png,<li>in-app|97jqvN2Y3TsTPc_4ehcjmgSFMv-aFV8ThsifRIYqgJ8=.png,<li>in-app|9SdknJ5AF0sJlEgxHDWssINmKCp6YbU_-AvrCk0qsTE=.png,<li>in-app|bYby4EIx-7xvfLbejeKiOo7xk495wUjn7N3xyW1owpQ=.png,<li>in-app|iLduKjuthJeTpOHGwZCGxEVARPYJGf78iw6SY4auGtI=.png,<li>in-app|vz9RJGaG7lH8kcBsmaPsMEK0Lf35IT4toFpT7he6NmY=.png,<li>in-app|wCo92KxIg9OiF-eoUjJCeqQLNAhOh5XC_6HDItW7hss=.png|<li>in-app|wCo92KxIg9OiF-eoUjJCeqQLNAhOh5XC_6HDItW7hss=.png|
+|携程旅行<br>+4,~1|<li>in-app|pLx3QzXYAzdcoBItCw2iw0zEEkKul-dba1JutLJDcDw=.png,<li>in-app|QhAYcH5cye_1XwtoI8YrLiqqE74t4M9KTr8Ct-KrSWs=.png,<li>in-app|t7D2rZzqLekhKnfE4xCMMBvZXi09do6fZeIyPMgPgQ8=.png,<li>in-app|VadhVz0Ulp-fxO6hRj-0hCm4jk66ExJVXUAxIHwRbM0=.png|<li>in-app|Fo1q8p08VrP4s8Dw6LhA_gqV_heZWj25HMfcqXQTxfk=.png||
+|优酷视频<br>+2,~4|<li>in-app|LkOJZXcbYdMHPQ-v1haHOpSm_8OCzYLcYFiU1Rk_-iU=.png,<li>in-app|wq7a_wuoCe9ntdPSeMqTi7n2gu8CxSEhKk-WPtN_070=.png|<li>in-app|440p2VFC0SuMLaTXAWsb-wMnHPmA2chP0C0dcP1WHQs=.png,<li>in-app|7ZwgYCFd7Z9z7pICSaaRRMrx_YajptVybwoKkwfrkO8=.png,<li>in-app|bKM0-LhT2-lABgyCe8lbsSMmelJH3_HGqWPMS81i74I=.png,<li>in-app|JcziNs4IVV9OoXNC2c85TRJmbRcWjtG-YQ47VXDFbFs=.png||
+|QQ浏览器<br>~4,-1||<li>in-app|Fby3livYBCksikj9GEOSlCx8J2axWqfNK1MrVNOB0oY=.png,<li>in-app|rKRMh_OA33kD8X4TjO4uv0HqDAbaeEi1ou68wdhtmSd.png,<li>in-app|uc6Hj7bveUuMNjrGBD4BzfcuuFa4K4y-FX9VyPwoOAA=.png,<li>in-app|ZNmJMo9eMqyN8hZ9W9QnSVlwB8G23DEVzUEQEbsjur4=.png|<li>in-app|ZNmJMo9eMqyN8hZ9W9QnSVlwB8G23DEVzUEQEbsjur4=.png|
+|QQ音乐<br>+6,~2|<li>in-app|bOmlHJ_lRJg2TQT2ucfRBPf_HH_q85r3dRdANBFxHpc=.png,<li>in-app|EfhElXeGIwU_dFJcdb6wFz4yNbG-Qv3u8Hyod70WBHA=.png,<li>in-app|OR0dD8P10M_PYhTz6sw_Wv0yLOlCImmvWcfExZ09Lk0=.png,<li>in-app|RxYBckyNL6opZvYZZ9Ky7Ih0xU77xxLAnlsjAgUYM9s=.png,<li>in-app|Sh9NwpsmhHhNVtic91Rz5qA7dp0N8qcFRD-ZLkYRESI=.png,<li>in-app|xg5LEz1XdkN72qto8Hs2Ja0lJRBcWBuQsa84DOz4aoY=.png|<li>in-app|76r7o1gXPKsRCuqDMp0nk-xPIPLXOH8sZPPCav-eCbg=.png,<li>system|7t_SptYPI9-2d1YiG7SSnsSpSvj_tCQ0FEfRdV8ibn4=.png||
