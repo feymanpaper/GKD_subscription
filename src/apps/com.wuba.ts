@@ -97,6 +97,24 @@ export default defineGkdApp({
     },
     {
       key: 5,
+      name: 'in-app|QPBpTwXUKPyKy4hApzpivyNqFrgXhcJ7rGVxlzUBLP8=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '.hybrid.CommonWebActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.wuba:id/fragment_container"] > android.widget.LinearLayout[id="com.wuba:id/all_content_layout"] > android.widget.RelativeLayout[id="com.wuba:id/webview_container"] > android.widget.RelativeLayout[id="com.wuba:id/titlebar_content"] > android.view.ViewGroup[id="com.wuba:id/content_webview"] > android.widget.FrameLayout > android.webkit.WebView > android.webkit.WebView[text="事事可成"] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.view.View[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 6,
       name: 'system|Sh9NwpsmhHhNVtic91Rz5qA7dp0N8qcFRD-ZLkYRESI=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -114,7 +132,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 6,
+      key: 7,
       name: 'in-app|tBpNMonvYilxVKYH665IuMEH6ba23Bfz3B-Yj6f0g0M=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -132,7 +150,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 7,
+      key: 8,
       name: 'in-app|txmsi29ji4kx84Hb9hSA8z_7qQAvNNa6Nol2olOJoOM=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -150,7 +168,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 9,
       name: 'in-app|UH7Lfe1lNkGEXWOCshQC9ptsWe59mBKCjkzl9tMKv8k=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -163,6 +181,42 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.ImageView[id="com.wuba:id/close_btn"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 10,
+      name: 'in-app|uus6eJAbuQR_xUB2ojQvVSGyOGg_1_N9PQ0qn4vD7O4=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '.hybrid.CommonWebActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.wuba:id/fragment_container"] > android.widget.LinearLayout[id="com.wuba:id/all_content_layout"] > android.widget.RelativeLayout[id="com.wuba:id/webview_container"] > android.widget.RelativeLayout[id="com.wuba:id/titlebar_content"] > android.view.ViewGroup[id="com.wuba:id/content_webview"] > android.widget.FrameLayout > android.webkit.WebView > android.webkit.WebView[text="事事可成"] > android.view.View[clickable=true] > android.view.View[clickable=true] > android.view.View > android.view.View[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 11,
+      name: 'in-app|VV6WUYEaOQD8htMr-XkjjiCYiihLPq-Wmr35ieW40Pk=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '.hybrid.CommonWebActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.wuba:id/fragment_container"] > android.widget.LinearLayout[id="com.wuba:id/all_content_layout"] > android.widget.RelativeLayout[id="com.wuba:id/webview_container"] > android.widget.RelativeLayout[id="com.wuba:id/titlebar_content"] > android.view.ViewGroup[id="com.wuba:id/content_webview"] > android.widget.FrameLayout > android.webkit.WebView > android.webkit.WebView[text="积分中心"] > android.view.View > android.view.View[id="root"][clickable=true] > android.view.View > android.view.View > android.view.View[clickable=true] > android.view.View > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
