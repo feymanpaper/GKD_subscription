@@ -6,24 +6,6 @@ export default defineGkdApp({
   groups: [
     {
       key: 0,
-      name: 'in-app|AKDD5lg9fHhENMe4BgZH_mtWLohiQzwrCkHltYwu-4M=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.tencent.mtt:id/toolBoxCardView"] > android.widget.LinearLayout > android.widget.TextView[id="com.tencent.mtt:id/save_page_long_pic"][text="保存为长图"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 1,
       name: 'in-app|Fby3livYBCksikj9GEOSlCx8J2axWqfNK1MrVNOB0oY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -41,7 +23,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 2,
+      key: 1,
       name: 'in-app|rKRMh_OA33kD8X4TjO4uv0HqDAbaeEi1ou68wdhtmSd.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -59,7 +41,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 2,
       name: 'in-app|uc6Hj7bveUuMNjrGBD4BzfcuuFa4K4y-FX9VyPwoOAA=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -77,7 +59,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 3,
       name: 'in-app|ZNmJMo9eMqyN8hZ9W9QnSVlwB8G23DEVzUEQEbsjur4=.png',
       actionDelay: 3000,
       actionMaximum: 3,
