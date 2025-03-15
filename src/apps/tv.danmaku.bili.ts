@@ -60,24 +60,6 @@ export default defineGkdApp({
     },
     {
       key: 3,
-      name: 'in-app|Q74NTTnqe-wSFzjx8flf89vFDFhiJSaBstbpZoi4-xg=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="tv.danmaku.bili:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="tv.danmaku.bili:id/container"] > android.view.ViewGroup[id="tv.danmaku.bili:id/coordinator"] > android.widget.FrameLayout[id="tv.danmaku.bili:id/design_bottom_sheet"] > android.widget.FrameLayout > androidx.viewpager.widget.ViewPager[id="tv.danmaku.bili:id/vp_container"] > androidx.recyclerview.widget.RecyclerView > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.ImageView[id="tv.danmaku.bili:id/iv_back"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 4,
       name: 'system|z8ZbtNyHLf3eAcPoujtsYr6OXj-Uw8ezY5NXIUdn-PQ=.png',
       actionDelay: 3000,
       actionMaximum: 3,
