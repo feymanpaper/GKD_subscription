@@ -1,13 +1,13 @@
 # 订阅
 
-v33
+v34
 
 |||
 | - |:-:|
 |类别|0|
 |全局规则|0|
 |应用|93|
-|应用规则|994|
+|应用规则|996|
 
 ## 规则类别
 
@@ -65,7 +65,7 @@ v33
 |快手极速版|7|<li>in-app|2klcGnNrsQr8InYZmGygLuHq3y-HX_nBL1EOjBY9osI=.png<li>in-app|bUNWqqD7nu74t7z3jRMa5hI6zkZ31or69Lwwcfo-qCA=.png<li>in-app|heDvmcQeRsmcZftDiDp_CEzZsVPNSXfdpfnKDd-KaVs=.png<li>in-app|j6DgHkbppaCcAK6qgFea5IVYkFoFI9PAjPUsWpdPROc=.png<li>in-app|muvuKpeUmG3craDrzPhOk4f44g39lzgkse-a-6NbjKk=.png<li>in-app|niswtZLtMcqHsSW24M-nHkjPDBDHQWL0k5ZxK8hH_E4=.png<li>in-app|V6-xOebE3pDJr2fOFPBN9UePPNYBwgktzGRTUm2cALM=.png|
 |快牙|1|<li>in-app|Smty9vlswvYpZmGAVyN42FX5wFc2w8b6EwjkXnIymbE=.png|
 |猎豹清理大师|11|<li>in-app|DslH04uTiU541bYHWR-uESuhGb_3WS1TPE8uLM-D1Z4=.png<li>in-app|fQtYwTowkO8ZnX3sC5xww4Akm0b0IyZcS7XLZx7uCOk=.png<li>in-app|FxMPBXwo3Zm-sIQxtHkMcYHrU27_nOsJEO9ngrk6vtQ=.png<li>system|GmbdVrGy-hLrkMmJtivGsTEl9xEN-RQU56nY5VDha4s=.png<li>system|gX3BNwsAJcfr2Tk8kmWuNvMB6sy0T5cE4r-ZZjpsZEo=.png<li>in-app|I2IMUsOJKNVDkWiXtCk4DEouxQwfSN7U-BTaO393u9w=.png<li>system|OG3-m0skPG4b-Uf96clX8FA_IoGkx3v3RTaBkKAyOdQ=.png<li>in-app|qnKu1AoeDwk95888A25AyeXGA4M_SMvEcaNRFNkVIyc=.png<li>in-app|S8WpCImWUOdB0jqr2VS1zlNEOU41uDvVgC2M6EPxrLs=.png<li>system|wmA_kM5WskpOPMfVBOm-33VsbrVTNJg6lHNFCrtoXn0=.png<li>in-app|YZQvbxfXYpGEb_8Uj-dArgHjIenvCuznRkMT0N45vZI=.png|
-|芒果TV|6|<li>in-app|7HhHQYr_sMk0lpR_AFAZSyvTNloBcoTFSxQS3XDi4eY=.png<li>system|7t_SptYPI9-2d1YiG7SSnsSpSvj_tCQ0FEfRdV8ibn4=.png<li>in-app|HhJAU6DrkHRUL15sdFN9sulvfw5uvdEDIr5XJMnicMA=.png<li>in-app|IoKQgoSOHeoOg64g_205XBweGbdPLC87d4EH4wlQttk=.png<li>in-app|jZmzDj9-8JQkqR48ScNebtdI9VlLk6qJy4T9hqLuRXU=.png<li>in-app|tk2A8tHN4Prro42iXs8SIrRob1lb03wguYGnAbBVG-Y=.png|
+|芒果TV|8|<li>in-app|6tfad75Qy7Ok71wlrnoWs1OoNWgvS8UCi2GIHsUmfpc=.png<li>in-app|7HhHQYr_sMk0lpR_AFAZSyvTNloBcoTFSxQS3XDi4eY=.png<li>system|7t_SptYPI9-2d1YiG7SSnsSpSvj_tCQ0FEfRdV8ibn4=.png<li>in-app|HhJAU6DrkHRUL15sdFN9sulvfw5uvdEDIr5XJMnicMA=.png<li>in-app|IoKQgoSOHeoOg64g_205XBweGbdPLC87d4EH4wlQttk=.png<li>in-app|jZmzDj9-8JQkqR48ScNebtdI9VlLk6qJy4T9hqLuRXU=.png<li>in-app|L4C6OG-0lDxTPNC5gfQNf36b7CXyVMCObPnMnwxwvP8=.png<li>in-app|tk2A8tHN4Prro42iXs8SIrRob1lb03wguYGnAbBVG-Y=.png|
 |美拍|2|<li>in-app|jI6pJumEL0UESv1r5IVrWQW66XhF5b-Dcv_4yuPX0zI=.png<li>in-app|LfvkBl5kLH5LPLWssiMcIVE3-GenWf3gi9aJa4QWEhY=.png|
 |美篇|11|<li>in-app|3I8QaQ1qkDytaPWpjlUPWOFQ-uwmoFgjkDdZBvCLLVo=.png<li>in-app|bUzBkhHyqFNUWlz9C4rtQI18F-5SFROXUtsK9OxcEa8=.png<li>system|c6f6AupTaJ4G9dVVfaSc_mLnx3mN2mYimFKsEq9UN2Q=.png<li>in-app|CFSQF4KWHCz4vdyHZfN8TYg4U8AFZ7bp2DThTNNOwDg=.png<li>in-app|DScj2rpq4tGYC0tQWsLCg4jyxqfl2HOs82O7OepFQhA=.png<li>in-app|DtNFrDqAH5aHy_dfpIGbXW6WHv_DZsLtvwzWy9AF-zE=.png<li>in-app|gkoVtp5yNSRy9wLfqYH5HIdwrVimGfu2zUU3NSfCaM4=.png<li>in-app|HYa2yb74XCBw8GQEXnhs95RRM7Z1nW9ZlSlXYaDK1ak=.png<li>in-app|lOMryyd7oSnhFnKpQQ7BLJVhnaxDD0DXh9O9dfz4F2M=.png<li>in-app|Nr1Umd40nCtEJOtO6QUFAkiT0BG_T_5AIUbEHGnsV88=.png<li>in-app|_ZheMMXV-J0lzfFhk5AywXEb2VwxThh7QE9sFJaMFbg=.png|
 |美团|3|<li>system|Ei1Mb6GAr6RvLuEcJmnWrEOOVoQnXCPQgmj4XWvTQY8=.png<li>in-app|HJbAgShwUrPG7QOtyEL21nYd26zoP-Ct4_VB780BcUc=.png<li>in-app|KK1n5mCvtHoVGsUX2tthWnhsx0ORx9d0LKQvHvBKmnc=.png|
