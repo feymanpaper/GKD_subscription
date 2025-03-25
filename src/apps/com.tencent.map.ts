@@ -114,24 +114,6 @@ export default defineGkdApp({
     },
     {
       key: 6,
-      name: 'in-app|kWZQTpORIuTalSJQysIOkaDIXb0PT5G4T8Xyhm6leEE=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.WelcomeActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.tencent.map:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.tencent.map:id/drawer_layout"] > android.widget.FrameLayout[id="com.tencent.map:id/content_root"] > android.widget.FrameLayout[id="com.tencent.map:id/main_content"] > android.widget.FrameLayout[id="com.tencent.map:id/fragment_container"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.tencent.map:id/root_layout"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 7,
       name: 'in-app|MxJm9SkgCRdYxrU-HWxmypstHBUUUx0LW37Q5x2S-iU=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -149,25 +131,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
-      name: 'in-app|QZprDwcm46vyQmJ_GupwnAjHp_z587CYA8Shb2lCt9M=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.WelcomeActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.tencent.map:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.tencent.map:id/drawer_layout"] > android.widget.FrameLayout[id="com.tencent.map:id/content_root"] > android.widget.FrameLayout[id="com.tencent.map:id/main_content"] > android.widget.FrameLayout[id="com.tencent.map:id/fragment_container"] > android.widget.LinearLayout > android.widget.FrameLayout[id="com.tencent.map:id/root_layout"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[desc="排序,按钮"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 9,
+      key: 7,
       name: 'in-app|tDr05HRBMM5OBh7pbL5frSqPTCz9ZBYQRWzf12YhBnU=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -185,25 +149,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 10,
-      name: 'in-app|wu00WY5VSK1qgPctus7xTwqmtPcHOvFNWOaWMui-HQo=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.tencent.map:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout[id="com.tencent.map:id/drawer_layout"] > android.widget.FrameLayout[id="com.tencent.map:id/content_root"] > android.widget.FrameLayout[id="com.tencent.map:id/main_content"] > android.widget.FrameLayout[id="com.tencent.map:id/fragment_container"] > android.widget.LinearLayout > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.tencent.map:id/pass_view"][clickable=true] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.tencent.map:id/layout_multi"][clickable=true] > android.widget.LinearLayout[id="com.tencent.map:id/pass_btn_layout"] > android.widget.TextView[id="com.tencent.map:id/multi_pass_route_plan"][text="顺路规划"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 11,
+      key: 8,
       name: 'in-app|z1Y2-Ia9FQD_nhmwCfSwoMom49qjpBRlcOkAUQE8rb0=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -221,7 +167,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 12,
+      key: 9,
       name: 'in-app|zE2ny6SoZ303B5Zg4500XyaOe-EKKUzD7Xzq449SLM0=.png',
       actionDelay: 3000,
       actionMaximum: 3,

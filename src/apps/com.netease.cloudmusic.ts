@@ -258,24 +258,6 @@ export default defineGkdApp({
     },
     {
       key: 14,
-      name: 'in-app|RKQnlAG7LXYQBcY0N45wz3RfKa8bxPI637tmuvOfnCg=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.cloudmusic:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/container"] > android.view.ViewGroup[id="com.netease.cloudmusic:id/coordinator"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/design_bottom_sheet"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/pagerSlidingTabStripBaseActivityContainer"][clickable=true] > android.widget.LinearLayout[id="com.netease.cloudmusic:id/dialog_container"] > androidx.viewpager.widget.ViewPager[id="com.netease.cloudmusic:id/commonViewPager"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.cloudmusic:id/fl_background_round"] > android.widget.LinearLayout[id="com.netease.cloudmusic:id/ll_content_container"] > android.view.ViewGroup > android.view.ViewGroup[id="com.netease.cloudmusic:id/spl"] > androidx.recyclerview.widget.RecyclerView[id="com.netease.cloudmusic:id/bottomSheetListview"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.cloudmusic:id/bs_playlist_list_item"][clickable=true] > android.widget.ImageView[id="com.netease.cloudmusic:id/playListMusicDelete"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 15,
       name: 'in-app|Sgu-noe49F2PBJfpEZhFpF_hzI1S_B0eQz-Xho2cKRQ=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -293,7 +275,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 16,
+      key: 15,
       name: 'in-app|TA0-2XXAgQtXvxCxHK0UlzaQzEqFiyDM452WuG5FILc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -311,25 +293,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 17,
-      name: 'in-app|TijZiSjngXZ-ttwEelJOvVvOssN5M0PEKX1CW0H2u_c=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.cloudmusic:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/container"] > android.view.ViewGroup[id="com.netease.cloudmusic:id/coordinator"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/design_bottom_sheet"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/pagerSlidingTabStripBaseActivityContainer"][clickable=true] > android.widget.LinearLayout[id="com.netease.cloudmusic:id/dialog_container"] > androidx.viewpager.widget.ViewPager[id="com.netease.cloudmusic:id/commonViewPager"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.cloudmusic:id/fl_background_round"] > android.widget.LinearLayout[id="com.netease.cloudmusic:id/ll_content_container"] > android.view.ViewGroup > android.view.ViewGroup[id="com.netease.cloudmusic:id/spl"] > androidx.recyclerview.widget.RecyclerView[id="com.netease.cloudmusic:id/bottomSheetListview"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.cloudmusic:id/bs_playlist_list_item"][clickable=true] > android.widget.ImageView[id="com.netease.cloudmusic:id/playListMusicDelete"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 18,
+      key: 16,
       name: 'in-app|ukfpmfW24kOJ7WGcY7a7a5la1IeO0pLSQBGdFmNQUIU=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -347,25 +311,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 19,
-      name: 'in-app|ulWPIUork5K_rojIUh1hu2sw-OU25ekOOXLlZWOG-Mg=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.cloudmusic:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/container"] > android.view.ViewGroup[id="com.netease.cloudmusic:id/coordinator"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/design_bottom_sheet"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/pagerSlidingTabStripBaseActivityContainer"][clickable=true] > android.widget.LinearLayout[id="com.netease.cloudmusic:id/dialog_container"] > androidx.viewpager.widget.ViewPager[id="com.netease.cloudmusic:id/commonViewPager"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.cloudmusic:id/fl_background_round"] > android.widget.LinearLayout[id="com.netease.cloudmusic:id/ll_content_container"] > android.view.ViewGroup > android.view.ViewGroup[id="com.netease.cloudmusic:id/spl"] > androidx.recyclerview.widget.RecyclerView[id="com.netease.cloudmusic:id/bottomSheetListview"] > android.widget.FrameLayout > android.widget.LinearLayout[id="com.netease.cloudmusic:id/bs_playlist_list_item"][clickable=true] > android.widget.ImageView[id="com.netease.cloudmusic:id/playListMusicDelete"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 20,
+      key: 17,
       name: 'in-app|ZiSc8AMUc2jAknXfnzCreMfNaIs0MXfLHc9pEhMDnpk=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -378,24 +324,6 @@ export default defineGkdApp({
           activityIds: '.music.biz.rn.activity.CloudMusicRNActivity',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.LinearLayout > android.widget.FrameLayout[id="com.netease.cloudmusic:id/contentListViewFrame"] > android.widget.ListView[id="com.netease.cloudmusic:id/contentListView"] > android.widget.LinearLayout[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 21,
-      name: 'in-app|ZMrXSSbdcWS20TQgnfDxIN7TdXYbL3NTetn7rL9NYo4=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.activity.PlayerActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.netease.cloudmusic:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/container"] > android.view.ViewGroup[id="com.netease.cloudmusic:id/coordinator"] > android.widget.FrameLayout[id="com.netease.cloudmusic:id/design_bottom_sheet"] > android.widget.LinearLayout[id="com.netease.cloudmusic:id/dsl_dialog_root"] > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.widget.ImageView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

@@ -96,42 +96,6 @@ export default defineGkdApp({
     },
     {
       key: 5,
-      name: 'in-app|CSo666xFWlswbYoN7076Vl-v7-ulPz0kO9j1DVjOZq4=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.xunlei.downloadprovider:id/linearLayout"] > android.widget.ImageView[id="com.xunlei.downloadprovider:id/iv_close"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 6,
-      name: 'in-app|ElNAvGgiQVZcTuNBr15t5ofMTdxjS4KQyMUqwyiOqMU=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.xunlei.downloadprovider:id/rootLayout"] > android.widget.ImageView[id="com.xunlei.downloadprovider:id/iv_close"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 7,
       name: 'in-app|PIN-MKHV4vUZI_hACkKI8t4C8Q0kt2c6AYdx48iF17w=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -149,7 +113,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 6,
       name: 'in-app|SxaWDkYG-V9QpoMY0oVRbVKXIW4okQ5yl1ZVosGHuOA=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -167,7 +131,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 9,
+      key: 7,
       name: 'in-app|xYC1glq-X4Tzy_p1bjrSQbkgXMRIs8X_4HG8kRgSo4A=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -185,7 +149,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 10,
+      key: 8,
       name: 'in-app|z8FRA41FmKbN6Tjzcq_unMmGANlWFkgfAOqrWfJHdoI=.png',
       actionDelay: 3000,
       actionMaximum: 3,

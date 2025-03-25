@@ -24,24 +24,6 @@ export default defineGkdApp({
     },
     {
       key: 1,
-      name: 'in-app|HYa2yb74XCBw8GQEXnhs95RRM7Z1nW9ZlSlXYaDK1ak=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.input:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.baidu.input:id/imeAlertDialogContainer"] > android.widget.LinearLayout[id="com.baidu.input:id/parentPanel"] > android.widget.FrameLayout[id="com.baidu.input:id/customPanel"] > android.widget.FrameLayout[id="com.baidu.input:id/custom"] > android.widget.LinearLayout > android.widget.TextView[id="com.baidu.input:id/energy_station_payment_failed_continue_pay"][text="继续支付"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 2,
       name: 'in-app|QerLgwMAIvCesGvtjSnU1EVOVdeVTgJE73Oisb45GmE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -59,7 +41,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 2,
       name: 'in-app|xBOT9JhRGeDqmHEoaI6GHf-U451Mk4eIf5Ng9DoSa0w=.png',
       actionDelay: 3000,
       actionMaximum: 3,

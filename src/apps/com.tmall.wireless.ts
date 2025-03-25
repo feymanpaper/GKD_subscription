@@ -96,24 +96,6 @@ export default defineGkdApp({
     },
     {
       key: 5,
-      name: 'in-app|cR6eHaN0AhflGf7tZOJufdJqOS79xSVjBkLAKtMVBWE=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.gallery.TMDetailActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.tmall.wireless:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 6,
       name: 'in-app|E1B016xBR2ktE-8-3WSGHriRPlDJWlsBoj7V9nr5DV0=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -131,7 +113,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 7,
+      key: 6,
       name: 'in-app|M1SC9eOz_ew-02ywRZD0rZixUYsXXWzLpQf6K-qGp_Y=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -149,43 +131,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
-      name: 'in-app|OI3go3EOAmoLg3X3az9ZxulQ2UuEjQmQNzU8fINs2G0=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.themis.container.TMThemisActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.RelativeLayout > android.widget.RelativeLayout > com.uc.webview.export.WebView > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="天猫农场"] > android.view.View[clickable=true] > android.view.View[id="ice-container"][clickable=true] > android.view.View[id="app"] > android.view.View > android.view.View[id="faster-btn"] > android.widget.Button[text="1 累计能量 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 9,
-      name: 'in-app|paVziKhyWJkggHwxGX651Mo5ZPZnBH4MMqkUh4Z3K0I=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.themis.container.TMThemisActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.RelativeLayout > android.widget.RelativeLayout > com.uc.webview.export.WebView > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="天猫农场"] > android.view.View[clickable=true] > android.view.View[id="ice-container"][clickable=true] > android.view.View[id="app"] > android.view.View > android.view.View[id="faster-btn"] > android.widget.Button[text="1 累计能量 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 10,
+      key: 7,
       name: 'in-app|qRudBDhu3UlTjfshwPaBhae_cazgU8rQHEleRiV41B8=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -203,7 +149,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 11,
+      key: 8,
       name: 'in-app|rUEJeOsrJ0DxD1dCNieyVtFWJGms-DoU45y0ncXc56A=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -221,25 +167,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 12,
-      name: 'in-app|v0Fn5Dxhuyhp4y_jbcxDt6Tp8NH13bjjrigWrI_oOtk=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.themis.container.TMThemisActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.RelativeLayout > android.widget.RelativeLayout > com.uc.webview.export.WebView > com.uc.aosp.android.webkit.m0 > android.webkit.WebView[text="天猫农场"] > android.view.View[clickable=true] > android.view.View[id="ice-container"][clickable=true] > android.view.View[id="app"] > android.view.View > android.view.View[id="faster-btn"] > android.widget.Button[text="1 累计能量 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 13,
+      key: 9,
       name: 'in-app|_iTYCzmal0qthjRuNADiFO-Xzwxi5leSsT8lIBubrwI=.png',
       actionDelay: 3000,
       actionMaximum: 3,
