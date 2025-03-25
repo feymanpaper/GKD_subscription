@@ -77,23 +77,5 @@ export default defineGkdApp({
         },
       ],
     },
-    {
-      key: 4,
-      name: 'in-app|vvLE1AjTaBfh0BxUHanNJJ61SdF9gS-KEklKWLRNdkg=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.framework.reactnative.activity.ParsReactActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.view.ViewGroup[id="com.pingan.lifeinsurance:id/al4"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.FrameLayout[id="com.pingan.lifeinsurance:id/f17"] > android.view.ViewGroup[id="com.pingan.lifeinsurance:id/enz"] > android.widget.FrameLayout[id="com.pingan.lifeinsurance:id/aef"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
   ],
 });

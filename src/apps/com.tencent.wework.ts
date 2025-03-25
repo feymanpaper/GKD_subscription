@@ -24,24 +24,6 @@ export default defineGkdApp({
     },
     {
       key: 1,
-      name: 'in-app|bM9WRGpaeXuNRTDCZ8bCX0t3Mse2gl_YIR-oWGBSX90=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.tencent.wework:id/fs"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="com.tencent.wework:id/qb"] > android.view.ViewGroup[id="com.tencent.wework:id/o4n"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.ImageView[id="com.tencent.wework:id/j70"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 2,
       name: 'in-app|c5WDAY3FcEhtYNOudDd4qKuLl5LboXg_SfmaBS2fxPg=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -59,7 +41,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 2,
       name: 'in-app|SAYNTY8JrV-akTrEX1hIb5CUYhUbOnx-fH05IWNrRGE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -77,7 +59,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 3,
       name: 'in-app|uWvuaR2PSZG_Xj-zv3q5ZitZ8ua3exg_TIUNttsF22U=.png',
       actionDelay: 3000,
       actionMaximum: 3,
