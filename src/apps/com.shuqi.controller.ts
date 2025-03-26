@@ -240,6 +240,24 @@ export default defineGkdApp({
     },
     {
       key: 13,
+      name: 'in-app|47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.shuqi.browser.BrowserActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > com.aliwx.android.d.g > android.widget.RelativeLayout[desc="ActionBarActivity的根View"] > android.widget.RelativeLayout[id="com.shuqi.controller:id/browser_touch_intercept_layout"][desc="BrowserState"] > android.widget.LinearLayout[id="com.shuqi.controller:id/browser_browserview"][desc="ShuqiPullToRefreshWebView"] > android.widget.FrameLayout[desc="PullToRefreshBase_refreshableView_container"] > android.widget.FrameLayout > android.widget.FrameLayout > com.uc.webview.export.WebView[desc="WVUCWebView"] > android.webkit.WebView > android.webkit.WebView[text="打卡挑战赛"] > android.view.View[id="app"] > android.view.View[id="3"] > android.view.View > android.view.View > android.widget.Image[text="x"]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 14,
       name: 'in-app|qMx9KXu_J5R71mej7ifQC_MjRiA9q24h_WO6TF1SNKc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -257,7 +275,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 14,
+      key: 15,
       name: 'in-app|tJVIc1oLBDZQrao2-9swhsvJFH_Ut-wu1ch6fVbKOvM=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -275,7 +293,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 15,
+      key: 16,
       name: 'in-app|56qEdOWQW1Jf8HQ3qSqkWhOtBMmrM6SnpY0UXAPjsUI=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -293,7 +311,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 16,
+      key: 17,
       name: 'in-app|1i6IOAWt3rzhAS_F-5MGU9hRSByUKYQgaOErt60yvUE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -311,7 +329,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 17,
+      key: 18,
       name: 'in-app|Jw9U0kPpQ3GCUGeFRMVwDXNGZU0uPFtESBvgINyFp-0=.png',
       actionDelay: 3000,
       actionMaximum: 3,

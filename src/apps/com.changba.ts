@@ -256,23 +256,5 @@ export default defineGkdApp({
         },
       ],
     },
-    {
-      key: 14,
-      name: 'in-app|yFgoMcqD5msGOXH_KKLPkPVgAsW2iSRpD0qb2S7eIFM=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'flutter.FlutterCustomActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.View > android.view.View > android.view.View > android.view.View > android.view.View[desc="残忍离开"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
   ],
 });
