@@ -78,42 +78,6 @@ export default defineGkdApp({
     },
     {
       key: 4,
-      name: 'in-app|h2kxJjGPEqqdIt90hEgZJSko0HAJIFxi3mTbYtd3wtw=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/frameLayout1"] > android.widget.Button[id="com.baidu.BaiduMap:id/bt_web_back"][desc="返回"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 5,
-      name: 'in-app|leLcQZdN9M8u-Ngidks41QYbDvOYqhUbo1FU_-KmhU8=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'com.baidu.baidumaps.MapsActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomThreeStatusContainer"] > android.view.ViewGroup > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/threeStatusContainer"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomContainer"] > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/homeRv"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/contentContainer"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/topALL"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/functionTabContainer"] > android.widget.LinearLayout > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/home_function_tab_recyclerView"] > android.widget.RelativeLayout[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 6,
       name: 'in-app|lkR0umHx26CwM245IBapme99dm1mhPhIhCTutpCT3O4=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -126,6 +90,42 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.view.ViewGroup[id="com.baidu.BaiduMap:id/dialog_content"] > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/ll_dialog_btn"] > android.widget.TextView[id="com.baidu.BaiduMap:id/tv_dialog_confirm"][text="确定"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 5,
+      name: 'in-app|dF7MIlQaeJCouK5-5VAp95DtlHPDEa2GaTdyMpkFADo=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.baidu.baidumaps.MapsActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/frameLayout1"] > android.webkit.WebView > android.webkit.WebView[text="开红包领现金"] > android.view.View > android.app.Dialog > android.view.View[clickable=true] > android.widget.Image[text="0f56bf81606cd1c0d06b48b02e5ec4ee"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 6,
+      name: 'in-app|MBh_NqaLsTTF-OVoIJhIN-nyFZZ9YepFFsdo0iWAQjs=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.baidu.baidumaps.MapsActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/frameLayout1"] > android.webkit.WebView > android.webkit.WebView[text="金币任务中心"] > android.view.View[clickable=true] > android.app.Dialog > android.view.View > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -150,24 +150,6 @@ export default defineGkdApp({
     },
     {
       key: 8,
-      name: 'in-app|qTNFQ_bo9T-bben1FyP4FMzS6GklndLXpsyeblgyE0U=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'com.baidu.baidumaps.MapsActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > androidx.recyclerview.widget.RecyclerView > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.widget.ImageView[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 9,
       name: 'in-app|C_ZwCiSDCJh2C21TIJ1xI2SOVBj3WPdAXwM7G5FgV_c=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -180,6 +162,25 @@ export default defineGkdApp({
           activityIds: 'com.baidu.baidumaps.MapsActivity',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomThreeStatusContainer"] > android.view.ViewGroup > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/threeStatusContainer"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomContainer"] > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/homeRv"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/contentContainer"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/topALL"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/functionTabContainer"] > android.widget.LinearLayout > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/home_function_tab_recyclerView"] > android.widget.RelativeLayout[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 9,
+      name: 'in-app|begbdofCMbULuhqr6Zu64s8onEqB1aZyVbV-eydcuk0=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds:
+            'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.ScrollView > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[text="继续观看"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -240,24 +241,6 @@ export default defineGkdApp({
     },
     {
       key: 13,
-      name: 'in-app|T45gcbcbVupIexBsomritrSXBBeIePlVp_NLYxDJI9M=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'com.baidu.baidumaps.MapsActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomThreeStatusContainer"] > android.view.ViewGroup > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/threeStatusContainer"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomContainer"] > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/homeRv"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/contentContainer"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/topALL"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/functionTabContainer"] > android.widget.LinearLayout > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/home_function_tab_recyclerView"] > android.widget.RelativeLayout[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 14,
       name: 'in-app|7Q5Jg4a9Cf2ofHh46mFfbdKNLX5a71TzYEGv9r9OWbg=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -275,7 +258,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 15,
+      key: 14,
       name: 'in-app|ky4AckER4-auEvTmJ-Wjf12VVJHSjsmncUMPSjWRANw=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -288,6 +271,24 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[clickable=true] > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/busline_goto_station_detail_page_root_layout"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/busline_goto_station_detail_page_content_layout"][clickable=true] > android.widget.ImageView[id="com.baidu.BaiduMap:id/busline_goto_station_detail_page_close"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 15,
+      name: 'in-app|-RtlldPFosHJM5Hr3uom3ghIod4htj6F_vhgAb_MXsk=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.baidu.baidumaps.MapsActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/frameLayout1"] > android.webkit.WebView > android.webkit.WebView[text="金币任务中心"] > android.view.View > android.view.View[clickable=true] > android.app.Dialog > android.view.View[id="game-popup-connect"] > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -312,6 +313,24 @@ export default defineGkdApp({
     },
     {
       key: 17,
+      name: 'in-app|u8TIgJKavcJYcYIiLg7iL_Cxyl_-ztVAGEXPY5odwd8=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.baidu.baidumaps.MapsActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/frameLayout1"] > android.webkit.WebView > android.webkit.WebView[text="开红包领现金"] > android.view.View > android.app.Dialog > android.view.View > android.view.View > android.view.View > android.widget.Image[text="0f56bf81606cd1c0d06b48b02e5ec4ee"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 18,
       name: 'in-app|bRxNfgnLGH14rSRP2pyCsqXYlihIG-AffX_YE7qj9as=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -329,7 +348,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 18,
+      key: 19,
       name: 'in-app|j05_fDFO8x9SLyNDAHQuyVkQ4Pq9GDzN99eQTWOdpZU=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -347,7 +366,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 19,
+      key: 20,
       name: 'in-app|AcAvExfB9iTvg2uGF-bkOMa9MhJmBM4ZIgBgO6sE84Q=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -360,24 +379,6 @@ export default defineGkdApp({
           activityIds: 'com.baidu.baidumaps.MapsActivity',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/talos_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup[clickable=true] > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.widget.ImageView[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 20,
-      name: 'in-app|75CDZ6FUybjSknfOF1IM_rBu78G9IpUmX4_wXEWfQw4=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'com.baidu.baidumaps.MapsActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomThreeStatusContainer"] > android.view.ViewGroup > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/threeStatusContainer"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomContainer"] > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/homeRv"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/contentContainer"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/topALL"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/functionTabContainer"] > android.widget.LinearLayout > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/home_function_tab_recyclerView"] > android.widget.RelativeLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -420,7 +421,7 @@ export default defineGkdApp({
     },
     {
       key: 23,
-      name: 'in-app|pLP3-ET8BjPTyEQbmcF9PrF2AMWLN5yGhJAwIXzxzSY=.png',
+      name: 'in-app|yffXLA-IrVFhP6CSsyRbGRGH4UFgUsAbFiCREdl5dQk=.png',
       actionDelay: 3000,
       actionMaximum: 3,
       resetMatch: 'app',
@@ -431,7 +432,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.baidu.baidumaps.MapsActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomThreeStatusContainer"] > android.view.ViewGroup > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/threeStatusContainer"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomContainer"] > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/homeRv"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/contentContainer"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/topALL"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/functionTabContainer"] > android.widget.LinearLayout > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/home_function_tab_recyclerView"] > android.widget.RelativeLayout[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/persist_container"] > android.view.ViewGroup > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/aihome_tab_page_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout > android.webkit.WebView > android.webkit.WebView[text="百度贴贴节"] > android.view.View > android.view.View[id="app pch"] > android.view.View > android.view.View > android.view.View > android.view.View[clickable=true] > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -510,7 +511,7 @@ export default defineGkdApp({
     },
     {
       key: 28,
-      name: 'in-app|_mkLKj05HGXYFD9z4cNZReKB_e7g3f6fZPzqNhnq1ck=.png',
+      name: 'in-app|t0L5bTU_PLgY3MWce-AaIy8DDtVyvcBc0Mj0hn-zCFY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
       resetMatch: 'app',
@@ -521,7 +522,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.baidu.baidumaps.MapsActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomThreeStatusContainer"] > android.view.ViewGroup > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/threeStatusContainer"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomContainer"] > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/homeRv"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/contentContainer"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/topALL"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/functionTabContainer"] > android.widget.LinearLayout > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/home_function_tab_recyclerView"] > android.widget.RelativeLayout[clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/frameLayout1"] > android.webkit.WebView > android.webkit.WebView[text="金币任务中心"] > android.view.View[clickable=true] > android.app.Dialog > android.view.View > android.view.View > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -546,24 +547,6 @@ export default defineGkdApp({
     },
     {
       key: 30,
-      name: 'in-app|fYPloZhrSJoh1vpc0E9yKCJw8TjEeCWUcstez004CgQ=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'com.baidu.baidumaps.MapsActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomThreeStatusContainer"] > android.view.ViewGroup > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/threeStatusContainer"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/bottomContainer"] > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/homeRv"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/contentContainer"] > android.widget.LinearLayout > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/topALL"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/functionTabContainer"] > android.widget.LinearLayout > android.widget.LinearLayout > androidx.recyclerview.widget.RecyclerView[id="com.baidu.BaiduMap:id/home_function_tab_recyclerView"] > android.widget.RelativeLayout[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 31,
       name: 'in-app|WZ6fu3cvpaZ6FtnsgndLWFVIjeTD8SyK1SxPwV9V5rs=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -581,7 +564,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 32,
+      key: 31,
       name: 'in-app|KHF7kXYIsZvg1JbxLxZHiBWlrKjsX92X9nEKzlnn0P0=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -599,8 +582,8 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 33,
-      name: 'in-app|RguzuGtLq3jQaOBP0ed54rfB6_KPHB4IX8o18m--Ocw=.png',
+      key: 32,
+      name: 'in-app|T_gYJ2yrZpjEc2UKQMiOOHpAc4CPI2YGwCV5L4YlIX0=.png',
       actionDelay: 3000,
       actionMaximum: 3,
       resetMatch: 'app',
@@ -609,15 +592,15 @@ export default defineGkdApp({
       rules: [
         {
           action: 'clickCenter',
-          activityIds: '',
+          activityIds: 'com.baidu.baidumaps.MapsActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.TextView[id="com.baidu.BaiduMap:id/tv_positive"][text="继续编辑"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/frameLayout1"] > android.webkit.WebView > android.webkit.WebView[text="金币任务中心"] > android.view.View[clickable=true] > android.app.Dialog > android.view.View > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
-      key: 34,
+      key: 33,
       name: 'in-app|dI7B7GOThEZ51lK7s3EPpNgXhnTOSUj4Zbolkra6aQQ=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -635,7 +618,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 35,
+      key: 34,
       name: 'in-app|-_M5r55iZet_EM_wqsoGJqRtOUMh6NiM3Wo_9wJetHc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -653,7 +636,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 36,
+      key: 35,
       name: 'in-app|duhfnNFctovg6agplPKroYazXdaOJ74ipZi7HBzHIrk=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -671,7 +654,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 37,
+      key: 36,
       name: 'in-app|o5VmCLfw-Q6hxRYq-hBbR0AKQsetNhqzVHG_3Fun_SY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -689,7 +672,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 38,
+      key: 37,
       name: 'in-app|3yTzBGPtmcyOkYixXVyZM3N38TL-1JrVbH33Y9KePOs=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -702,6 +685,24 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[clickable=true] > android.widget.RelativeLayout[id="com.baidu.BaiduMap:id/bus_line_focus_guide_pop_root_layout"] > android.widget.ImageView[id="com.baidu.BaiduMap:id/bus_line_focus_guide_pop_close"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 38,
+      name: 'in-app|HPXRBEgwXiyghyq2KaTEwltHWSzGKc-eFWpYjB8tzQQ=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="com.baidu.BaiduMap:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[id="com.baidu.BaiduMap:id/stack_root"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/fragment_container"] > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/replace_container"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="com.baidu.BaiduMap:id/frameLayout1"] > android.widget.Button[id="com.baidu.BaiduMap:id/bt_web_back"][desc="返回"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],

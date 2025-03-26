@@ -42,7 +42,7 @@ export default defineGkdApp({
     },
     {
       key: 2,
-      name: 'in-app|dNzrDNhJpAJl5-HU1SPiXart_Av0QdBUkmXLDFeHRmw=.png',
+      name: 'in-app|O9P5vPLSSAjYpSaC-w65MmdV25T53IP5vINv3gGk4Yg=.png',
       actionDelay: 3000,
       actionMaximum: 3,
       resetMatch: 'app',
@@ -53,14 +53,14 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/container"] > android.view.ViewGroup[id="cn.wps.moffice_eng:id/coordinator"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/design_bottom_sheet"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.Button[id="cn.wps.moffice_eng:id/record_filter_confirm"][text="确定"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.ScrollView > android.widget.LinearLayout > android.widget.ImageView[id="cn.wps.moffice.plugin.cloudPage:id/cloud_popup_close_view"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 3,
-      name: 'in-app|_OG5o2tZ2tK89FpLLSNbkkwbVwm2ceM0cnIdaV9xNc0=.png',
+      name: 'in-app|WdZSyu4w-zSgiA-CnZrMtiTEJF4I1pSM1eTGp42eMvQ=.png',
       actionDelay: 3000,
       actionMaximum: 3,
       resetMatch: 'app',
@@ -71,13 +71,31 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'cn.wps.moffice.main.local.HomeRootActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > androidx.drawerlayout.widget.DrawerLayout[id="cn.wps.moffice_eng:id/phone_home_root"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/phone_home_root_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/push_tips_ptr_super_webview"] > android.view.ViewGroup > android.webkit.WebView > android.webkit.WebView > android.view.View[id="app"] > android.view.View > android.view.View > android.view.View[id="headerContainer"] > android.view.View > android.view.View > android.view.View[desc="信纸 信纸"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > androidx.drawerlayout.widget.DrawerLayout[id="cn.wps.moffice_eng:id/phone_home_root"] > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/phone_home_root_container"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/push_tips_ptr_super_webview"] > android.view.ViewGroup > android.webkit.WebView > android.webkit.WebView > android.view.View > android.view.View > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 4,
+      name: 'in-app|hfwBFUEYYzZYcFUi__ISN7Kgev7QtsTSaCGZlYlTRjM=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'cn.wps.moffice.main.push.explore.PushTipsWebActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="cn.wps.moffice_eng:id/phone_title_view_root"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/content_lay"] > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/push_tips_ptr_super_webview"] > android.view.ViewGroup > android.webkit.WebView > android.webkit.WebView[text="中国移动 × WPS首月1元"] > android.view.View[id="app"] > android.view.View[id="page-content"] > android.view.View[clickable=true] > android.widget.Button[text=""][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 5,
       name: 'in-app|KNnQedDC6UoojKHXC_3haRHCUVk_EbApZOfbJzFbPck=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -95,7 +113,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
+      key: 6,
       name: 'in-app|bZTJ8eev5ifuinpWM_TAMLxT3dPpV7VpX_s0MHpJ72g=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -113,7 +131,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 6,
+      key: 7,
       name: 'in-app|ryC7pxNQqgCU9Q51F77x2AVNPsKzUMt-M7erf2ptidE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -131,7 +149,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 7,
+      key: 8,
       name: 'in-app|R3aAeJo3Eu72GaP7iDJZLteG4u36GkBcTpVNg2AyEqc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -149,7 +167,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 9,
       name: 'in-app|RbCDrhaeznWX7bZIx187Qh1vqlytN2zwOmxMq1Wy8bg=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -167,7 +185,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 9,
+      key: 10,
       name: 'in-app|sru9NZGHNb9VrCJlYuBNsYbUlU0ZezJRQvj9V7qyZyc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -185,43 +203,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 10,
-      name: 'in-app|Okg_03Y3YDxSf4KDXpBZvELuqovU2jaASJ4Q-WRELiQ=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="cn.wps.moffice_eng:id/phone_title_view_root"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/view_title_lay"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/titlebar"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/phone_titlebar"] > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/abs_title_bar"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="cn.wps.moffice_eng:id/action_icon_container"] > android.widget.FrameLayout[id="cn.wps.moffice_eng:id/history_titlebar_multidocument_layout"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
       key: 11,
-      name: 'in-app|piyqY5BSDcvILJEyfDuIu2gg2IFnDkmhKDuh7fUjQxQ=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout[id="cn.wps.moffice.plugin.cloudPage:id/phone_title_view_root"] > android.widget.FrameLayout[id="cn.wps.moffice.plugin.cloudPage:id/plugin_content_lay"] > android.widget.LinearLayout > android.widget.ScrollView[id="cn.wps.moffice.plugin.cloudPage:id/sv_cloud_page"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="cn.wps.moffice.plugin.cloudPage:id/ll_privilege_super"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.LinearLayout[id="cn.wps.moffice.plugin.cloudPage:id/ll_svip_file_upload"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 12,
       name: 'in-app|NAciHk3y60D7h2fYs4oBytkpgIqZCAkXIvxcC4iVQUI=.png',
       actionDelay: 3000,
       actionMaximum: 3,

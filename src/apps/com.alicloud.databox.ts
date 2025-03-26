@@ -115,24 +115,6 @@ export default defineGkdApp({
     },
     {
       key: 6,
-      name: 'in-app|JPtkbpGn3k6gvPUPE08l-kjXwhnQY4FElOlrwvBrkAk=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/md_root"] > android.view.ViewGroup[id="com.alicloud.databox:id/md_button_layout"] > android.widget.Button[id="com.alicloud.databox:id/md_button_negative"][text="放入回收站"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 7,
       name: 'in-app|yLuVO-y5frGyTkGVk-7ybXs759Sn2czCFGMyjpe-OFk=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -150,7 +132,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 7,
       name: 'in-app|PGnK9LEYOwdIfRDrtB3NRKFbjiolbi-u9RGhMOidWPE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -168,25 +150,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 9,
-      name: 'in-app|VPz0mZM0Hdu3RVhhyfBcLwHhBEOZGgb6om8BsxJjeH4=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.alicloud.databox:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/container"] > android.view.ViewGroup[id="com.alicloud.databox:id/coordinator"] > android.widget.FrameLayout[id="com.alicloud.databox:id/design_bottom_sheet"] > android.widget.LinearLayout > android.widget.TextView[id="com.alicloud.databox:id/tv_ok"][text="继续管理我的分享"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 10,
+      key: 8,
       name: 'in-app|08mVP-4_gECkFoDG6dKDMM3ei8XCcqLH9itfRscukuU=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -204,7 +168,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 11,
+      key: 9,
       name: 'in-app|Ajpe93Ff-g16lXxdDCyNLwx41-zvoRkFl1RoRn9lHBI=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -222,26 +186,8 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 12,
+      key: 10,
       name: 'in-app|mRDiEHYjXOevA86y6AweN4FhQ2kLPw38e4HKeqxuhy4=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alicloud.databox:id/md_root"] > android.view.ViewGroup[id="com.alicloud.databox:id/md_button_layout"] > android.widget.Button[id="com.alicloud.databox:id/md_button_positive"][text="确认"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 13,
-      name: 'in-app|BMxd-jyoamPm8xjHghO3fWj_D9-2hK_WD8jPElw142Y=.png',
       actionDelay: 3000,
       actionMaximum: 3,
       resetMatch: 'app',
