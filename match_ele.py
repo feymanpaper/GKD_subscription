@@ -28,6 +28,10 @@ def find_nearest_component(cross_bounds, components):
 
 
 def process_files(directory):
+    # 跳过不需要生成的ts
+    if is_white_list_app(directory):
+        return
+
     mat = []
     for file in os.listdir(directory):
         if file.endswith('.png'):
@@ -94,7 +98,11 @@ def process_files(directory):
             # print(f"Nearest component to cross bounds: {nearest_component}")
             # print("*" * 100)
 
-            nearest_component = get_mindis_node(xml_path, cross_bounds)
+
+            if is_sp_app(pkg_name, img_name):
+                nearest_component = get_maxIOU_node(xml_path, cross_bounds)
+            else:
+                nearest_component = get_mindis_node(xml_path, cross_bounds)
 
             if nearest_component is None:
                 print("no nearest comp")
@@ -123,6 +131,22 @@ def process_files(directory):
     ts_file_name = pkg_name + ".ts"
     ts_file_path = os.path.join(ts_file_dir, ts_file_name)
     write_ts_file(ts_file_path, ts_code)
+
+def is_white_list_app(dir):
+    white_list = ["com.jifen.qukan"]
+    res =  any(ele in dir for ele in white_list)
+    return res
+def is_sp_app(pkg_name, img_name):
+    mp = {
+        "com.shuqi.controller":[
+            "47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU=.png",
+        ]
+    }
+    img_list = mp.get(pkg_name)
+    if not img_list:  # 包名不存在或对应列表为空
+        return False
+
+    return img_name in img_list  # 检查图片是否在列表中
 
 
 def is_inbox(pow_bounds, ele_bounds):

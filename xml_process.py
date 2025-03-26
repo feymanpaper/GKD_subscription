@@ -27,6 +27,41 @@ def calculate_distance(bounds1, bounds2):
     return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
 
 
+def calculate_iou(bounds1, bounds2):
+    """
+    计算两个矩形的交并比 (IoU)
+    参数:
+        bounds1, bounds2: [x1, y1, x2, y2] (左上角x,y + 右下角x,y)
+    返回:
+        IoU 值 (范围 [0, 1])
+    """
+    # 解包坐标
+    a_x1, a_y1, a_x2, a_y2 = bounds1[0], bounds1[1], bounds1[2], bounds1[3]
+    b_x1, b_y1, b_x2, b_y2 = bounds2[0], bounds2[1], bounds2[2], bounds2[3]
+
+    # 计算交集区域坐标
+    inter_x1 = max(a_x1, b_x1)
+    inter_y1 = max(a_y1, b_y1)
+    inter_x2 = min(a_x2, b_x2)
+    inter_y2 = min(a_y2, b_y2)
+
+    # 计算交集面积（处理无交集情况）
+    inter_width = max(0, inter_x2 - inter_x1)
+    inter_height = max(0, inter_y2 - inter_y1)
+    inter_area = inter_width * inter_height
+
+    # 计算各自面积
+    area_a = (a_x2 - a_x1) * (a_y2 - a_y1)
+    area_b = (b_x2 - b_x1) * (b_y2 - b_y1)
+
+    # 计算并集面积
+    union_area = area_a + area_b - inter_area
+
+    # 避免除零错误（无重叠时返回0）
+    iou = inter_area / union_area if union_area > 0 else 0.0
+    return iou
+
+
 def build_path(node):
     res = node.attrib.get("class", "")
     resource_id = node.attrib.get("resource-id", "")
@@ -43,6 +78,7 @@ def build_path(node):
     return res
 
 
+# 根据遍历的组件中心点到目标组件bounds的中心点欧式距离来得到最小值
 def get_mindis_node(xml_path, target_bounds):
     tree = ET.parse(xml_path)
     root = tree.getroot()
@@ -68,6 +104,66 @@ def get_mindis_node(xml_path, target_bounds):
             # 如果当前节点距离更近，则更新最短距离和最接近的节点
             if distance < min_distance and node.attrib.get("clickable") == "true":
                 min_distance = distance
+                closest_node = node
+                closest_node_path = current_path
+                closest_node_level = level
+
+        # 遍历子节点
+        for child in node:
+            pre_order_traversal(child, level + 1, current_path)
+
+    # 从根节点开始先序遍历
+    pre_order_traversal(root)
+
+    # 返回最近的节点信息
+    if closest_node is not None:
+        print(closest_node_path)
+        path_str = " > ".join([f"{cls}" for cls in closest_node_path if cls])
+        node_info = {
+            "level": closest_node_level,
+            "index": closest_node.attrib.get("index", ""),
+            "text": closest_node.attrib.get("text", ""),
+            "resource_id": closest_node.attrib.get("resource-id", ""),
+            "content_desc": closest_node.attrib.get("content-desc", ""),
+            "bounds": closest_node.attrib.get("bounds", ""),
+            "path": path_str,
+            "clzz": closest_node.attrib.get("class", ""),
+            "clickable": closest_node.attrib.get("clickable"),
+            "package": closest_node.attrib.get("package"),
+            "agg_text": "",
+            "agg_desc": "",
+        }
+        return node_info
+    else:
+        return None
+
+
+# 根据遍历的组件与目标组件的IOU来得到最相近
+def get_maxIOU_node(xml_path, target_bounds):
+    tree = ET.parse(xml_path)
+    root = tree.getroot()
+
+    closest_node = None
+    max_iou = -float('inf')  # 初始设为无穷大
+    closest_node_path = []
+    closest_node_level = 0
+
+    # 先序遍历过程
+    def pre_order_traversal(node, level=0, parent_path=[]):
+        nonlocal closest_node, max_iou, closest_node_path, closest_node_level
+
+        # 构建当前节点的路径
+        current_path = parent_path + [build_path(node)]
+        # 获取当前节点的bounds
+        current_bounds = node.attrib.get("bounds", "")
+        if current_bounds:
+            bds = parse_bounds(current_bounds)
+            # 计算当前节点和目标bounds的最短距离
+            iou = calculate_iou(target_bounds, bds)
+
+            # 如果当前节点距离更近，则更新最短距离和最接近的节点
+            if iou > max_iou:
+                max_iou = iou
                 closest_node = node
                 closest_node_path = current_path
                 closest_node_level = level

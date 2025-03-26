@@ -53,7 +53,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.jifen.qkbase.web.WebActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/bme"] > android.widget.LinearLayout[id="com.jifen.qukan:id/bmd"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/ik"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.jifen.qukan:id/coh"] > android.widget.FrameLayout[id="com.jifen.qukan:id/cof"] > android.webkit.WebView > android.webkit.WebView[text="天天抢红包9群"] > android.view.View[clickable=true] > android.view.View > android.widget.TextView[clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/bme"] > android.widget.LinearLayout[id="com.jifen.qukan:id/bmd"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/ik"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.jifen.qukan:id/coh"] > android.widget.FrameLayout[id="com.jifen.qukan:id/cof"] > android.webkit.WebView > android.webkit.WebView > android.view.View[clickable=true] > android.view.View > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -179,7 +179,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.jifen.qkbase.web.WebActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/bme"] > android.widget.LinearLayout[id="com.jifen.qukan:id/bmd"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/ik"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.jifen.qukan:id/coh"] > android.widget.FrameLayout[id="com.jifen.qukan:id/cof"] > android.webkit.WebView > android.webkit.WebView[text="天天抢红包83群"] > android.view.View[clickable=true] > android.view.View[clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/bme"] > android.widget.LinearLayout[id="com.jifen.qukan:id/bmd"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/ik"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.jifen.qukan:id/coh"] > android.widget.FrameLayout[id="com.jifen.qukan:id/cof"] > android.webkit.WebView > android.webkit.WebView > android.view.View[clickable=true] > android.view.View[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
