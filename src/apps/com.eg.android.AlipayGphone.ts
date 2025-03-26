@@ -2,10 +2,28 @@ import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
   id: 'com.eg.android.AlipayGphone',
-  name: '支付宝',
+  name: 'com.eg.android.AlipayGphone',
   groups: [
     {
       key: 0,
+      name: 'in-app|YXfZI22wzt6E6FuSmL3YjtXRO7jNvSyHeTDV7Z5Mafo=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.alipay.mobile.nebulax.integration:id/nebulax_root_view"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/nebulax_wrapper_view"] > android.widget.RelativeLayout[id="com.alipay.mobile.nebulax.integration:id/fragment_container"] > android.widget.RelativeLayout > android.widget.RelativeLayout[id="com.alipay.mobile.nebula:id/h5_web_content"] > android.widget.FrameLayout[id="com.alipay.mobile.nebula:id/h5_pc_container"] > android.widget.FrameLayout > com.alipay.mywebview.sdk.WebView > android.webkit.WebView[text="蚂蚁森林"] > android.view.View[clickable=true] > android.view.View[id="app"][clickable=true] > android.view.View[id="J_app_outter"] > android.view.View[id="J_appFlow"] > android.view.View > android.view.View[clickable=true] > android.app.Dialog > android.widget.Button[id="cdpBottomPopup-close"][text="关闭按钮"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 1,
       name: 'in-app|qYbxIz5VNdDlAyFbhy17YG7osLh9CPuyqIgxVHvsZw8=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -23,7 +41,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 1,
+      key: 2,
       name: 'in-app|0s2E74UjNWxpy-JscmxqsR_GYlw6tatBShgfihk-WzY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -42,7 +60,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 2,
+      key: 3,
       name: 'in-app|i8ym_syND9IkI3U3Q94QLDag4-gy7rEok4IM0-Oh_fs=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -61,7 +79,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 3,
+      key: 4,
       name: 'in-app|BqYAMtg6HiqA-FfSP2da1OPyxj6wLkjctJWKq8ccFs4=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -80,7 +98,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 4,
+      key: 5,
       name: 'in-app|7leTEY5aKZPr3H9pnq7gKeWjYbBDjFAjRDprXQdm9gk=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -99,7 +117,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
+      key: 6,
       name: 'in-app|o-ZfD3mmV6qERuMc8casoCM7gEg-a8LFnw269r_WmEY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -117,7 +135,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 6,
+      key: 7,
       name: 'in-app|FeIvs8S9a2pURgT6qRnib2L4fABgzCPNJYh4KHWALuY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -136,7 +154,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 7,
+      key: 8,
       name: 'in-app|C5qt2kV5s0lT0Scygj2oOnW5qfqCddPLwxoi2sIgYxM=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -154,7 +172,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 8,
+      key: 9,
       name: 'in-app|yBx5G6TLzsKT3m5sc3JshykVMz9eQYfexwHqat0eDmM=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -172,7 +190,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 9,
+      key: 10,
       name: 'in-app|3JOtsTlHFGY-C8RMiAHKboknCLwd8p9DzeQytU9NDfw=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -191,7 +209,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 10,
+      key: 11,
       name: 'in-app|QS1o0EeKH9xRjmZj99LDVyldiEqM0s494alNs5liguY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -210,7 +228,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 11,
+      key: 12,
       name: 'in-app|QjhbYO160dnrmG-Q3jNqYXu9a6R4m8_ONjbZBLiBcIU=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -229,7 +247,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 12,
+      key: 13,
       name: 'in-app|Ac9jXDPVcRgUCqM1Okycv5eV0dhMMB8MNBKBD9GSfAE=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -248,7 +266,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 13,
+      key: 14,
       name: 'in-app|gwAfwfxOdGAS5fJe1NeLv4juy4WFusWs9Oeq8Rei47w=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -266,7 +284,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 14,
+      key: 15,
       name: 'in-app|doCl1DEhk7i0ZYPcDCK0IrAEgSquAdl_IuPerIAFoew=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -284,7 +302,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 15,
+      key: 16,
       name: 'in-app|-TjZGai3KWLM9Tedw_lIptMHslzclsp5j8iClbPiDig=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -302,7 +320,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 16,
+      key: 17,
       name: 'in-app|SGjxGNf7lKXffRd3aLxoXj60pyXCu5d3ybxBtsiBgVw=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -320,7 +338,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 17,
+      key: 18,
       name: 'in-app|y12A9ZSr-PO03GVnwBt198WfE6NHE-LfDglcOjiPsGk=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -339,7 +357,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 18,
+      key: 19,
       name: 'in-app|d9V6Xg7T7wQUNj2AIXJSAYbGi0GbWBSdjRUgg90vgxc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -358,7 +376,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 19,
+      key: 20,
       name: 'in-app|g54yKABcZ1O2RYkWRhiPPpYH6CKrynd6EG48t2V_W4o=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -376,7 +394,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 20,
+      key: 21,
       name: 'in-app|j4z2GRSkJAmf-y3za4BIDRfou5aBMK8ho60sj4in31c=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -394,7 +412,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 21,
+      key: 22,
       name: 'in-app|OgtTK9Y8_mnJcPl7C3oxB3iFQXlg95PyIGMwN0Li3CY=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -412,7 +430,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 22,
+      key: 23,
       name: 'in-app|SjLIEyIzAn_dYjyYNn8PjNkvwXzJBTLVaexFFJfKIeo=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -430,7 +448,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 23,
+      key: 24,
       name: 'in-app|KHbmXuVYYTgLJ_bgGRblgLsMaZjrtFuyQ9CsHHG-mUA=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -448,7 +466,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 24,
+      key: 25,
       name: 'in-app|EyRAQ8R5lKNZnlqwEd8o-Zq924r6Wv6OuHpBPuzeZ1M=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -466,7 +484,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 25,
+      key: 26,
       name: 'in-app|1U66qDAiAEzw3PE8hRc1NA1eQt4w62k7duEP_06BBTw=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -485,7 +503,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 26,
+      key: 27,
       name: 'in-app|rQYt8xuz_1A1T9vb3sE-oY9rvt11dKTCKZJ6CA7QJFs=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -503,7 +521,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 27,
+      key: 28,
       name: 'in-app|5i7DQylm9AD2hG0HSNs6oljA5UpZcbiQRvhtKzqZyA8=.png',
       actionDelay: 3000,
       actionMaximum: 3,

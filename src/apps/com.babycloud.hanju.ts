@@ -151,24 +151,6 @@ export default defineGkdApp({
     },
     {
       key: 8,
-      name: 'in-app|J1gQ8LbrNVyOzkYZatY2RzQ40D5Rs6AKdbiBk_6lhgw=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '.homepage.PersonalHomePageActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 9,
       name: 'in-app|fVy94kYypn3Oeajuq_BqIGFcgzz4WQ-huZdSRMkPddE=.png',
       actionDelay: 3000,
       actionMaximum: 3,

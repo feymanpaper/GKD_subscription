@@ -24,6 +24,25 @@ export default defineGkdApp({
     },
     {
       key: 1,
+      name: 'in-app|nRAMw88NsU7exrcUi0hoUDV3XcBGlzVusJhjhUfEkow=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds:
+            'com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/asf"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/ar0"] > android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/arz"] > android.widget.FrameLayout > com.lynx.tasm.ui.image.UIImage[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 2,
       name: 'in-app|8B8tVrxVWvQW_Yxn0cIgVXM9Gaovs6na0iosDw0VJc4=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -36,24 +55,6 @@ export default defineGkdApp({
           activityIds: 'com.ss.android.ugc.aweme.splash.SplashActivity',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/eci"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/kv4"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/eci"] > X.VgE[id="com.ss.android.ugc.aweme.lite:id/viewpager"] > android.widget.TabHost[id="com.ss.android.ugc.aweme.lite:id/hs9"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/hsw"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/mbc"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/d2n"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/mrs"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/dyw"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/viewpager"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/lif"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/gxj"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/h24"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/h4t"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/h31"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/c40"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/kg3"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/list"] > androidx.recyclerview.widget.RecyclerView > android.widget.FrameLayout > android.widget.FrameLayout > com.lynx.tasm.behavior.ui.view.UIComponent[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 2,
-      name: 'in-app|HptNd46Z2nuD52GuXUW36i3H9D_i4M_jLVxlEJnSLyU=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'com.ss.android.ugc.aweme.detail.ui.DetailActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/dialog_root"][clickable=true] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/cjp"] > android.widget.FrameLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -278,24 +279,6 @@ export default defineGkdApp({
     },
     {
       key: 15,
-      name: 'in-app|fbJB_o5qB0-QdSOFTfHU7gJgQQP1pbsd11GgdHbn1Jc=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: '',
-          matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/action_bar_root"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/container"] > android.view.ViewGroup[id="com.ss.android.ugc.aweme.lite:id/cbn"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/cnm"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/l_i"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/l_h"] > android.widget.FrameLayout[id="com.ss.android.ugc.aweme.lite:id/l_n"] > android.widget.LinearLayout > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/eqz"] > androidx.recyclerview.widget.RecyclerView[id="com.ss.android.ugc.aweme.lite:id/kfa"] > android.widget.LinearLayout[id="com.ss.android.ugc.aweme.lite:id/=l"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 16,
       name: 'in-app|Spznydg5bpZCr881QZ2rPUtDX5nq1EeMfL-GdI747yQ=.png',
       actionDelay: 3000,
       actionMaximum: 3,
