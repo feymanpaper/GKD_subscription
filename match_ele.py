@@ -133,7 +133,8 @@ def process_files(directory):
     write_ts_file(ts_file_path, ts_code)
 
 def is_white_list_app(dir):
-    white_list = ["com.jifen.qukan"]
+#     white_list = ["com.jifen.qukan"]
+    white_list = []
     res =  any(ele in dir for ele in white_list)
     return res
 def is_sp_app(pkg_name, img_name):
