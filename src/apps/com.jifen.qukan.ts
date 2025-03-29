@@ -72,7 +72,7 @@ export default defineGkdApp({
           activityIds:
             'com.bykv.vk.openvk.stub.activity.Stub_Standard_Portrait_Activity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[desc="ad_content:FrameLayout:0"] > android.view.ViewGroup[desc="main_content:FlexLayout:0"] > android.widget.TextView[desc="continue_button:Text:1:continue_watch"][text="去领取奖励"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[desc="ad_content:FrameLayout:0"] > android.view.ViewGroup[desc="main_content:FlexLayout:0"] > android.widget.TextView[text="坚持退出"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
