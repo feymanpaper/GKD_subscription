@@ -17,7 +17,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.iclicash.advlib.ui.front.InciteADActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.TextView[text="残忍离开"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.ImageView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -35,13 +35,31 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.kwad.sdk.api.proxy.app.KsRewardVideoActivity',
           matches:
-            '@TextView < ViewGroup < ViewGroup <3 ViewGroup <2 ViewGroup < ViewGroup <3 ViewGroup < FrameLayout < [vid="ksad_js_reward_card"]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/ksad_tk_dialog_container"] > android.widget.FrameLayout > android.view.ViewGroup > android.view.ViewGroup > android.view.ViewGroup > android.widget.TextView[text="留下看看"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
     },
     {
       key: 2,
+      name: 'in-app|47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.jifen.qkbase.web.WebActivity',
+          matches:
+            'android.widget.FrameLayout > androidx.recyclerview.widget.RecyclerView > android.widget.LinearLayout[desc="GKD"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 3,
       name: 'in-app|4jKBfaWFI7cVrYMINSG_qPtKdsqr3PJgRYOP3-Gdlso=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -54,25 +72,7 @@ export default defineGkdApp({
           activityIds:
             'com.bykv.vk.openvk.stub.activity.Stub_Standard_Portrait_Activity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[desc="ad_content:FrameLayout:0"] > android.view.ViewGroup[desc="main_content:FlexLayout:0"] > android.widget.TextView[text="坚持退出"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 3,
-      name: 'in-app|47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'com.jifen.qkbase.web.WebActivity',
-          matches:
-            '@Image < View <2 View < View < View < View <5 View < WebView < WebView < [vid="cof"]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[desc="ad_content:FrameLayout:0"] > android.view.ViewGroup[desc="main_content:FlexLayout:0"] > android.widget.TextView[desc="continue_button:Text:1:continue_watch"][text="去领取奖励"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -144,7 +144,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.jifen.qkbase.web.WebActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/bme"] > android.widget.LinearLayout[id="com.jifen.qukan:id/bmd"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/ik"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.jifen.qukan:id/coh"] > android.widget.FrameLayout[id="com.jifen.qukan:id/cof"] > android.webkit.WebView > android.webkit.WebView > android.view.View[clickable=true] > android.view.View > android.widget.TextView[clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/bme"] > android.widget.LinearLayout[id="com.jifen.qukan:id/bmd"] > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="com.jifen.qukan:id/ik"] > android.widget.FrameLayout > android.widget.RelativeLayout[id="com.jifen.qukan:id/coh"] > android.widget.FrameLayout[id="com.jifen.qukan:id/cof"] > android.webkit.WebView > android.webkit.WebView[text="天天抢红包9群"] > android.view.View[clickable=true] > android.view.View > android.widget.TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -198,7 +198,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.jifen.qkbase.main.MainActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout > android.widget.RelativeLayout > android.widget.ImageView[clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.LinearLayout[clickable=true] > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.LinearLayout[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -252,7 +252,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.qq.e.ads.PortraitADActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[text="放弃奖励离开"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[text="抓住奖励机会"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -343,7 +343,7 @@ export default defineGkdApp({
           activityIds:
             'com.bykv.vk.openvk.stub.activity.Stub_Standard_Portrait_Activity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[text="坚持退出"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[text="继续观看"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -361,7 +361,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.iclicash.advlib.ui.front.InciteADActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.TextView[text="放弃金币"]',
+            'android.widget.FrameLayout > androidx.recyclerview.widget.RecyclerView > android.widget.LinearLayout[desc="自动点击器"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -469,7 +469,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.sigmob.sdk.base.common.PortraitAdActivity',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.Button[text="关闭广告"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.Button[text="继续观看"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
