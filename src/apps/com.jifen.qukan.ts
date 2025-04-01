@@ -42,24 +42,6 @@ export default defineGkdApp({
     },
     {
       key: 2,
-      name: 'in-app|47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'com.jifen.qkbase.web.WebActivity',
-          matches:
-            '@Image < View <2 View < View < View < View <5 View < WebView < WebView < [vid="cof"]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 3,
       name: 'in-app|4jKBfaWFI7cVrYMINSG_qPtKdsqr3PJgRYOP3-Gdlso=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -73,6 +55,24 @@ export default defineGkdApp({
             'com.bykv.vk.openvk.stub.activity.Stub_Standard_Portrait_Activity',
           matches:
             'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.FrameLayout[desc="ad_content:FrameLayout:0"] > android.view.ViewGroup[desc="main_content:FlexLayout:0"] > android.widget.TextView[text="坚持退出"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 3,
+      name: 'in-app|47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: 'com.jifen.qkbase.web.WebActivity',
+          matches:
+            '@Image < View <2 View < View < View < View <5 View < WebView < WebView < [vid="cof"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
