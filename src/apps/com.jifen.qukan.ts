@@ -72,7 +72,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: 'com.jifen.qkbase.web.WebActivity',
           matches:
-            '@Image < View <2 View < View < View < View <5 View < WebView < WebView < [vid="cof"]',
+            '@Image < View <2 View < View < View < View <5 View < WebView < WebView < [vid="cog"]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -216,7 +216,7 @@ export default defineGkdApp({
           action: 'clickCenter',
           activityIds: '',
           matches:
-            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.ImageView[id="com.jifen.qukan:id/akr"][clickable=true]',
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.ImageView[id="com.jifen.qukan:id/aks"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
@@ -259,24 +259,6 @@ export default defineGkdApp({
     },
     {
       key: 14,
-      name: 'in-app|e_56OS3169oGuiGRDm2Bfm2-86s7G6h0J1BuIS_qjdk=.png',
-      actionDelay: 3000,
-      actionMaximum: 3,
-      resetMatch: 'app',
-      priorityTime: 10000,
-      matchRoot: true,
-      rules: [
-        {
-          action: 'clickCenter',
-          activityIds: 'com.qq.e.ads.PortraitADActivity',
-          matches:
-            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.TextView[text="放弃奖励离开"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13183946',
-        },
-      ],
-    },
-    {
-      key: 15,
       name: 'in-app|gbNosvfvEhLaPqeA-5rYiXlMuUvV2aniOCgS854NRKA=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -294,7 +276,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 16,
+      key: 15,
       name: 'in-app|kYfatSPcUe-dthgasT6QGGI2ttCRj7Kwq-FnzD9u03Q=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -312,7 +294,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 17,
+      key: 16,
       name: 'in-app|nJFM6bWeCmUV-TDAOXxytMFHIJOFv3MIfThlMfpbU4U=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -330,7 +312,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 18,
+      key: 17,
       name: 'in-app|nPH98bjo-pWJqhKLFV-EdJf0zjeGECf5EXGzIxubB_4=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -349,7 +331,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 19,
+      key: 18,
       name: 'in-app|nsLSusOF7EbvFtjPPVMumn0FKESpFfoFxvOcA0CWjtM=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -367,7 +349,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 20,
+      key: 19,
       name: 'in-app|pJhlInFWll_USv64V-uF_daZ1XMKxn_0VWM90KVGyZc=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -385,7 +367,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 21,
+      key: 20,
       name: 'in-app|SCA9_7752JmveaC4pAPPMeZKT6HG0-xJ3A_KcfQrXNo=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -403,7 +385,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 22,
+      key: 21,
       name: 'in-app|t9y5m55Sfp03f3z-gJDOHmZq5mMv16LMSWJyNxfkCo0=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -421,7 +403,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 23,
+      key: 22,
       name: 'in-app|TJtFKoCfVOlTd9oeXHGFfTENPB6ycjhsFcTSfV80zhs=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -439,7 +421,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 24,
+      key: 23,
       name: 'in-app|Xty_HGSLb8avdCv2c06guuv9sZ6QalEYw-jG72ydmRs=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -457,7 +439,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 25,
+      key: 24,
       name: 'in-app|_31iIXYDX05ZwluKD7eJ0ekp25i1aRsbFSEh2RwHvtI=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -475,7 +457,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 26,
+      key: 25,
       name: 'in-app|_7xV3M155EUPjT4hBB7c5cMeHcTFG1h4ngZ-8d2-cwI=.png',
       actionDelay: 3000,
       actionMaximum: 3,
@@ -488,6 +470,43 @@ export default defineGkdApp({
           activityIds: '',
           matches:
             'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.view.ViewGroup > android.widget.ImageView[id="com.jifen.qukan:id/aai"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 26,
+      name: 'in-app|C1thCY3zxikjLFzulL7lGrRMA5LnTBPm48jjj_tzX_I=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds:
+            'com.bykv.vk.openvk.stub.activity.Stub_Standard_Portrait_Activity',
+          matches:
+            'android.widget.FrameLayout > android.widget.LinearLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.FrameLayout > android.widget.ScrollView > android.widget.RelativeLayout > android.widget.LinearLayout > android.widget.LinearLayout > android.widget.Button[text="坚持退出"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13183946',
+        },
+      ],
+    },
+    {
+      key: 27,
+      name: 'in-app|jlhB-kQuTYo5KpIziST0bDyB50IjCh47ShYpc5ifRwE=.png',
+      actionDelay: 3000,
+      actionMaximum: 3,
+      resetMatch: 'app',
+      priorityTime: 10000,
+      matchRoot: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          activityIds: '',
+          matches:
+            'android.widget.FrameLayout > android.widget.FrameLayout > android.widget.FrameLayout[id="android:id/content"] > android.widget.RelativeLayout > android.widget.LinearLayout[id="com.jifen.qukan:id/auo"] > android.widget.RelativeLayout[id="com.jifen.qukan:id/bg_"] > android.widget.ImageView[id="com.jifen.qukan:id/aks"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13183946',
         },
       ],
